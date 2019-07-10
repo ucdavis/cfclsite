@@ -1,0 +1,291 @@
+.title_container{
+    background-image: url(../CFCLPhotos/OurApproachPage/our_approach_header.jpg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+    /*padding-bottom: 12vh;*/
+    height: 40vw;
+    /*font-family: 'Montserrat', sans-serif;*/
+}
+
+.title_container h1{
+    color: white;
+    width: 100vw;
+    text-align: center;
+    padding-top: 12vw;
+    font-size: 100px;
+    margin-bottom: 0;
+}
+
+.purpose_title{
+    margin-top: 0;
+    background-color: #F6EDE1;
+    padding-left: 5vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.purpose_title h2{
+    margin-top: 0;
+    margin-bottom: 5vh;
+    padding-top: 5vw;
+    font-size: 84px;
+    color: #FF604E;
+}
+
+.purpose_title p{
+    width: 55vw;
+    font-size:22px;
+    color: #333333;
+    margin-bottom: 0;
+}
+
+/*
+//////////////////////////////////////
+    Our values
+//////////////////////////////////////
+*/
+
+.core_values{
+    margin-top: 0;
+    background-color: #F6EDE1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding-bottom: 5vw;
+}
+
+.sideways_subheader {
+    display: flex;
+    font-size: 24px;
+    color: #FF604E;
+    /*writing-mode: vertical-rl;
+    text-orientation: sideways-right;*/
+    height: 5vw;
+    transform: rotate(270deg);
+    position: relative;
+    top: 35vw;
+    left: -43vw;
+    font-weight: bolder;
+}
+
+.sideways_subheader div {
+    width: 40vw;
+    border-bottom: 2px solid #FF604E;
+    height: 12px;
+    margin-right: 20px;
+}
+
+.value_container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90vw;
+}
+
+.value{
+    justify-content: space-evenly;
+    margin: 2vw;
+    width: 25vw;
+    height: 25vw;
+    text-align: center;
+    background: white;
+    border: 2px white;
+    box-shadow: 0 0 7px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.value img {
+    margin: -2.5vh 0 2vh;
+    width: 100%;
+}
+
+.value h3{
+    color: #00DAA9;
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.value p{
+    padding: 1vh 2vw 0 2vw;
+    line-height: 1.4;
+}
+
+.leaf {
+    width: 300px;
+    height: 300px;
+    max-width: 30vw;
+    z-index: 0;
+    max-height: 30vw;
+    float: right;
+    position: relative;
+    top: 65vw;
+    left: 25vw;
+}
+
+/*
+//////////////////////////////
+    Stories header
+/////////////////////////////
+*/
+
+.stories_header{
+    background-image: url(../CFCLPhotos/OurApproachPage/map-crop.png);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 40vw;
+    font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.stories_title_container{
+    padding-top: 5vh;
+}
+
+.stories_header h1{
+    padding:5px;
+    width: 100vw;
+    font-size: 58px;
+    color: white;
+    align-self: auto;
+}
+
+.stories_header a{
+    margin-top: 9vh;
+    padding: 25px;
+    font-size: 26px;
+    color: #FF604E;
+    border: 1px solid #FF604E;
+    border-radius: 40px;
+    text-decoration: none;
+    transition-duration: 0.7s;
+    transition-property: color, background-color;
+    -webkit-transition-duration: 0.7s;
+    -webkit-transition-property: color, background-color;
+}
+
+.stories_header a:hover {
+    color: white;
+    background-color: #FF604E;
+}
+
+
+/*
+//////////////////////////////
+    Stepping Stones
+/////////////////////////////
+*/
+
+.stepping_stones_header{
+    margin-left: 5vw;
+}
+
+.stepping_stones_header h1{
+    padding-top: 10vh;
+    display: inline-block;
+    margin-bottom: 5vh;
+    width: 50vw;
+    font-size: 72px;
+    color: #00DAA9;
+
+}
+
+.stepping_stones_header .map{
+    width: 40vw;
+    height:45vw;
+    position: absolute;
+    min-height: 400px;
+    min-width: 400px;
+    max-height: 600px;
+    max-width: 570px;
+}
+
+.stepping_stones_header p{
+    padding: 2vh 0 2vh;
+    width: 35vw;
+    color: #333;
+    font-size:28px;
+}
+
+.stepping_stones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10vh;
+    /*margin-left: 5vw;*/
+}
+
+.stepping_stones p{
+    padding: 5%; /* used to be 20px */
+    /*width: 350px;*/
+    width: 90%;
+    height: 50px;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    font-size: 20px;
+}
+
+.stepping_stones .steps{
+    /*margin-top: 80px;*/
+    /*margin-bottom: 40px;*/
+    margin: 2.5vw;
+    width: 25vw;
+    /*margin-right:auto;*/
+    transition-duration: 0.3s;
+    transition-property: box-shadow;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+}
+
+.stepping_stones img {
+    width: 100%;
+}
+
+.steps:hover {
+    box-shadow: 2.5px 2.5px 10px 2.5px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 2.5px 2.5px 10px 2.5px rgba(0, 0, 0, 0.4);
+}
+
+/*
+    Stepping stones are in classes of steps
+    We can use JS to use a listen for clicks on this tag
+*/
+
+/*
+///////////////////////////////////////
+    Tablet Size Changes
+///////////////////////////////////////
+*/
+
+@media (max-width: 1100px) {
+    .title_container h1 {
+        font-size: 60px;
+    }
+    .purpose_title h2 {
+        font-size: 60px;
+    }
+    .sideways_subheader div {
+        width: 30vw;
+    }
+    .value p {
+        font-size: 12px;
+    }
+    .leaf {
+        top: 70vw;
+    }
+    .stories_header h1 {
+        font-size: 50px;
+    }
+    .stepping_stones_header h1 {
+        font-size: 58px;
+    }
+}
