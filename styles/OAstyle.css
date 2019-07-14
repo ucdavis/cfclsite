@@ -1,5 +1,5 @@
 .title_container{
-    background-image: url(../CFCLPhotos/OurApproachPage/our_approach_header.jpg);
+    background-image: url(../assets/OurApproach/our_approach_header.jpg);
     background-size: 100vw;
     background-repeat: no-repeat;
     margin-bottom: 0;
@@ -133,7 +133,7 @@
 */
 
 .stories_header{
-    background-image: url(../CFCLPhotos/OurApproachPage/map-crop.png);
+    background-image: url(../assets/OurApproach/map-crop.png);
     background-size: 100vw;
     background-repeat: no-repeat;
     text-align: center;

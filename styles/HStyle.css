@@ -1,0 +1,37 @@
+.title_container {
+    background-color: #F6EDE1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+nav a{
+    color: black;
+}
+
+.title{
+    padding-left: 8vw;
+
+}
+
+.title_container h1 {
+    font-size: 80px;
+    font-weight: bold;
+    color: #FF604E;
+    margin-top: 7vh;
+    margin-bottom: 12vh;
+    text-align: left;
+    width: 60%;
+}
+
+.title_container h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: tan;
+    margin-top: 5vh;
+    margin-bottom: 7vh;
+    text-align: left;
+    width: 30%;
+}
