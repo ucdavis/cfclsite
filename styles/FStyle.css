@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
+    background-color: white;
 }
 
 nav a{
@@ -42,14 +43,19 @@ nav a{
     flex-direction: column;
     align-items: center;
 }
+
+.question {
+    margin: 4px;
+}
+
 .short_form{
     display: flex;
-    width: 70vw;
+    width: 50vw;
     justify-content: space-between;
-    background-color: lightgrey;
+    background-color: #EAEAEA;
     font-size: 27px;
     line-height: 40px;
-    padding: 1vh 2vw 1vh 2vw;
+    padding: 1.5vh 3vw 1.5vh 3vw;
 
 }
 
@@ -60,13 +66,14 @@ nav a{
 
 .long_form{
     display: flex;
-    flex-wrap: wrap;
-    width: 70vw;
-    padding: 7vh 2vw 1vh 2vw;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50vw;
+    padding: 1.5vh 3vw 1.5vh 3vw;
 }
 
 .long_form .question_title{
-    width: 700vw;
+    /*width: 90%;*/
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -74,21 +81,27 @@ nav a{
     line-height: 40px;
     color: #00DAA9;
     margin-bottom: 5vh;
+    font-weight: bold;
 }
 
-.long_form .question_title .minus{
-    width: 3vw;
-    height: 3vw;
+.minus{
+    width: 44px;
+    height: 44px;
     text-align: center;
     vertical-align: middle;
     color: #00DAA9;
-    font-size: 36px;
-    background-color: lightgray;
+    font-size: 38px;
+    background-color: #EAEAEA;
     border-radius: 20pt;
+    flex-shrink: 0;
 }
 
-.long_form .responce{
-    width: 55vw;
-    font-size: 27px;
+.long_form .response{
+    /*width: 55vw;*/
+    font-size: 24px;
     line-height: 40px;
+}
+
+.hidden {
+    display: none;
 }
