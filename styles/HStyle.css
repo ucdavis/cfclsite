@@ -4,7 +4,8 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 110vh;
+    height: 130vh;
+    z-index:0;
 }
 
 
@@ -13,28 +14,66 @@ nav a{
 }
 
 .title{
-    padding-left: 8vw;
+    padding-left: 5vw;
+    z-index: 1;
 
 }
 
-.title_container h1 {
+.title h1 {
+    position: relative;
     font-size: 80px;
     font-weight: bold;
     color: #FF604E;
-    margin-top: 10vh;
+    margin-top: 15vh;
     margin-bottom: 12vh;
     text-align: left;
     width: 60%;
+    z-index: 5;
 }
 
-.title_container h2 {
+.title h2 {
+    position: relative;
     font-size: 40px;
     font-weight: bold;
-    color: tan;
-    margin-top: 5vh;
+    color: rgb(168, 125, 100);
+    margin-top: 20vh;
     margin-bottom: 7vh;
     text-align: left;
+    line-height: 1.4;
     width: 30%;
+    z-index: 5;
+}
+
+.leaf_tan{
+    position: absolute;
+    filter: brightness(95%);
+    -webkit-filter: brightness(95%);
+    -moz-filter: brightness(95%);
+    -o-filter: brightness(95%);
+    -ms-filter: brightness(95%);
+    width: 25vw;
+    height: 38vw;
+    top: 35vh;
+    left: 20vw;
+    z-index: 1;
+}
+
+.homepage_revised{
+    position: absolute;
+    width: 70vw;
+    height: 40vw;
+    top: 15vh;
+    right:-7vw;
+    z-index: 2;
+}
+
+.homepage_lea{
+    position: absolute;
+    width: 32vw;
+    height: 2.5vw;
+    top: 100vh;
+    right:-2vw;
+    z-index: 5;
 }
 
 .post_title{
@@ -171,7 +210,7 @@ nav a{
     align-content: center;
     margin-left: 5vw;
     margin-bottom: 20vh;
-    background-image: 
+    /*background-image: */
 }
 
 .our_approach_container h2{
