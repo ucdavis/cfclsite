@@ -54,6 +54,13 @@ nav a{
     line-height: 1.5;
 }
 
+/*
+///////////////////////
+    community section
+//////////////////////
+*/
+
+
 .community_futures{
     height: 150vh;
     padding-left: 8vw;
@@ -80,6 +87,12 @@ nav a{
     text-align: left;
     width: 50vw;
 }
+
+/*
+///////////////////////
+    Stepping stones section
+//////////////////////
+*/
 
 .stepping_stones{
     height: 200vh;
@@ -132,4 +145,62 @@ nav a{
     transition-property: color, background-color;
     -webkit-transition-duration: 0.7s;
     -webkit-transition-property: color, background-color;
+}
+
+.stepping_stones a:hover{
+    background-color: white;
+    color: #FF604E;
+}
+
+/*
+///////////////////////
+    More info section
+//////////////////////
+*/
+
+
+
+.more_info{
+    padding: 10vh 5vw;
+    background-color: white;
+}
+
+.our_approach_container{
+    height: 40vh;
+    width: 80vw;
+    align-content: center;
+    margin-left: 5vw;
+    margin-bottom: 20vh;
+    background-image: 
+}
+
+.our_approach_container h2{
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    margin-top: 12vh;
+    margin-bottom: 6vh;
+    text-align: left;
+    width: 40vw;
+}
+
+.our_approach_container a{
+    background-color: #FF604E;
+    margin-top: 9vh;
+    padding: 3vh 5vw;
+    font-size: 26px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.7s;
+    transition-property: color, background-color;
+    -webkit-transition-duration: 0.7s;
+    -webkit-transition-property: color, background-color;
+}
+
+.our_approach_container a:hover{
+    background-color: white;
+    color: #FF604E;
 }
