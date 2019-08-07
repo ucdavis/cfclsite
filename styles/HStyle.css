@@ -10,7 +10,7 @@
 
 
 nav a{
-    color: #444444;
+    color: #555555;
 }
 
 .title{
@@ -19,9 +19,9 @@ nav a{
 
 }
 
-.title h1 {
+.title h1{
     position: relative;
-    font-size: 80px;
+    font-size: 100px;
     font-weight: bold;
     color: #FF604E;
     margin-top: 15vh;
@@ -31,7 +31,7 @@ nav a{
     z-index: 5;
 }
 
-.title h2 {
+.title h2{
     position: relative;
     font-size: 40px;
     font-weight: bold;
@@ -215,13 +215,6 @@ ul li:before {
     height: 7.5vw;
     top: 540vh;
     left: 50vw;
-    /*
-    filter: brightness(95%);
-    -webkit-filter: brightness(95%);
-    -moz-filter: brightness(95%);
-    -o-filter: brightness(95%);
-    -ms-filter: brightness(95%);
-    */
     opacity: .3;
 }
 .stepping_stones a{
@@ -257,28 +250,35 @@ ul li:before {
     background-color: white;
 }
 
+
+
 .our_approach_container{
-    height: 40vh;
-    width: 80vw;
+    height: 85vh;
+    width: 87vw;
     align-content: center;
-    margin-left: 5vw;
+    margin-left: 1vw;
     margin-bottom: 20vh;
-    /*background-image: */
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),
+        url(../assets/Homepage/girl_with_post.jpeg);
+    background-size: 87vw 120vh;
+    background-position-y: -13vh;
 }
 
 .our_approach_container h2{
-    font-size: 80px;
+    font-size: 55px;
     font-weight: bold;
     color: white;
-    margin-top: 12vh;
-    margin-bottom: 6vh;
+    padding-top: 35vh;
+    padding-bottom: 15vh;
+    padding-left: 10vw;
     text-align: left;
-    width: 40vw;
+    width: 35vw;
 }
 
 .our_approach_container a{
     background-color: #FF604E;
-    margin-top: 9vh;
+    margin-top: 35vh;
+    margin-left: 10vw;
     padding: 3vh 5vw;
     font-size: 26px;
     color: white;
@@ -295,4 +295,58 @@ ul li:before {
 .our_approach_container a:hover{
     background-color: white;
     color: #FF604E;
+}
+
+
+.stories_container{
+    height: 85vh;
+    width: 87vw;
+    align-content: center;
+    margin-left: 1vw;
+    margin-bottom: 10vh;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),
+        url(../assets/Homepage/girl_with_post.jpeg);
+    background-size: 87vw 120vh;
+    background-position-y: -13vh;
+}
+
+.stories_container h2{
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+    padding-top: 35vh;
+    padding-bottom: 15vh;
+    padding-left: 10vw;
+    text-align: left;
+    width: 35vw;
+}
+
+.stories_container a{
+    background-color: #FF9B2A;
+    margin-top: 35vh;
+    margin-left: 10vw;
+    padding: 3vh 5vw;
+    font-size: 26px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.7s;
+    transition-property: color, background-color;
+    -webkit-transition-duration: 0.7s;
+    -webkit-transition-property: color, background-color;
+}
+
+.stories_container a:hover{
+    background-color: white;
+    color: #FF9B2A;
+}
+
+.orange_lea{
+    position: absolute;
+    width: 40vw;
+    height: 10vw;
+    left: 65vw;
+    top:765vh;
 }
