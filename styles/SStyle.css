@@ -13,6 +13,8 @@
     text-align: center;
     color: white;
     font-size: 40px;
+    line-height: 1.4;
+    font-weight: bold;
 }
 
 .intro{
@@ -141,7 +143,7 @@
     background-repeat: no-repeat;
     margin-bottom: 0;
     /*padding-bottom: 12vh;*/
-    height: 16vw;
+    height: 16vh;
     font-family: sans-serif;
     align-content: center;
     padding:15vh;
@@ -153,20 +155,23 @@
     color: white;
     font-size: 42px;
     text-align: center;
-    margin-bottom: 10vh;
+    padding-top: 3vh;
+    margin-bottom: 5vw;
     width: 100vw;
+    line-height: 1.4;
+    font-weight: bold;
 }
 
 .approach a{
     color: #00DAA9;
-    font-size: 36px;
+    font-size: 38px;
     text-align: center;
     width:20vw;
     margin:auto;
     align-items: center;
-    padding: 12px 25px 12px 25px;
+    padding: 15px 5px 15px 5px;
     border: 2px solid;
-    border-radius: 30px;
+    border-radius: 40px;
     text-decoration: none;
 
     transition-duration: 0.7s;
