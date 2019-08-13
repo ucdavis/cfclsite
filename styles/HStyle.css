@@ -4,34 +4,366 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
+    height: 130vh;
+    z-index:0;
 }
 
 
 nav a{
-    color: black;
+    color: #555555;
 }
 
 .title{
-    padding-left: 8vw;
+    padding-left: 5vw;
+    z-index: 1;
 
 }
 
-.title_container h1 {
-    font-size: 80px;
+.title h1{
+    position: relative;
+    font-size: 100px;
     font-weight: bold;
     color: #FF604E;
-    margin-top: 7vh;
+    margin-top: 15vh;
     margin-bottom: 12vh;
     text-align: left;
     width: 60%;
+    z-index: 5;
 }
 
-.title_container h2 {
+.title h2{
+    position: relative;
     font-size: 40px;
     font-weight: bold;
-    color: tan;
-    margin-top: 5vh;
+    color: rgb(168, 125, 100);
+    margin-top: 20vh;
     margin-bottom: 7vh;
     text-align: left;
+    line-height: 1.4;
     width: 30%;
+    z-index: 5;
+}
+
+.leaf_tan{
+    position: absolute;
+    filter: brightness(95%);
+    -webkit-filter: brightness(95%);
+    -moz-filter: brightness(95%);
+    -o-filter: brightness(95%);
+    -ms-filter: brightness(95%);
+    width: 25vw;
+    height: 38vw;
+    top: 35vh;
+    left: 20vw;
+    z-index: 1;
+}
+
+.homepage_revised{
+    position: absolute;
+    width: 70vw;
+    height: 40vw;
+    top: 15vh;
+    right:-7vw;
+    z-index: 2;
+}
+
+.homepage_lea{
+    position: absolute;
+    width: 32vw;
+    height: 2.5vw;
+    top: 100vh;
+    right:-2vw;
+    z-index: 5;
+}
+
+.post_title{
+    background-color: #FF9B2A;
+    padding-left: 8vw;
+    height: 90vh;
+
+}
+
+.post_title h2{
+    position: relative;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-left: 50vw;
+    margin-right: 8vw;
+    padding-top: 20vh;
+    line-height: 1.5;
+    z-index: 5;
+}
+
+.post_title .flowers{
+    position: absolute;
+    width: 42vw;
+    height: 48vw;
+    top: 115vh;
+    margin-left:-4vw;
+    z-index: 1;
+    box-shadow: 3px 3px 15px rgb(104, 104, 104);
+}
+
+/*
+///////////////////////
+    community section
+//////////////////////
+*/
+
+
+.community_futures{
+    position: relative;
+    height: 167vh;
+    padding-left: 8vw;
+    background-color: white;
+    line-height: 1.4;
+
+}
+
+.community_futures h1{
+    font-size: 100px;
+    font-weight: bold;
+    color: #FF9B2A;
+    margin-top: 12vh;
+    margin-bottom: 10vh;
+    text-align: left;
+    width: 65vw;
+}
+
+.community_futures h3{
+    font-size: 32px;
+    color: #333333;
+    margin-top: 7vh;
+    margin-bottom: 8vh;
+    text-align: left;
+    width: 40vw;
+}
+
+.community_futures .people_talking{
+    position: absolute;
+    width: 75vw;
+    height: 53vw;
+    left: 0;
+    bottom: 0;
+}
+
+.community_futures .girl{
+    position: absolute;
+    width: 35vw;
+    height: 47vw;
+    left: 60vw;
+    bottom: -23vw;
+    z-index: 10;
+}
+
+/*
+///////////////////////
+    Stepping stones section
+//////////////////////
+*/
+
+.stepping_stones{
+    position: relative;
+    height: 200vh;
+    padding-left: 8vw;
+    background-color: #FF604E;
+    line-height: 1.4;
+    color:white;
+    z-index: 0;
+}
+
+.stepping_stones h4{
+    position: absolute;
+    z-index: 1;
+    font-size: 550px;
+    font-weight: 900;
+    opacity: .2;
+    left:-6vw;
+    top:-15vh;
+}
+
+.stepping_stones h1{
+    font-size: 100px;
+    font-weight: bold;
+    padding-top: 20vw;
+    margin-bottom: 12vh;
+    text-align: left;
+    width: 65vw;
+    z-index: 5;
+}
+
+.stepping_stones h2{
+    font-size: 55px;
+    margin-top: 7vh;
+    margin-bottom: 8vh;
+    text-align: left;
+    width: 75vw;
+}
+
+.stepping_stones ul{
+    width: 60vw;
+    font-size: 28px;
+}
+
+ul li:before {
+    content: "• ";
+    font-size: 40px;
+    font-weight: bolder;
+    padding-right: 30px;
+}
+
+.stepping_stones h3{
+    position: relative;
+    z-index: 5;
+    font-size: 55px;
+    margin-top: 15vh;
+    margin-bottom: 12vh;
+    text-align: left;
+    width: 55vw;
+}
+
+.stepping_stones .red_lea{
+    position: absolute;
+    z-index: 0;
+    width: 50vw;
+    height: 7.5vw;
+    bottom: 47vh;
+    left: 50vw;
+    opacity: .3;
+}
+.stepping_stones a{
+    margin-top: 9vh;
+    padding: 3vh 5vw;
+    font-size: 35px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.7s;
+    transition-property: color, background-color;
+    -webkit-transition-duration: 0.7s;
+    -webkit-transition-property: color, background-color;
+}
+
+.stepping_stones a:hover{
+    background-color: white;
+    color: #FF604E;
+}
+
+/*
+///////////////////////
+    More info section
+//////////////////////
+*/
+
+
+
+.more_info{
+    padding: 10vh 5vw;
+    background-color: white;
+}
+
+
+
+.our_approach_container{
+    position: relative;
+    height: 45vw;
+    width: 87vw;
+    align-content: center;
+    margin-left: 1vw;
+    margin-bottom: 10vh;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),
+        url(../assets/Homepage/girl_with_post.jpeg);
+    background-size: 87vw 60vw;
+    background-position-y: -13vh;
+}
+
+.our_approach_container h2{
+    font-size: 65px;
+    font-weight: bold;
+    color: white;
+    padding-top: 17vw;
+    padding-bottom: 15vh;
+    padding-left: 10vw;
+    text-align: left;
+    width: 100vw;
+}
+
+.our_approach_container a{
+    background-color: #FF604E;
+    margin-top: 35vh;
+    margin-left: 10vw;
+    padding: 2vh 2vw;
+    font-size: 30px;
+    color: white;
+    border: 1px solid #FF604E;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.7s;
+    transition-property: color, background-color;
+    -webkit-transition-duration: 0.7s;
+    -webkit-transition-property: color, background-color;
+}
+
+.our_approach_container a:hover{
+    background-color: white;
+    color: #FF604E;
+}
+
+
+.stories_container{
+    position: relative;
+    height: 42vw;
+    width: 87vw;
+    align-content: center;
+    margin-left: 1vw;
+    margin-bottom: 5vh;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),
+        url(../assets/Homepage/girl_with_post.jpeg);
+    background-size: 87vw 60vw;
+    background-position-y: -13vh;
+}
+
+.stories_container h2{
+    font-size: 65px;
+    font-weight: bold;
+    color: white;
+    padding-top: 17vw;
+    padding-bottom: 15vh;
+    padding-left: 10vw;
+    text-align: left;
+    width: 100vw;
+}
+
+.stories_container a{
+    background-color: #FF9B2A;
+    margin-top: 35vh;
+    margin-left: 10vw;
+    padding: 2.5vh 4vw;
+    font-size: 30px;
+    color: white;
+    border: 1px solid #FF9B2A;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.7s;
+    transition-property: color, background-color;
+    -webkit-transition-duration: 0.7s;
+    -webkit-transition-property: color, background-color;
+}
+
+.stories_container a:hover{
+    background-color: white;
+    color: #FF9B2A;
+}
+
+.orange_lea{
+    position: absolute;
+    width: 45vw;
+    height: 12vw;
+    left: 60vw;
+    bottom: 6vw;
 }
