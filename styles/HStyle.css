@@ -33,9 +33,9 @@ nav a{
 
 .title h2{
     position: relative;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
-    color: rgb(168, 125, 100);
+    color: rgb(182, 144, 121);
     margin-top: 20vh;
     margin-bottom: 7vh;
     text-align: left;
@@ -129,6 +129,7 @@ nav a{
     margin-bottom: 10vh;
     text-align: left;
     width: 65vw;
+    font-family: 'Montserrat-bold';
 }
 
 .community_futures h3{
@@ -180,7 +181,7 @@ nav a{
     font-weight: 900;
     opacity: .2;
     left:-6vw;
-    top:-15vh;
+    top:-15vh;   
 }
 
 .stepping_stones h1{
@@ -191,6 +192,7 @@ nav a{
     text-align: left;
     width: 65vw;
     z-index: 5;
+    text-shadow: 3px 3px 10px rgba(83, 83, 83, 0.644);
 }
 
 .stepping_stones h2{

@@ -25,7 +25,7 @@
     flex-direction: row;
 }
 
-.purpose_title h2{
+.purpose_title h1{
     margin-top: 0;
     margin-bottom: 5vh;
     padding-top: 5vw;
@@ -35,9 +35,12 @@
 
 .purpose_title p{
     width: 55vw;
-    font-size:22px;
-    color: #333333;
+    font-size:30px;
+    color: #222222;
+    line-height: 1.4;
     margin-bottom: 0;
+    font-family: 'Montserrat';
+    font-weight: 500;
 }
 
 /*
@@ -59,7 +62,7 @@
 
 .sideways_subheader {
     display: flex;
-    font-size: 24px;
+    font-size: 45px;
     color: #FF604E;
     /*writing-mode: vertical-rl;
     text-orientation: sideways-right;*/
@@ -68,13 +71,13 @@
     position: relative;
     top: 35vw;
     left: -43vw;
-    font-weight: bolder;
+    font-family: "montserrat-bold";
 }
 
 .sideways_subheader div {
-    width: 40vw;
+    width: 33vw;
     border-bottom: 2px solid #FF604E;
-    height: 12px;
+    height: 20px;
     margin-right: 20px;
 }
 
@@ -82,19 +85,19 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    width: 90vw;
+    width: 85vw;
 }
 
 .value{
     justify-content: space-evenly;
     margin: 2vw;
-    width: 25vw;
+    width: 22vw;
     height: 25vw;
     text-align: center;
     background: white;
     border: 2px white;
-    box-shadow: 0 0 7px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+    box-shadow: 0 0 20px 4px rgba(0, 0, 0, 0.185);
+    border-radius: 10px;
     z-index: 1;
 }
 
@@ -106,12 +109,17 @@
 .value h3{
     color: #00DAA9;
     font-size: 26px;
-    font-weight: bolder;
+    font-family: "Montserrat-bold";
+}
+
+.small h3{
+    margin-bottom: 1.5vh;
 }
 
 .value p{
     padding: 1vh 2vw 0 2vw;
     line-height: 1.4;
+    font-family: "Montserrat-medium";
 }
 
 .leaf {
@@ -153,18 +161,18 @@
 .stories_header h1{
     padding:5px;
     width: 100vw;
-    font-size: 58px;
+    font-size: 60px;
     color: white;
     align-self: auto;
 }
 
 .stories_header a{
     margin-top: 9vh;
-    padding: 25px;
-    font-size: 26px;
+    padding: 25px 80px 25px 80px;
+    font-size: 35px;
     color: #FF604E;
     border: 1px solid #FF604E;
-    border-radius: 40px;
+    border-radius: 45px;
     text-decoration: none;
     transition-duration: 0.7s;
     transition-property: color, background-color;
@@ -185,16 +193,17 @@
 */
 
 .stepping_stones_header{
-    margin-left: 5vw;
+    margin-left: 7vw;
 }
 
 .stepping_stones_header h1{
     padding-top: 10vh;
     display: inline-block;
-    margin-bottom: 5vh;
+    margin-bottom: 6vh;
     width: 50vw;
-    font-size: 72px;
+    font-size: 85px;
     color: #00DAA9;
+    font-family: "montserrat-bold";
 
 }
 
@@ -209,10 +218,11 @@
 }
 
 .stepping_stones_header p{
-    padding: 2vh 0 2vh;
+    padding: 2vh 0 3vh;
     width: 35vw;
     color: #333;
     font-size:28px;
+    line-height:1.4;
 }
 
 .stepping_stones{
@@ -232,6 +242,7 @@
     background-color: rgb(39, 39, 39);
     color: white;
     font-size: 20px;
+    font-family: "montserrat-medium";
 }
 
 .stepping_stones .steps{
@@ -266,7 +277,7 @@
 ///////////////////////////////////////
 */
 
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
     .title_container h1 {
         font-size: 60px;
     }
@@ -287,5 +298,9 @@
     }
     .stepping_stones_header h1 {
         font-size: 58px;
+    }
+
+    .sideways_subheader {
+        font-size: 25px;
     }
 }
