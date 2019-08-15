@@ -13,7 +13,7 @@
     width: 100vw;
     text-align: center;
     padding-top: 12vw;
-    font-size: 100px;
+    /*font-size: 100px;*/
     margin-bottom: 0;
 }
 
@@ -29,18 +29,16 @@
     margin-top: 0;
     margin-bottom: 5vh;
     padding-top: 5vw;
-    font-size: 84px;
+    /*font-size: 84px;*/
     color: #FF604E;
 }
 
 .purpose_title p{
     width: 55vw;
-    font-size:30px;
-    color: #222222;
-    line-height: 1.4;
+    color: #333333;
     margin-bottom: 0;
-    font-family: 'Montserrat';
-    font-weight: 500;
+    /*font-size: 2vw;
+    line-height: 3vw;*/
 }
 
 /*
@@ -62,7 +60,7 @@
 
 .sideways_subheader {
     display: flex;
-    font-size: 45px;
+    font-size: 24px;
     color: #FF604E;
     /*writing-mode: vertical-rl;
     text-orientation: sideways-right;*/
@@ -71,13 +69,13 @@
     position: relative;
     top: 35vw;
     left: -43vw;
-    font-family: "montserrat-bold";
+    font-weight: bolder;
 }
 
 .sideways_subheader div {
-    width: 33vw;
+    width: 40vw;
     border-bottom: 2px solid #FF604E;
-    height: 20px;
+    height: 12px;
     margin-right: 20px;
 }
 
@@ -85,19 +83,19 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    width: 85vw;
+    width: 90vw;
 }
 
 .value{
     justify-content: space-evenly;
     margin: 2vw;
-    width: 22vw;
+    width: 25vw;
     height: 25vw;
     text-align: center;
     background: white;
     border: 2px white;
-    box-shadow: 0 0 20px 4px rgba(0, 0, 0, 0.185);
-    border-radius: 10px;
+    box-shadow: 0 0 7px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
     z-index: 1;
 }
 
@@ -109,17 +107,12 @@
 .value h3{
     color: #00DAA9;
     font-size: 26px;
-    font-family: "Montserrat-bold";
-}
-
-.small h3{
-    margin-bottom: 1.5vh;
+    font-weight: bolder;
 }
 
 .value p{
     padding: 1vh 2vw 0 2vw;
     line-height: 1.4;
-    font-family: "Montserrat-medium";
 }
 
 .leaf {
@@ -161,18 +154,18 @@
 .stories_header h1{
     padding:5px;
     width: 100vw;
-    font-size: 60px;
+    font-size: 58px;
     color: white;
     align-self: auto;
 }
 
 .stories_header a{
     margin-top: 9vh;
-    padding: 25px 80px 25px 80px;
-    font-size: 35px;
+    padding: 25px;
+    font-size: 26px;
     color: #FF604E;
     border: 1px solid #FF604E;
-    border-radius: 45px;
+    border-radius: 40px;
     text-decoration: none;
     transition-duration: 0.7s;
     transition-property: color, background-color;
@@ -193,17 +186,16 @@
 */
 
 .stepping_stones_header{
-    margin-left: 7vw;
+    margin-left: 5vw;
 }
 
 .stepping_stones_header h1{
     padding-top: 10vh;
     display: inline-block;
-    margin-bottom: 6vh;
+    margin-bottom: 5vh;
     width: 50vw;
-    font-size: 85px;
+    font-size: 72px;
     color: #00DAA9;
-    font-family: "montserrat-bold";
 
 }
 
@@ -218,11 +210,10 @@
 }
 
 .stepping_stones_header p{
-    padding: 2vh 0 3vh;
+    padding: 2vh 0 2vh;
     width: 35vw;
     color: #333;
     font-size:28px;
-    line-height:1.4;
 }
 
 .stepping_stones{
@@ -242,7 +233,6 @@
     background-color: rgb(39, 39, 39);
     color: white;
     font-size: 20px;
-    font-family: "montserrat-medium";
 }
 
 .stepping_stones .steps{
@@ -277,7 +267,7 @@
 ///////////////////////////////////////
 */
 
-@media (max-width: 1200px) {
+@media (max-width: 1100px) {
     .title_container h1 {
         font-size: 60px;
     }
@@ -298,9 +288,5 @@
     }
     .stepping_stones_header h1 {
         font-size: 58px;
-    }
-
-    .sideways_subheader {
-        font-size: 25px;
     }
 }
