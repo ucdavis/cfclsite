@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 130vh;
+    height: 70vw;
     z-index:0;
 }
 
@@ -21,7 +21,6 @@ nav a{
 
 .title h1{
     position: relative;
-    font-size: 100px;
     font-weight: bold;
     color: #FF604E;
     margin-top: 15vh;
@@ -33,7 +32,7 @@ nav a{
 
 .title h2{
     position: relative;
-    font-size: 50px;
+    font-size: 2.75vw;
     font-weight: bold;
     color: rgb(182, 144, 121);
     margin-top: 20vh;
@@ -71,7 +70,7 @@ nav a{
     position: absolute;
     width: 32vw;
     height: 2.5vw;
-    top: 100vh;
+    top: 50vw;
     right:-2vw;
     z-index: 5;
 }
@@ -79,13 +78,13 @@ nav a{
 .post_title{
     background-color: #FF9B2A;
     padding-left: 8vw;
-    height: 90vh;
+    height: 45vw;
 
 }
 
 .post_title h2{
     position: relative;
-    font-size: 40px;
+    font-size: 2.5vw;
     font-weight: bold;
     color: white;
     margin-left: 50vw;
@@ -99,7 +98,7 @@ nav a{
     position: absolute;
     width: 42vw;
     height: 48vw;
-    top: 115vh;
+    top: 63vw;
     margin-left:-4vw;
     z-index: 1;
     box-shadow: 3px 3px 15px rgb(104, 104, 104);
@@ -114,15 +113,14 @@ nav a{
 
 .community_futures{
     position: relative;
-    height: 167vh;
-    padding-left: 8vw;
+    height: 90vw;
+    padding-left: 8.5vw;
     background-color: white;
     line-height: 1.4;
 
 }
 
 .community_futures h1{
-    font-size: 100px;
     font-weight: bold;
     color: #FF9B2A;
     margin-top: 12vh;
@@ -133,12 +131,14 @@ nav a{
 }
 
 .community_futures h3{
-    font-size: 32px;
+    font-size: 1.60vw;
     color: #333333;
     margin-top: 7vh;
     margin-bottom: 8vh;
     text-align: left;
     width: 40vw;
+    font-family: "montserrat-light";
+    font-weight: 500;
 }
 
 .community_futures .people_talking{
@@ -166,8 +166,9 @@ nav a{
 
 .stepping_stones{
     position: relative;
-    height: 200vh;
-    padding-left: 8vw;
+    height: 130vw;
+    max-height: 200vh;
+    padding-left: 9vw;
     background-color: #FF604E;
     line-height: 1.4;
     color:white;
@@ -185,7 +186,6 @@ nav a{
 }
 
 .stepping_stones h1{
-    font-size: 100px;
     font-weight: bold;
     padding-top: 20vw;
     margin-bottom: 12vh;
@@ -196,16 +196,18 @@ nav a{
 }
 
 .stepping_stones h2{
-    font-size: 55px;
+    font-size: 2.75vw;
     margin-top: 7vh;
     margin-bottom: 8vh;
     text-align: left;
     width: 75vw;
+    font-family: "montserrat-light";
+    font-weight:400;
 }
 
 .stepping_stones ul{
     width: 60vw;
-    font-size: 28px;
+    font-size: 1.75vw;
 }
 
 ul li:before {
@@ -218,11 +220,13 @@ ul li:before {
 .stepping_stones h3{
     position: relative;
     z-index: 5;
-    font-size: 55px;
+    font-size: 2.9vw;
     margin-top: 15vh;
     margin-bottom: 12vh;
     text-align: left;
-    width: 55vw;
+    width: 52vw;
+    font-family: "montserrat-light";
+    font-weight:400;
 }
 
 .stepping_stones .red_lea{
@@ -230,14 +234,14 @@ ul li:before {
     z-index: 0;
     width: 50vw;
     height: 7.5vw;
-    bottom: 47vh;
-    left: 50vw;
+    bottom: 25vw;
+    left: 53vw;
     opacity: .3;
 }
 .stepping_stones a{
     margin-top: 9vh;
     padding: 3vh 5vw;
-    font-size: 35px;
+    font-size: 2vw;
     color: white;
     border: 1px solid white;
     border-radius: 50px;
@@ -279,15 +283,15 @@ ul li:before {
     background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),
         url(../assets/Homepage/girl_with_post.jpeg);
     background-size: 87vw 60vw;
-    background-position-y: -13vh;
+    background-position-y: -7vw;
 }
 
 .our_approach_container h2{
-    font-size: 65px;
+
     font-weight: bold;
     color: white;
     padding-top: 17vw;
-    padding-bottom: 15vh;
+    padding-bottom: 7vw;
     padding-left: 10vw;
     text-align: left;
     width: 100vw;
@@ -295,10 +299,10 @@ ul li:before {
 
 .our_approach_container a{
     background-color: #FF604E;
-    margin-top: 35vh;
+    margin-top: 20vw;
     margin-left: 10vw;
     padding: 2vh 2vw;
-    font-size: 30px;
+    font-size: 1.75vw;
     color: white;
     border: 1px solid #FF604E;
     border-radius: 40px;
@@ -308,6 +312,8 @@ ul li:before {
     transition-property: color, background-color;
     -webkit-transition-duration: 0.7s;
     -webkit-transition-property: color, background-color;
+    font-family: "montserrat-light";
+    font-weight: bold;
 }
 
 .our_approach_container a:hover{
@@ -326,15 +332,14 @@ ul li:before {
     background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),
         url(../assets/Homepage/girl_with_post.jpeg);
     background-size: 87vw 60vw;
-    background-position-y: -13vh;
+    background-position-y: -7vw;
 }
 
 .stories_container h2{
-    font-size: 65px;
     font-weight: bold;
     color: white;
     padding-top: 17vw;
-    padding-bottom: 15vh;
+    padding-bottom: 7vw;
     padding-left: 10vw;
     text-align: left;
     width: 100vw;
@@ -345,7 +350,7 @@ ul li:before {
     margin-top: 35vh;
     margin-left: 10vw;
     padding: 2.5vh 4vw;
-    font-size: 30px;
+    font-size: 1.75vw;
     color: white;
     border: 1px solid #FF9B2A;
     border-radius: 50px;
@@ -355,6 +360,8 @@ ul li:before {
     transition-property: color, background-color;
     -webkit-transition-duration: 0.7s;
     -webkit-transition-property: color, background-color;
+    font-family: "montserrat-light";
+    font-weight: bold;
 }
 
 .stories_container a:hover{
@@ -367,5 +374,5 @@ ul li:before {
     width: 45vw;
     height: 12vw;
     left: 60vw;
-    bottom: 6vw;
+    bottom: 4.5vw;
 }
