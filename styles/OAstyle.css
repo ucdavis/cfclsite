@@ -78,7 +78,7 @@
 }
 
 .sideways_subheader div {
-    width: 37vw;
+    width: 36.5vw;
     border-bottom: 2px solid #FF604E;
     height: 1.3vw;
     margin-right: 20px;
@@ -105,7 +105,7 @@
 }
 
 .value img {
-    margin: -2.5vh 0 2vh;
+    margin: -1vw 0 1vw -1vw;
     width: 25vw;
 }
 
@@ -117,13 +117,17 @@
 }
 
 .small h3{
-    margin-top: 3vh;
+    margin-top: 1vw;
     margin-bottom: .1vw;
 }
 
 .wisdom h3{
     margin-top: 0;
     margin-bottom: 1vh;
+}
+
+.wisdom img{
+    left: -100vw;
 }
 
 .value p{

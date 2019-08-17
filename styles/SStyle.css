@@ -12,7 +12,7 @@
     padding-top: 12vw;
     text-align: center;
     color: white;
-    font-size: 40px;
+    font-size: 3vw;
     line-height: 1.4;
     font-weight: bold;
 }
@@ -35,13 +35,15 @@
 }
 .intro h2{
     width: 40vw;
+    font-size: 4vw;
     text-decoration: underline #FF604E;
 }
 
 .intro p{
     padding-top: 3vh;
     color: #bbbbbb;
-    font-size: 26px;
+    font-size: 1.5vw;
+    font-family: "montserrat-medium";
     width: 35vw;
     line-height: 1.5;
 }
@@ -49,11 +51,13 @@
 .intro a{
     margin-left: 40vw;
     margin-top: 5vh;
-    font-size: 28px;
-    padding: 12px 25px 12px 25px;
+    font-size: 1.85vw;
+    font-family: "montserrat-medium";
+    font-weight: 500;
+    padding: 15px 50px 20px 50px;
 
     border: 2px solid;
-    border-radius: 30px;
+    border-radius: 40px;
     text-decoration: none;
 }
 
@@ -86,28 +90,28 @@
 }
 
 .featured_stories{
-    padding: 10vh 5vw 10vh 5vw;
+    padding: 5vw 5vw 5vw 8vw;
     color: #FF9B2A;
     display: flex;
     flex-wrap: wrap;
 }
 
 .featured_stories h1{
-    font-size: 64px;
+    font-size: 4vw;
     width: 100vw;
-    margin-bottom: 10vh;
+    margin-bottom: 5vw;
 }
 
 .lea{
     float:left;
     width: 40vw;
     margin-right: 30vw;
-    margin-bottom: 20vh;
+    margin-bottom: 10vw;
 }
 
 .featured_stories h2{
     float:left;
-    font-size: 48px;
+    font-size: 3vw;
     width: 30vw;
 }
 
@@ -116,13 +120,13 @@
     display: flex;
     width: 25vw;
     color: #FF9B2A;
-    font-size: 36px;
+    font-size: 2.5vw;
     text-align: center;
     margin-right: 10vw;
 
     padding: 12px 25px 12px 25px;
     border: 2px solid;
-    border-radius: 30px;
+    border-radius: 60px;
     text-decoration: none;
 
     transition-duration: 0.7s;
