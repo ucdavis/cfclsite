@@ -14,25 +14,26 @@ nav a{
 }
 
 .centered_text {
-    width: 800px;
+    width: 40vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 15vh;
-    margin-bottom: 15vh;
+    margin-top: 5vw;
+    margin-bottom: 10vw;
 }
 
 .title_container h1 {
-    font-size: 100pt;
     font-weight: bold;
     color: #FF604E;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+    margin-top: 2vw;
+    margin-bottom: 4vw;
 }
 
 .title_container p {
-    font-size: 31pt;
-    line-height: 40px;
+    font-weight: 400;
+    font-size: 1.65vw;
+    line-height: 1.4;
+    color: #444444;
 }
 
 .landscape_image {
@@ -40,11 +41,11 @@ nav a{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 5vh;
+    margin-bottom: 1vw;
 }
 
 .landscape_image img {
-    height: 95vh;
+    height: 50vw;
     box-shadow: 2.5px 2.5px 10px 2.5px rgba(0, 0, 0, 0.2);
     -webkit-box-shadow: 2.5px 2.5px 10px 2.5px rgba(0, 0, 0, 0.2);
 }
@@ -64,29 +65,36 @@ nav a{
     justify-content: flex-start;
 }
 
-.left {
-    font-size: 50pt;
+.left h3{
+    width: 100%;
+    font-size: 3.5vw;
     color: #FF604E;
+    font-family: "montserrat-semibold";
+    padding-left: 20vw;
 }
 
 .left img {
-    width: 85%;
+    width: 60%;
     position: relative;
     z-index: -1;
     opacity: 0.25;
-    top: -7vh;
+    top: -3vw;
     left: -15vw;
 }
 
-.right {
-    font-size: 31pt;
+.right{
+    font-family: "montserrat-medium";
+    font-weight: 100;
+    width: 30%;
+    font-size: 2.75vw;
     font-weight: 100;
     padding-left: 5vw;
     padding-right: 5vw;
-    color: #333333;
-    line-height: 50pt;
+    color: #555555;
+    line-height: 1.75;
 }
 
+/*
 @media (max-width: 1100px) {
     .acknowledgements {
         flex-wrap: wrap;
@@ -104,3 +112,5 @@ nav a{
         left: 0vw;
     }
 }
+
+*/
