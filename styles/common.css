@@ -4,6 +4,26 @@ body {
     overflow-x: hidden;
 }
 
+@font-face{
+    font-family: 'Montserrat-medium';
+    src: url(../assets/Fonts/Montserrat-Medium.ttf);
+}
+
+@font-face{
+    font-family: 'Montserrat-semibold';
+    src: url(../assets/Fonts/Montserrat-SemiBold.ttf);
+}
+
+@font-face{
+    font-family: 'Montserrat-bold';
+    src: url(../assets/Fonts/Montserrat-Bold.ttf);
+}
+
+@font-face{
+    font-family: 'Montserrat-light';
+    src: url(../assets/Fonts/Montserrat-Light.ttf);
+}
+
 .header{
     padding-top: 20px;
     display: flex;
@@ -90,4 +110,12 @@ p {
     nav a{
         font-size: 14px;
     }
+}
+
+h1{
+    font-family: 'Montserrat-semibold';
+}
+
+h2{
+    font-family: 'Montserrat-medium';
 }

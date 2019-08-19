@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     margin-bottom: 0;
     /*padding-bottom: 12vh;*/
-    height: 40vw;
+    height: 44vw;
     font-family: sans-serif;
 }
 
@@ -12,7 +12,7 @@
     padding-top: 12vw;
     text-align: center;
     color: white;
-    font-size: 40px;
+    font-size: 3vw;
     line-height: 1.4;
     font-weight: bold;
 }
@@ -21,39 +21,46 @@
     background-color: rgb(44, 42, 49);
     font-size: 6vw;
     color: white;
-    padding: 7vw;
+    padding: 8vw;
     display: flex;
     flex-wrap: wrap;
 }
 
 .intro h1{
     position: relative;
-    top: -12vw;
+    top: -11.5vw;
     width: 40vw;
-    height: 30vh;
+    height: 16vw;
     line-height: 1.2;
+    font-size: 5vw;
+    text-shadow: 0 0 2vw black;
 }
 .intro h2{
     width: 40vw;
+    font-size: 5vw;
     text-decoration: underline #FF604E;
+    text-shadow: 0 0 2vw black;
 }
 
 .intro p{
-    padding-top: 3vh;
+    padding-top: 1.5vw;
     color: #bbbbbb;
-    font-size: 26px;
-    width: 35vw;
+    font-size: 1.5vw;
+    font-family: "montserrat-medium";
+    width: 36vw;
     line-height: 1.5;
 }
 
 .intro a{
     margin-left: 40vw;
     margin-top: 5vh;
-    font-size: 28px;
-    padding: 12px 25px 12px 25px;
+    font-size: 1.85vw;
+    font-family: "montserrat-medium";
+    font-weight: 500;
+    padding: 15px 50px 20px 50px;
 
     border: 2px solid;
-    border-radius: 30px;
+    border-radius: 40px;
     text-decoration: none;
 }
 
@@ -85,29 +92,35 @@
     background-color: rgb(116, 99, 228);
 }
 
+/*
+/////////////////////////
+    Featured Stories
+/////////////////////////
+*/
+
 .featured_stories{
-    padding: 10vh 5vw 10vh 5vw;
+    padding: 5vw 5vw 5vw 8vw;
     color: #FF9B2A;
     display: flex;
     flex-wrap: wrap;
 }
 
 .featured_stories h1{
-    font-size: 64px;
+    font-size: 4vw;
     width: 100vw;
-    margin-bottom: 10vh;
+    margin-bottom: 5vw;
 }
 
 .lea{
     float:left;
     width: 40vw;
     margin-right: 30vw;
-    margin-bottom: 20vh;
+    margin-bottom: 10vw;
 }
 
 .featured_stories h2{
     float:left;
-    font-size: 48px;
+    font-size: 3vw;
     width: 30vw;
 }
 
@@ -116,13 +129,13 @@
     display: flex;
     width: 25vw;
     color: #FF9B2A;
-    font-size: 36px;
+    font-size: 2.5vw;
     text-align: center;
     margin-right: 10vw;
 
     padding: 12px 25px 12px 25px;
     border: 2px solid;
-    border-radius: 30px;
+    border-radius: 60px;
     text-decoration: none;
 
     transition-duration: 0.7s;
@@ -136,6 +149,12 @@
     background-color: #FF9B2A;
 }
 
+/*
+//////////////////////
+    Our Approach
+//////////////////////
+*/
+
 .approach{
     background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),
                 url(../assets/Stories/stories-approach.jpg);
@@ -143,19 +162,19 @@
     background-repeat: no-repeat;
     margin-bottom: 0;
     /*padding-bottom: 12vh;*/
-    height: 16vh;
+    height: 15vw;
     font-family: sans-serif;
     align-content: center;
-    padding:15vh;
+    padding:8vw;
     display: flex;
     flex-wrap: wrap;
 }
 
 .approach h1{
     color: white;
-    font-size: 42px;
+    font-size: 2.5vw;
     text-align: center;
-    padding-top: 3vh;
+    padding-top: 2vw;
     margin-bottom: 5vw;
     width: 100vw;
     line-height: 1.4;
@@ -164,7 +183,7 @@
 
 .approach a{
     color: #00DAA9;
-    font-size: 38px;
+    font-size: 2.25vw;
     text-align: center;
     width:20vw;
     margin:auto;
