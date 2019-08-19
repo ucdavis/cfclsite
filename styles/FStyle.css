@@ -57,7 +57,6 @@ nav a{
     width: 60vw;
     font-size: 2vw;
     font-family: "montserrat-medium";
-    font-weight: 100;
     color: #222222;
     overflow: hidden;
     margin-top: 0vw;
@@ -95,8 +94,9 @@ nav a{
 }
 
 .minus{
-    width: 2.5vw;
-    height: 2.4vw;
+    width: 3.3vw;
+    height: 3vw;
+    padding-top: .4vw;
     text-align: center;
     vertical-align: middle;
     color: #00DAA9;
@@ -104,10 +104,11 @@ nav a{
     font-family: "montserrat-bold";
     font-weight: 800;
     background-color: #EAEAEA;
-    border-radius: 20pt;
+    border-radius: 40pt;
     flex-shrink: 0;
     position: relative;
-    left: .3vw;
+    left: .7vw;
+    top: -.4vw;
 }
 
 .minus:hover{
@@ -128,7 +129,8 @@ nav a{
 
 .blue_bold p {
     font-weight: 500;
-    transition: font-weight 0.5s linear;
+    font-size: 1.75vw;
+    transition: font-weight 0.5s linear, font-size 0.4s linear;
 }
 
 .long_form {
@@ -141,9 +143,4 @@ nav a{
     max-height: 0px;
     transition: max-height 0.5s ease, padding 0.5s ease;
     padding: 1vh 2vw 1vh 2vw;
-}
-
-.response{
-    width: 50vw;
-    font-size: 2vw;
 }
