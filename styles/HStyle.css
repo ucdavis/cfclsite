@@ -23,8 +23,8 @@ nav a{
     position: relative;
     font-weight: bold;
     color: #FF604E;
-    margin-top: 15vh;
-    margin-bottom: 12vh;
+    margin-top: 12vw;
+    margin-bottom: 6vw;
     text-align: left;
     width: 60%;
     z-index: 5;
@@ -35,7 +35,7 @@ nav a{
     font-size: 2.75vw;
     font-weight: bold;
     color: rgb(182, 144, 121);
-    margin-top: 20vh;
+    margin-top: 10vw;
     margin-bottom: 7vh;
     text-align: left;
     line-height: 1.4;
@@ -52,7 +52,7 @@ nav a{
     -ms-filter: brightness(95%);
     width: 25vw;
     height: 38vw;
-    top: 35vh;
+    top: 25vw;
     left: 20vw;
     z-index: 1;
 }
@@ -61,7 +61,7 @@ nav a{
     position: absolute;
     width: 70vw;
     height: 40vw;
-    top: 15vh;
+    top: 9vw;
     right:-7vw;
     z-index: 2;
 }
@@ -89,7 +89,7 @@ nav a{
     color: white;
     margin-left: 50vw;
     margin-right: 8vw;
-    padding-top: 20vh;
+    padding-top: 10vw;
     line-height: 1.5;
     z-index: 5;
 }
@@ -123,8 +123,8 @@ nav a{
 .community_futures h1{
     font-weight: bold;
     color: #FF9B2A;
-    margin-top: 12vh;
-    margin-bottom: 10vh;
+    margin-top: 6vw;
+    margin-bottom: 5vw;
     text-align: left;
     width: 65vw;
     font-family: 'Montserrat-bold';
@@ -133,8 +133,8 @@ nav a{
 .community_futures h3{
     font-size: 1.60vw;
     color: #333333;
-    margin-top: 7vh;
-    margin-bottom: 8vh;
+    margin-top: 5vw;
+    margin-bottom: 4vw;
     text-align: left;
     width: 40vw;
     font-family: "montserrat-light";
@@ -166,7 +166,7 @@ nav a{
 
 .stepping_stones{
     position: relative;
-    height: 130vw;
+    height: 100vw;
     max-height: 200vh;
     padding-left: 9vw;
     background-color: #FF604E;
@@ -188,7 +188,7 @@ nav a{
 .stepping_stones h1{
     font-weight: bold;
     padding-top: 20vw;
-    margin-bottom: 12vh;
+    margin-bottom: 7vw;
     text-align: left;
     width: 65vw;
     z-index: 5;
@@ -197,8 +197,8 @@ nav a{
 
 .stepping_stones h2{
     font-size: 2.75vw;
-    margin-top: 7vh;
-    margin-bottom: 8vh;
+    margin-top: 3vw;
+    margin-bottom: 4vw;
     text-align: left;
     width: 75vw;
     font-family: "montserrat-light";
@@ -212,7 +212,7 @@ nav a{
 
 ul li:before {
     content: "• ";
-    font-size: 40px;
+    font-size: 2vw;
     font-weight: bolder;
     padding-right: 30px;
 }
@@ -221,8 +221,8 @@ ul li:before {
     position: relative;
     z-index: 5;
     font-size: 2.9vw;
-    margin-top: 15vh;
-    margin-bottom: 12vh;
+    margin-top: 8vw;
+    margin-bottom: 6vw;
     text-align: left;
     width: 52vw;
     font-family: "montserrat-light";
@@ -234,12 +234,12 @@ ul li:before {
     z-index: 0;
     width: 50vw;
     height: 7.5vw;
-    bottom: 25vw;
+    top: 67vw;
     left: 53vw;
     opacity: .3;
 }
 .stepping_stones a{
-    margin-top: 9vh;
+    margin-top: 5vw;
     padding: 3vh 5vw;
     font-size: 2vw;
     color: white;
@@ -267,7 +267,7 @@ ul li:before {
 
 
 .more_info{
-    padding: 10vh 5vw;
+    padding: 5vw 5vw;
     background-color: white;
 }
 
@@ -279,7 +279,7 @@ ul li:before {
     width: 87vw;
     align-content: center;
     margin-left: 1vw;
-    margin-bottom: 10vh;
+    margin-bottom: 5vw;
     background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),
         url(../assets/Homepage/girl_with_post.jpeg);
     background-size: 87vw 60vw;
@@ -328,7 +328,7 @@ ul li:before {
     width: 87vw;
     align-content: center;
     margin-left: 1vw;
-    margin-bottom: 5vh;
+    margin-bottom: 3vw;
     background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),
         url(../assets/Homepage/girl_with_post.jpeg);
     background-size: 87vw 60vw;
