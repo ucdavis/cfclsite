@@ -23,6 +23,7 @@
     padding-left: 5vw;
     display: flex;
     flex-direction: row;
+    position: relative;
 }
 
 .purpose_title h1{
@@ -41,7 +42,7 @@
     margin-bottom: 0;
     font-family: 'Montserrat-light';
     font-weight: 900;
-    margin-bottom: 0;
+    margin-bottom: -10vw;
     /*font-size: 2vw;
     line-height: 3vw;*/
 }
@@ -53,7 +54,7 @@
 */
 
 .core_values{
-    margin-top: 0;
+    margin-top: -10vw;
     background-color: #F6EDE1;
     display: flex;
     flex-direction: row;
@@ -61,6 +62,7 @@
     flex-wrap: wrap;
     align-items: flex-start;
     padding-bottom: 5vw;
+    position: relative;
 }
 
 .sideways_subheader {
@@ -78,7 +80,7 @@
 }
 
 .sideways_subheader div {
-    width: 36.5vw;
+    width: 40vw;
     border-bottom: 2px solid #FF604E;
     height: 1.3vw;
     margin-right: 20px;
@@ -96,22 +98,31 @@
     margin: 2vw;
     width: 23vw;
     height: 25vw;
+    font-size: 1.7vw;
     text-align: center;
     background: white;
     border: 2px white;
-    box-shadow: 0 0 7px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px 18px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     z-index: 1;
 }
 
-.value img {
-    margin: -1vw 0 1vw -1vw;
+.value:hover{
     width: 25vw;
+    font-size: 2.3vw;
+    box-shadow: 0 0 7px 4px rgba(255, 96, 78, 0.74);
+    transition: width 0.5s linear, box-shadow 0.5s linear,
+                font-size 0.5s linear;
+}
+
+.value img {
+    margin: auto;
+    width: 22vw;
 }
 
 .value h3{
     color: #00DAA9;
-    font-size: 1.5vw;
+    font-size: inherit; 
     font-family: "montserrat-bold";
     font-weight: 400;
 }
@@ -131,22 +142,25 @@
 }
 
 .value p{
-    padding: 1vh 2vw 0 2vw;
+    padding: 1vw 2vw 0 2vw;
     line-height: 1.4;
     font-size: 1.1vw;
     font-weight: 400;
 }
 
-.leaf {
-    width: 300px;
-    height: 300px;
-    max-width: 30vw;
-    z-index: 0;
-    max-height: 30vw;
-    float: right;
+.leaf{
     position: relative;
-    top: 65vw;
-    left: 25vw;
+    width: 20vw;
+    height: 30vw;
+    z-index: 1;
+    top: 62vw;
+    right: -23vw;
+
+    filter: brightness(95%);
+    -webkit-filter: brightness(95%);
+    -moz-filter: brightness(95%);
+    -o-filter: brightness(95%);
+    -ms-filter: brightness(95%);
 }
 
 /*
@@ -167,6 +181,8 @@
     justify-content: center;
     align-content: center;
     align-items: center;
+    position: relative;
+    z-index: 5;
 }
 
 .stories_title_container{
@@ -212,9 +228,9 @@
 }
 
 .stepping_stones_header h1{
-    padding-top: 15vh;
+    padding-top: 9vw;
     display: inline-block;
-    margin-bottom: 5vh;
+    margin-bottom: 3vw;
     width: 50vw;
     color: #00DAA9;
 
@@ -224,8 +240,10 @@
     width: 50vw;
     height:50vw;
     position: absolute;
+    /*
     min-height: 400px;
     min-width: 400px;
+    */
     max-height: 800px;
     max-width: 700px;
 }
@@ -242,7 +260,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 10vh;
+    margin-top: 5vw;
     /*margin-left: 5vw;*/
 }
 
@@ -289,28 +307,123 @@
 ///////////////////////////////////////
 */
 
-/*
-@media (max-width: 1100px) {
-    .title_container h1 {
-        font-size: 60px;
+
+
+
+
+@media (max-width: 1100px) {  
+    .sideways_subheader {
+        display: flex;
+        font-size: 3.5vw;
+        color: #FF604E;
+        /*writing-mode: vertical-rl;
+        text-orientation: sideways-right;*/
+        height: 5vw;
+        width: 250vw;
+        transform: rotate(270deg);
+        position: relative;
+        top: 78vw;
+        left: -43vw;
+        font-weight: bolder;
+        white-space: nowrap;
     }
-    .purpose_title h2 {
-        font-size: 60px;
-    }
+    
     .sideways_subheader div {
+        width: 110vw;
+        border-bottom: 2px solid #FF604E;
+        height: 1.5vw;
+        margin-right: 20px;
+    }
+    
+    
+    .value{
+        justify-content: space-evenly;
+        margin: 2vw;
+        width: 34vw;
+        height: 35vw;
+        font-size: 3vw;
+        text-align: center;
+        background: white;
+        border: 2px white;
+        box-shadow: 0 0 15px 18px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        z-index: 1;
+    }
+    
+    .value:hover{
+        width: 37vw;
+        font-size: 3.5vw;
+        box-shadow: 0 0 7px 4px rgba(255, 96, 78, 0.74);
+        transition: width 0.5s linear, box-shadow 0.5s linear,
+                    font-size 0.5s linear;
+    }
+    
+    .value img {
+        margin: auto;
         width: 30vw;
     }
-    .value p {
-        font-size: 12px;
+    
+    .value h3{
+        color: #00DAA9;
+        font-size: inherit; 
+        font-family: "montserrat-bold";
+        font-weight: 400;
+    }    
+    .value p{
+        padding: 2vw 2vw 0 2vw;
+        line-height: 1.6;
+        font-size: 1.5vw;
+        font-weight: 400;
     }
-    .leaf {
-        top: 70vw;
+    
+    .leaf{
+        position: relative;
+        width: 20vw;
+        height: 30vw;
+        max-height: none;
+        z-index: 1;
+        top: 120vw;
+        right: -23vw;
+    
+        filter: brightness(95%);
+        -webkit-filter: brightness(95%);
+        -moz-filter: brightness(95%);
+        -o-filter: brightness(95%);
+        -ms-filter: brightness(95%);
     }
-    .stories_header h1 {
-        font-size: 50px;
+
+    /*
+    ////////////////////////////////////
+    ////   Tablet size Stepping Stones /
+    ////////////////////////////////////
+    */
+
+
+    .stepping_stones p{
+        font-size: 1.8vw;
     }
-    .stepping_stones_header h1 {
-        font-size: 58px;
+
+    .stepping_stones .steps{
+        /*margin-top: 80px;*/
+        /*margin-bottom: 40px;*/
+        margin: 2.5vw;
+        width: 40vw;
+        /*margin-right:auto;*/
+        transition-duration: 0.3s;
+        transition-property: box-shadow;
+        -webkit-transition-duration: 0.3s;
+        -webkit-transition-property: box-shadow;
     }
+
+    /*
+    /////////////////////////////////////
+    ///   misc ////////////////////////
+    ///////////////////////////////////////
+    */
+    .stories_header a{
+        margin-top: 6vw;
+        padding: 15px
+    }
+
 }
-*/
+

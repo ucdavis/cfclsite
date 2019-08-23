@@ -20,8 +20,8 @@ nav a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10vw;
-    margin-bottom: 10vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
 }
 
 .title_container h1 {
@@ -143,4 +143,85 @@ nav a{
     max-height: 0px;
     transition: max-height 0.5s ease, padding 0.5s ease;
     padding: 1vh 2vw 1vh 2vw;
+}
+
+
+/*
+//////////////////////////////////////////
+/////////  Table sizing  /////////////////
+/////////////////////////////////////////
+*/
+
+@media (max-width: 1100px) { 
+    .centered_text {
+        width: 80%;
+        margin: 8vw auto 8vw auto;
+    }
+       
+    .title_container h1 {
+        font-size: 5.2vw;
+        font-weight: bold;
+        color: #00DAA9;
+        margin-top: 1vw;
+        margin-bottom: 6vw;
+        text-align: center;
+        line-height: 1.2;
+        text-shadow: 0 0 2vw rgba(0, 218, 171, 0.25);
+    }
+
+    .title_container p {
+        max-width: 65vw;
+        font-size: 2.7vw;
+        line-height: 1.5;
+        font-weight: 400;
+        color: #444444;
+    }
+
+
+    /*
+    ////////////////////////////////////
+    /// tablet questions   /////////////
+    ////////////////////////////////////
+    */
+        
+    .question {
+        display: flex;
+        flex-direction: column;
+        width: 75vw;
+        font-size: 3vw;
+        font-family: "montserrat-medium";
+        color: #222222;
+        overflow: hidden;
+        margin-top: 0vw;
+        margin-bottom: 0vw;
+    }
+
+    .question_title p{
+        font-size: 2vw;
+        line-height: 1.6;
+    } 
+
+    .question_title{
+        font-size: 4vw;
+    }
+
+    .plus{
+        color: #00DAA9;
+        font-size: 3.5vw !important;
+        margin-top: -1vw;
+        margin-bottom: 0;
+    }
+
+    .minus{
+        width: 3.5vw;
+        height: 3.5vw;
+        padding-top: .1vw;
+    }
+
+    .blue_bold p {
+        font-weight: 500;
+        font-size: 2.2vw;
+        transition: font-weight 0.5s linear, font-size 0.4s linear;
+    }
+
 }
