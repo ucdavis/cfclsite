@@ -77,7 +77,7 @@ nav a{
     line-height: 40px;
     background-color: #EAEAEA;
     padding: 1vh 2vw 1vh 2vw;
-    transition: color 0.5s linear, font-weight 0.5s linear, background-color 0.5s linear;
+    transition: color 0.5s linear, font-weight 0.5s linear, background-color 0.5s linear, font-size 0.5s linear;
 }
 
 .minus{
@@ -107,7 +107,8 @@ nav a{
 
 .blue_bold p {
     font-weight: 500;
-    transition: font-weight 0.5s linear;
+    font-size: 33px;
+    transition: font-weight 0.5s linear, font-size 0.5s linear;
 }
 
 .long_form {
