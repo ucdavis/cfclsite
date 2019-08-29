@@ -110,7 +110,7 @@
 .value:hover{
     width: 25vw;
     font-size: 2.3vw;
-    box-shadow: 0 0 7px 4px rgba(255, 96, 78, 0.74);
+    box-shadow: 0 0 7px 4px rgba(255, 96, 78, 0.719);
     transition: width 0.5s linear, box-shadow 0.5s linear,
                 font-size 0.5s linear;
 }
@@ -153,14 +153,16 @@
     width: 20vw;
     height: 30vw;
     z-index: 1;
-    top: 62vw;
+    top: 60vw;
     right: -23vw;
 
+    /*
     filter: brightness(95%);
     -webkit-filter: brightness(95%);
     -moz-filter: brightness(95%);
     -o-filter: brightness(95%);
     -ms-filter: brightness(95%);
+    */
 }
 
 /*
@@ -353,7 +355,7 @@
     .value:hover{
         width: 37vw;
         font-size: 3.5vw;
-        box-shadow: 0 0 7px 4px rgba(255, 96, 78, 0.74);
+        box-shadow: 0 0 7px 4px rgba(0, 218, 171, 0.719);
         transition: width 0.5s linear, box-shadow 0.5s linear,
                     font-size 0.5s linear;
     }
