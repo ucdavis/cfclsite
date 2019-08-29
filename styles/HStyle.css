@@ -23,7 +23,7 @@ nav a{
     position: relative;
     font-weight: bold;
     color: #FF604E;
-    margin-top: 12vw;
+    margin-top: 8vw;
     margin-bottom: 6vw;
     text-align: left;
     width: 60%;
@@ -45,15 +45,17 @@ nav a{
 
 .leaf_tan{
     position: absolute;
+    /*
     filter: brightness(95%);
     -webkit-filter: brightness(95%);
     -moz-filter: brightness(95%);
     -o-filter: brightness(95%);
     -ms-filter: brightness(95%);
-    width: 25vw;
-    height: 38vw;
-    top: 25vw;
-    left: 20vw;
+    */
+    width: 30vw;
+    height: 42vw;
+    top: 15vw;
+    left: 15vw;
     z-index: 1;
 }
 
