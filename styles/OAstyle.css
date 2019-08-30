@@ -20,7 +20,7 @@
 .purpose_title{
     margin-top: 0;
     background-color: #F6EDE1;
-    padding-left: 5vw;
+    padding-left: 7vw;
     display: flex;
     flex-direction: row;
     position: relative;
@@ -28,8 +28,8 @@
 
 .purpose_title h1{
     margin-top: 0;
-    margin-bottom: 3vw;
-    padding-top: 5vw;
+    margin-bottom: 5vw;
+    padding-top: 10vw;
     /*font-size: 84px;*/
     color: #FF604E;
 }
@@ -39,12 +39,11 @@
     /*font-size:30px;*/
     color: #222222;
     line-height: 1.4;
-    margin-bottom: 0;
     font-family: 'Montserrat-light';
     font-weight: 900;
-    margin-bottom: -10vw;
-    /*font-size: 2vw;
-    line-height: 3vw;*/
+    margin-bottom: 14vw;
+    font-size: 1.6vw;
+    line-height: 1.5;
 }
 
 /*
@@ -71,7 +70,7 @@
     color: #FF604E;
     /*writing-mode: vertical-rl;
     text-orientation: sideways-right;*/
-    height: 5vw;
+    height: 1vw;
     transform: rotate(270deg);
     position: relative;
     top: 35vw;
@@ -91,26 +90,28 @@
     justify-content: space-around;
     flex-wrap: wrap;
     width: 85vw;
+    margin-left: 5vw;
 }
 
 .value{
     justify-content: space-evenly;
-    margin: 2vw;
-    width: 23vw;
+    margin-top: 2vw;
+    margin-bottom: 4vw;
+    width: 24vw;
     height: 25vw;
     font-size: 1.7vw;
     text-align: center;
     background: white;
     border: 2px white;
     box-shadow: 0 0 15px 18px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+    border-radius: 10px;
     z-index: 1;
 }
 
 .value:hover{
     width: 25vw;
     font-size: 2.3vw;
-    box-shadow: 0 0 7px 4px rgba(255, 96, 78, 0.719);
+    box-shadow: 0 0 7px 4px rgba(0, 218, 171, 0.719);
     transition: width 0.5s linear, box-shadow 0.5s linear,
                 font-size 0.5s linear;
 }
@@ -125,6 +126,7 @@
     font-size: inherit; 
     font-family: "montserrat-bold";
     font-weight: 400;
+    font-size: 2.2vw;
 }
 
 .small h3{
@@ -144,7 +146,7 @@
 .value p{
     padding: 1vw 2vw 0 2vw;
     line-height: 1.4;
-    font-size: 1.1vw;
+    font-size: 1.15vw;
     font-weight: 400;
 }
 
@@ -227,6 +229,7 @@
 
 .stepping_stones_header{
     margin-left: 7vw;
+    position: relative;
 }
 
 .stepping_stones_header h1{
@@ -239,15 +242,15 @@
 }
 
 .stepping_stones_header .map{
-    width: 50vw;
+    top: -5vw;
+    width: 47vw;
     height:50vw;
     position: absolute;
     /*
     min-height: 400px;
     min-width: 400px;
     */
-    max-height: 800px;
-    max-width: 700px;
+    
 }
 
 .stepping_stones_header p{
@@ -263,6 +266,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 5vw;
+    margin-bottom: 5vw;
     /*margin-left: 5vw;*/
 }
 
@@ -271,6 +275,7 @@
     /*width: 350px;*/
     width: 90%;
     height: 4.5vw;
+    font-size: 1.75vw;
     background-color: rgb(48, 48, 48);
     color: white;
     line-height: 1.4;
@@ -314,6 +319,16 @@
 
 
 @media (max-width: 1100px) {  
+
+    .purpose_title h1{
+        font-size: 5vw;
+    }
+
+    .purpose_title p{
+        width: 85%;
+        font-size: 2vw;
+        margin-bottom: 10vw;
+    }
     .sideways_subheader {
         display: flex;
         font-size: 3.5vw;
@@ -340,8 +355,8 @@
     
     .value{
         justify-content: space-evenly;
-        margin: 2vw;
-        width: 34vw;
+        
+        width: 36vw;
         height: 35vw;
         font-size: 3vw;
         text-align: center;
@@ -353,8 +368,8 @@
     }
     
     .value:hover{
-        width: 37vw;
-        font-size: 3.5vw;
+        width: 38vw;
+        font-size: 3.2vw;
         box-shadow: 0 0 7px 4px rgba(0, 218, 171, 0.719);
         transition: width 0.5s linear, box-shadow 0.5s linear,
                     font-size 0.5s linear;
@@ -373,8 +388,8 @@
     }    
     .value p{
         padding: 2vw 2vw 0 2vw;
-        line-height: 1.6;
-        font-size: 1.5vw;
+        line-height: 1.4;
+        font-size: 1.9vw;
         font-weight: 400;
     }
     
@@ -387,11 +402,6 @@
         top: 120vw;
         right: -23vw;
     
-        filter: brightness(95%);
-        -webkit-filter: brightness(95%);
-        -moz-filter: brightness(95%);
-        -o-filter: brightness(95%);
-        -ms-filter: brightness(95%);
     }
 
     /*
@@ -400,9 +410,13 @@
     ////////////////////////////////////
     */
 
+    .stepping_stones_header .map{
+        top: -2vw;
+    }
 
     .stepping_stones p{
-        font-size: 1.8vw;
+        padding-top: 5%;
+        font-size: 2.1vw;
     }
 
     .stepping_stones .steps{

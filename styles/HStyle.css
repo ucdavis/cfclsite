@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 70vw;
+    height: 68vw;
     z-index:0;
 }
 
@@ -21,9 +21,9 @@ nav a{
 
 .title h1{
     position: relative;
-    font-weight: bold;
+    font-weight: 500;
     color: #FF604E;
-    margin-top: 8vw;
+    margin-top: 7vw;
     margin-bottom: 6vw;
     text-align: left;
     width: 60%;
@@ -32,14 +32,14 @@ nav a{
 
 .title h2{
     position: relative;
-    font-size: 2.75vw;
-    font-weight: bold;
+    font-size: 2.6vw;
+    font-weight: 900;
     color: rgb(182, 144, 121);
-    margin-top: 10vw;
+    margin-top: 8vw;
     margin-bottom: 7vh;
     text-align: left;
     line-height: 1.4;
-    width: 30%;
+    width: 29%;
     z-index: 5;
 }
 
@@ -52,10 +52,10 @@ nav a{
     -o-filter: brightness(95%);
     -ms-filter: brightness(95%);
     */
-    width: 30vw;
-    height: 42vw;
+    width: 33vw;
+    height: 46vw;
     top: 15vw;
-    left: 15vw;
+    left: 13vw;
     z-index: 1;
 }
 
@@ -72,7 +72,7 @@ nav a{
     position: absolute;
     width: 32vw;
     height: 2.5vw;
-    top: 50vw;
+    top: 53vw;
     right:-2vw;
     z-index: 5;
 }
@@ -80,7 +80,7 @@ nav a{
 .post_title{
     background-color: #FF9B2A;
     padding-left: 8vw;
-    height: 45vw;
+    height: 49vw;
 
 }
 
@@ -91,7 +91,7 @@ nav a{
     color: white;
     margin-left: 50vw;
     margin-right: 8vw;
-    padding-top: 10vw;
+    padding-top: 12vw;
     line-height: 1.5;
     z-index: 5;
 }
@@ -99,8 +99,8 @@ nav a{
 .post_title .flowers{
     position: absolute;
     width: 42vw;
-    height: 48vw;
-    top: 63vw;
+    height: 45vw;
+    top: 62vw;
     margin-left:-4vw;
     z-index: 1;
     box-shadow: 3px 3px 15px rgb(104, 104, 104);
@@ -115,17 +115,17 @@ nav a{
 
 .community_futures{
     position: relative;
-    height: 90vw;
+    height: 82vw;
     padding-left: 8.5vw;
     background-color: white;
-    line-height: 1.4;
+    line-height: 1.3;
 
 }
 
 .community_futures h1{
     font-weight: bold;
     color: #FF9B2A;
-    margin-top: 6vw;
+    margin-top: 10vw;
     margin-bottom: 5vw;
     text-align: left;
     width: 65vw;
@@ -135,28 +135,29 @@ nav a{
 .community_futures h3{
     font-size: 1.60vw;
     color: #333333;
-    margin-top: 5vw;
-    margin-bottom: 4vw;
+    margin-top: 5.5vw;
+    margin-bottom: 0vw;
     text-align: left;
     width: 40vw;
     font-family: "montserrat-light";
-    font-weight: 500;
+    font-weight: 600;
+    line-height: 1.6;
 }
 
 .community_futures .people_talking{
     position: absolute;
     width: 75vw;
-    height: 53vw;
+    height: 50vw;
     left: 0;
     bottom: 0;
 }
 
 .community_futures .girl{
     position: absolute;
-    width: 35vw;
+    width: 34vw;
     height: 47vw;
     left: 60vw;
-    bottom: -23vw;
+    bottom: -24.5vw;
     z-index: 10;
 }
 
@@ -168,9 +169,9 @@ nav a{
 
 .stepping_stones{
     position: relative;
-    height: 100vw;
-    max-height: 200vh;
-    padding-left: 9vw;
+    height: 107vw;
+    max-height: 250vh;
+    padding-left: 10vw;
     background-color: #FF604E;
     line-height: 1.4;
     color:white;
@@ -179,18 +180,20 @@ nav a{
 
 .stepping_stones h4{
     position: absolute;
+    font-family: "montserrat-bold";
+    font-weight: 900;
     z-index: 1;
-    font-size: 550px;
+    font-size: 26vw;
     font-weight: 900;
     opacity: .2;
-    left:-6vw;
-    top:-15vh;   
+    left: -4vw;
+    top: 2vw;   
 }
 
 .stepping_stones h1{
     font-weight: bold;
-    padding-top: 20vw;
-    margin-bottom: 7vw;
+    padding-top: 25vw;
+    margin-bottom: 6vw;
     text-align: left;
     width: 65vw;
     z-index: 5;
@@ -198,9 +201,9 @@ nav a{
 }
 
 .stepping_stones h2{
-    font-size: 2.75vw;
-    margin-top: 3vw;
-    margin-bottom: 4vw;
+    font-size: 2.8vw;
+    margin-top: 2vw;
+    margin-bottom: 3vw;
     text-align: left;
     width: 75vw;
     font-family: "montserrat-light";
@@ -236,19 +239,19 @@ ul li:before {
     z-index: 0;
     width: 50vw;
     height: 7.5vw;
-    top: 67vw;
+    top: 70vw;
     left: 53vw;
     opacity: .3;
 }
 .stepping_stones a{
     margin-top: 5vw;
-    padding: 3vh 5vw;
-    font-size: 2vw;
+    padding: 1.7vw 3.2vw;
+    font-size: 1.85vw;
     color: white;
-    border: 1px solid white;
-    border-radius: 50px;
+    border: 3px solid white;
+    border-radius: 60px;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 500;
     transition-duration: 0.7s;
     transition-property: color, background-color;
     -webkit-transition-duration: 0.7s;
@@ -280,8 +283,9 @@ ul li:before {
     height: 45vw;
     width: 87vw;
     align-content: center;
+    margin-top: 5vw;
     margin-left: 1vw;
-    margin-bottom: 5vw;
+    margin-bottom: 6vw;
     background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),
         url(../assets/Homepage/girl_with_post.jpeg);
     background-size: 87vw 60vw;
@@ -303,11 +307,11 @@ ul li:before {
     background-color: #FF604E;
     margin-top: 20vw;
     margin-left: 10vw;
-    padding: 2vh 2vw;
+    padding: 1.1vw 2vw;
     font-size: 1.75vw;
     color: white;
     border: 1px solid #FF604E;
-    border-radius: 40px;
+    border-radius: 50px;
     text-decoration: none;
     font-weight: bold;
     transition-duration: 0.7s;
@@ -351,8 +355,8 @@ ul li:before {
     background-color: #FF9B2A;
     margin-top: 35vh;
     margin-left: 10vw;
-    padding: 2.5vh 4vw;
-    font-size: 1.75vw;
+    padding: 1.4vw 4vw;
+    font-size: 1.7vw;
     color: white;
     border: 1px solid #FF9B2A;
     border-radius: 50px;
@@ -377,4 +381,15 @@ ul li:before {
     height: 12vw;
     left: 60vw;
     bottom: 4.5vw;
+}
+
+
+@media (max-width: 1000px) {
+    .community_futures{
+        height: 83vw;
+    }
+
+    .community_futures h3{
+        font-size: 1.9vw;
+    }
 }
