@@ -42,8 +42,17 @@ function createContractFunction(questionNode) {
 
 for (let i = 1; i <= 14; i++) {
     let elem = document.getElementById('q'+i);
+    let flag = true
     let expandFunc = createExpandFunction(elem);
-    let contractFunc = createContractFunction(elem);
-    elem.children[0].children[1].addEventListener('click', expandFunc);
-    elem.children[0].children[2].addEventListener('click', contractFunc);
+    let contractFunc = createContractFunction(elem); 
+    let func = function() {
+	if (flag) {
+	    expandFunc();
+	    flag = false;
+	} else {
+	    contractFunc();
+	    flag = true;
+	}
+    }
+    elem.children[0].addEventListener('click', func);
 }
