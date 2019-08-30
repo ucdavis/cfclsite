@@ -20,46 +20,57 @@ nav a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 15vh;
-    margin-bottom: 15vh;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
 }
 
 .title_container h1 {
-    font-size: 80px;
+    font-size: 5vw;
     font-weight: bold;
     color: #00DAA9;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+    margin-top: 3vw;
+    margin-bottom: 6vw;
     text-align: center;
+    line-height: 1.2;
+    text-shadow: 0 0 1vw rgba(0, 218, 171, 0.25);
 }
 
 .title_container p {
-    max-width: 600px;
-    font-size: 27px;
-    line-height: 40px;
+    max-width: 42vw;
+    font-size: 1.5vw;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #444444;
 }
 
 .question_list{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 15vh;
+    margin-bottom: 5vw;
     background-color: white;
 }
 
 .question {
     display: flex;
     flex-direction: column;
-    width: 50vw;
-    font-size: 27px;
+    width: 60vw;
+    font-size: 2vw;
+    font-family: "montserrat-medium";
+    color: #222222;
     overflow: hidden;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
 }
 
 .plus{
     color: #00DAA9;
-    font-size: 40px;
+    font-size: 3vw;
 }
 
+.plus:hover{
+    cursor: pointer;
+}
 /*.long_form{
     display: flex;
     flex-direction: row;
@@ -73,25 +84,35 @@ nav a{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: 27px;
-    line-height: 40px;
+    font-size: 3vw;
+    line-height: 1.5;
+    color: #444444;
     background-color: #EAEAEA;
-    padding: 1vh 2vw 1vh 2vw;
-    transition: color 0.5s linear, font-weight 0.5s linear, background-color 0.5s linear, font-size 0.5s linear;
+    padding: 1vw 2vw 1vw 3vw;
+    margin-bottom: 0vw;
+    transition: color 0.5s linear, font-weight 0.5s linear,     background-color 0.5s linear;
 }
 
 .minus{
-    width: 38px;
-    height: 38px;
+    width: 3.3vw;
+    height: 3vw;
+    padding-top: .4vw;
     text-align: center;
     vertical-align: middle;
     color: #00DAA9;
-    font-size: 15px;
+    font-size: 1vw;
+    font-family: "montserrat-bold";
+    font-weight: 800;
     background-color: #EAEAEA;
-    border-radius: 20pt;
+    border-radius: 40pt;
     flex-shrink: 0;
     position: relative;
-    left: 8px;
+    left: .7vw;
+    top: -.4vw;
+}
+
+.minus:hover{
+    cursor: pointer;
 }
 
 .hidden {
@@ -99,7 +120,8 @@ nav a{
 }
 
 .blue_bold {
-    font-weight: 500;
+    font-family: "montserrat-bold";
+    /*font-weight: 500; */
     color: #00DAA9;
     background-color: white;
     transition: color 0.5s linear, background-color 0.5s linear;
@@ -107,18 +129,104 @@ nav a{
 
 .blue_bold p {
     font-weight: 500;
+<<<<<<< HEAD
     font-size: 33px;
     transition: font-weight 0.5s linear, font-size 0.5s linear;
+=======
+    font-size: 1.75vw;
+    transition: font-weight 0.5s linear, font-size 0.4s linear;
+>>>>>>> 236238a47d1f86e5abf38fb47bf57624f2239fcd
 }
 
 .long_form {
     max-height: 100vh;
     transition: max-height 0.5s ease, padding 0.5s ease;
-    padding: 5vh 2vw 5vh 2vw;
+    padding: 1vw 2vw 3vw 2vw;
 }
 
 .short_form {
     max-height: 0px;
     transition: max-height 0.5s ease, padding 0.5s ease;
     padding: 1vh 2vw 1vh 2vw;
+}
+
+
+/*
+//////////////////////////////////////////
+/////////  Table sizing  /////////////////
+/////////////////////////////////////////
+*/
+
+@media (max-width: 1100px) { 
+    .centered_text {
+        width: 80%;
+        margin: 8vw auto 8vw auto;
+    }
+       
+    .title_container h1 {
+        font-size: 5.2vw;
+        font-weight: bold;
+        color: #00DAA9;
+        margin-top: 1vw;
+        margin-bottom: 6vw;
+        text-align: center;
+        line-height: 1.2;
+        text-shadow: 0 0 2vw rgba(0, 218, 171, 0.25);
+    }
+
+    .title_container p {
+        max-width: 65vw;
+        font-size: 2.7vw;
+        line-height: 1.5;
+        font-weight: 400;
+        color: #444444;
+    }
+
+
+    /*
+    ////////////////////////////////////
+    /// tablet questions   /////////////
+    ////////////////////////////////////
+    */
+        
+    .question {
+        display: flex;
+        flex-direction: column;
+        width: 75vw;
+        font-size: 3vw;
+        font-family: "montserrat-medium";
+        color: #222222;
+        overflow: hidden;
+        margin-top: 0vw;
+        margin-bottom: 0vw;
+    }
+
+    .question_title p{
+        font-size: 2vw;
+        line-height: 1.6;
+    } 
+
+    .question_title{
+        font-size: 4vw;
+    }
+
+    .plus{
+        color: #00DAA9;
+        font-size: 3.5vw !important;
+        margin-top: -1vw;
+        margin-bottom: 0;
+    }
+
+    .minus{
+        width: 3.5vw;
+        height: 3.5vw;
+        padding-top: .1vw;
+    }
+
+    .blue_bold p {
+        font-weight: 500;
+        font-size: 2.2vw;
+        transition: font-weight 0.5s linear, font-size 0.4s linear;
+    }
+
 }
