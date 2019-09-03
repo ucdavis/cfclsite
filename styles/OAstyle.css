@@ -4,17 +4,53 @@
     background-repeat: no-repeat;
     margin-bottom: 0;
     /*padding-bottom: 12vh;*/
-    height: 40vw;
+    height: 45vw;
+    position: relative;
     /*font-family: 'Montserrat', sans-serif;*/
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.title{
+    display:flex;
+    flex-wrap: wrap;
 }
 
 .title_container h1{
     color: white;
     width: 100vw;
     text-align: center;
-    padding-top: 12vw;
+    padding-top: 11vw;
     /*font-size: 100px;*/
     margin-bottom: 0;
+}
+
+#SS_scroll{
+    display:flex;
+    margin: auto;
+    margin-top: 3vw;
+    padding: 1.2vw;
+    font-size: 2vw;
+    color: white;
+    border: 1px solid white;
+    border-radius: 40px;
+    text-decoration: none;
+    transition-duration: 0.7s;
+    transition-property: color, background-color;
+    -webkit-transition-duration: 0.7s;
+    -webkit-transition-property: color, background-color;
+}
+
+#SS_scroll:hover{
+    color: navy;
+    background-color: white;
+    border-color: navy;
+    transition-duration: 0.7s;
+    transition-property: color, background-color;
+    -webkit-transition-duration: 0.7s;
+    -webkit-transition-property: color, background-color;
 }
 
 .purpose_title{
@@ -270,13 +306,17 @@
     /*margin-left: 5vw;*/
 }
 
+.stepping_stones .black{
+    background-color: rgb(48, 48, 48);
+    width: 25vw;
+    height: 7vw;
+
+}
+
 .stepping_stones p{
     padding: 5%; /* used to be 20px */
-    /*width: 350px;*/
-    width: 90%;
-    height: 4.5vw;
-    font-size: 1.75vw;
-    background-color: rgb(48, 48, 48);
+    /*width: 350px;*/  
+    font-size: 1.75vw;    
     color: white;
     line-height: 1.4;
     font-family: "montserrat-medium";
@@ -410,13 +450,26 @@
     ////////////////////////////////////
     */
 
+    .stepping_stones_header p{
+        font-size: 1.9vw;
+        font-weight: 500;
+        width: 40vw;
+    }
     .stepping_stones_header .map{
         top: -2vw;
     }
 
+    .stepping_stones .black{
+        background-color: rgb(48, 48, 48);
+        width: 40vw;
+        height: 10vw;
+    
+    }
+    
+
     .stepping_stones p{
         padding-top: 5%;
-        font-size: 2.1vw;
+        font-size: 2.3vw;
     }
 
     .stepping_stones .steps{

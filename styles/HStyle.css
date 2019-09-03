@@ -152,14 +152,6 @@ nav a{
     bottom: 0;
 }
 
-.community_futures .girl{
-    position: absolute;
-    width: 34vw;
-    height: 47vw;
-    left: 60vw;
-    bottom: -24.5vw;
-    z-index: 10;
-}
 
 /*
 ///////////////////////
@@ -175,7 +167,7 @@ nav a{
     background-color: #FF604E;
     line-height: 1.4;
     color:white;
-    z-index: 0;
+    z-index: 1;
 }
 
 .stepping_stones h4{
@@ -243,6 +235,25 @@ ul li:before {
     left: 53vw;
     opacity: .3;
 }
+
+.stepping_stones .girl{
+    position: absolute;
+    width: 34vw;
+    height: 47vw;
+    left: 60vw;
+    top: -20vw;
+    z-index: 5;
+}
+
+.stepping_stones .white_logo{
+    position: absolute;
+    z-index: 10;
+    opacity: 1;
+    width: 6vw;
+    height: 9.25vw;
+    top: 23vw;
+    left: 82.5vw;
+}
 .stepping_stones a{
     margin-top: 5vw;
     padding: 1.7vw 3.2vw;
@@ -280,32 +291,32 @@ ul li:before {
 
 .our_approach_container{
     position: relative;
-    height: 45vw;
+    height: 43vw;
     width: 87vw;
     align-content: center;
     margin-top: 5vw;
     margin-left: 1vw;
     margin-bottom: 6vw;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),
-        url(../assets/Homepage/girl_with_post.jpeg);
-    background-size: 87vw 60vw;
-    background-position-y: -7vw;
+    background-image: url(../assets/Homepage/cfcl_home_makedifference_edit.jpg);
+    background-size: 90vw 48vw;
+    background-position-y: -2vw;
 }
 
 .our_approach_container h2{
 
     font-weight: bold;
     color: white;
-    padding-top: 17vw;
-    padding-bottom: 7vw;
+    padding-top: 19vw;
+    padding-bottom: 5vw;
     padding-left: 10vw;
     text-align: left;
     width: 100vw;
+    line-height: 1.2;
 }
 
 .our_approach_container a{
     background-color: #FF604E;
-    margin-top: 20vw;
+    margin-top: 0vw;
     margin-left: 10vw;
     padding: 1.1vw 2vw;
     font-size: 1.75vw;
@@ -345,10 +356,11 @@ ul li:before {
     font-weight: bold;
     color: white;
     padding-top: 17vw;
-    padding-bottom: 7vw;
+    padding-bottom: 5vw;
     padding-left: 10vw;
     text-align: left;
     width: 100vw;
+    line-height:1.2;
 }
 
 .stories_container a{
