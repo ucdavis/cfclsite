@@ -135,7 +135,7 @@ html {
     margin-bottom: 4vw;
     width: 24vw;
     height: 25vw;
-    font-size: 1.7vw;
+    font-size: 2.2vw;
     text-align: center;
     background: white;
     border: 2px white;
@@ -146,7 +146,7 @@ html {
 
 .value:hover{
     width: 25vw;
-    font-size: 2.3vw;
+    font-size: 2.4vw;
     box-shadow: 0 0 7px 4px rgba(0, 218, 171, 0.719);
     transition: width 0.5s linear, box-shadow 0.5s linear,
                 font-size 0.5s linear;
@@ -162,9 +162,10 @@ html {
     font-size: inherit; 
     font-family: "montserrat-bold";
     font-weight: 400;
-    font-size: 2.2vw;
+    /*font-size: 2.2vw;*/
 }
 
+/*
 .small h3{
     margin-top: 1vw;
     margin-bottom: .1vw;
@@ -178,6 +179,7 @@ html {
 .wisdom img{
     left: -100vw;
 }
+*/
 
 .value p{
     padding: 1vw 2vw 0 2vw;
