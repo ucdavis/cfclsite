@@ -309,15 +309,18 @@ html {
 }
 
 .stepping_stones .steps{
-    /*margin-top: 80px;*/
-    /*margin-bottom: 40px;*/
     margin: 2.5vw;
     width: 25vw;
+    font-size: 1.75vw; 
     /*margin-right:auto;*/
+    transition: filter 0.5s linear, width 0.5s linear,
+        margin-bottom 0.5s linear, box-shadow 0.5s linear;
+    /*
     transition-duration: 0.3s;
     transition-property: box-shadow;
     -webkit-transition-duration: 0.3s;
     -webkit-transition-property: box-shadow;
+    */
 }
 
 .steps:hover {
@@ -331,7 +334,7 @@ html {
     -moz-filter: brightness(120%);
     -o-filter: brightness(120%);
     -ms-filter: brightness(120%);
-    transition: filter 0.5s linear, width 0.5s linear, margin-bottom 0.5s linear;
+    
 }
 
 .stepping_stones .darken:hover{
@@ -340,7 +343,6 @@ html {
     -moz-filter: brightness(80%);
     -o-filter: brightness(80%);
     -ms-filter: brightness(80%);
-    transition: filter 0.5s linear;
 }
 
 .color_border_r:hover{
@@ -356,12 +358,13 @@ html {
 .enlarge:hover{
     width: 28vw;
     margin-bottom: .5vw;
-    transition: width 0.5s linear, margin-bottom 0.5s linear;
+    font-size: 1.75vw; /*not working*/
 }
 
 .stepping_stones .black{
     background-color: rgb(48, 48, 48);
     width: inherit;
+    font-size: inherit;
     height: 7vw;
     filter: brightness(100%);
     -webkit-filter: brightness(100%);
@@ -373,7 +376,7 @@ html {
 .stepping_stones p{
     padding: 5%; /* used to be 20px */
     /*width: 350px;*/  
-    font-size: 1.75vw;    
+    font-size: inherit;    
     color: white;
     line-height: 1.4;
     font-family: "montserrat-medium";
@@ -383,11 +386,6 @@ html {
     width: 100%;
 }
 
-
-/*
-    Stepping stones are in classes of steps
-    We can use JS to use a listen for clicks on this tag
-*/
 
 /*
 ///////////////////////////////////////
@@ -519,10 +517,12 @@ html {
         margin: 2.5vw;
         width: 40vw;
         /*margin-right:auto;*/
+        /*
         transition-duration: 0.3s;
         transition-property: box-shadow;
         -webkit-transition-duration: 0.3s;
         -webkit-transition-property: box-shadow;
+        */
     }
 
     /*
