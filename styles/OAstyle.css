@@ -109,13 +109,13 @@ html {
     height: 1vw;
     transform: rotate(270deg);
     position: relative;
-    top: 35vw;
+    top: 36vw;
     left: -43vw;
     font-weight: bolder;
 }
 
 .sideways_subheader div {
-    width: 40vw;
+    width: 42vw;
     border-bottom: 2px solid #FF604E;
     height: 1.3vw;
     margin-right: 20px;
