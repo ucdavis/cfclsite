@@ -67,11 +67,15 @@ nav a{
     color: #00DAA9;
     font-size: 3vw;
 }
-
+/*
 .plus:hover{
     cursor: pointer;
 }
-/*.long_form{
+.minus:hover{
+    cursor: pointer;
+}
+
+.long_form{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -93,6 +97,10 @@ nav a{
     transition: color 0.5s linear, font-weight 0.5s linear,     background-color 0.5s linear;
 }
 
+.question_title:hover {
+    cursor: pointer;
+}
+
 .minus{
     width: 3.3vw;
     height: 3vw;
@@ -109,10 +117,6 @@ nav a{
     position: relative;
     left: .7vw;
     top: -.4vw;
-}
-
-.minus:hover{
-    cursor: pointer;
 }
 
 .hidden {

@@ -45,6 +45,14 @@ for (let i = 0; i < parentElem.children.length; i++) {
     let elem = parentElem.children[i];
     let expandFunc = createExpandFunction(elem);
     let contractFunc = createContractFunction(elem);
-    elem.children[0].children[1].addEventListener('click', expandFunc);
-    elem.children[0].children[2].addEventListener('click', contractFunc);
+    let func = function() {
+	if (flag) {
+	    expandFunc();
+	    flag = false;
+	} else {
+	    contractFunc();
+	    flag = true;
+	}
+    }
+    elem.children[0].addEventListener('click', func);
 }
