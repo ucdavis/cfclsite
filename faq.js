@@ -40,8 +40,9 @@ function createContractFunction(questionNode) {
     return returnFunc;
 }*/
 
-for (let i = 1; i <= 14; i++) {
-    let elem = document.getElementById('q'+i);
+let parentElem = document.getElementById('questions');
+for (let i = 0; i < parentElem.children.length; i++) {
+    let elem = parentElem.children[i];
     let expandFunc = createExpandFunction(elem);
     let contractFunc = createContractFunction(elem);
     elem.children[0].children[1].addEventListener('click', expandFunc);
