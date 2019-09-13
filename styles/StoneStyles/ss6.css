@@ -1,0 +1,301 @@
+.instructions {
+    background-color: #F6EDE1;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    line-height: 1.2;
+}
+
+
+.instructions h2, h4, .blue, .blue_text{
+    color: #00DAA9;
+    font-family: "montserrat-bold";
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+p{
+    font-family: "montserrat-medium";
+    font-weight: 100;
+}
+
+.instr_title {
+    width: 49vw;
+}
+
+.instr_title div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.instr_title h2 {
+    font-weight: 600;
+    font-size: 5vw;
+    line-height: 1.2;
+    margin-bottom: 2vw;
+}
+
+.instr_title img {
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+.bold{
+    font-weight: bold;
+    padding-right: 10px;
+    padding-top: .3vw;
+    margin-left: 1vw;
+    margin-bottom: 1vw;
+}
+
+
+.bg_num {
+    font-size: 150px;
+    position: relative;
+    line-height: 70px;
+    opacity: 0.1;
+    font-weight: 600;
+}
+
+.sec_1 .bg_num {
+    top: 10vw;
+    left: 0;
+}
+
+
+.sec_1{
+    width: 90vw;
+    margin-bottom: 10vw;
+}
+
+.left{
+    width: 30vw;
+}
+.left .ss1{
+    position: relative;
+    width: 40vw;
+    top: 4vw;
+    left: -3.5vw;
+    padding-top: 0;
+}
+
+
+.right{
+    float: right;
+    width: 52vw;
+    margin-top: -20vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.right h4{
+    font-weight: 600;
+    font-size: 2.2vw;
+}
+
+
+.horizontal_line {
+    border-bottom: 1px solid #00DAA9;
+    width: 100%;
+    margin-top: 1.5vw;
+    margin-bottom: 10px;
+}
+
+.below_blue{
+    margin-top: 1.5vw;
+    display:flex;
+    float: left;
+    color: #00DAA9;
+    width: 10vw;
+    font-family: "Montserrat-bold";
+    height: 7vw;
+}
+
+.below_black{
+    margin-top: 1.5vw;
+    margin-bottom: -2vw;
+    margin-left: 2vw;
+    font-weight: 400;
+    float:right;
+    display: flex;
+    width: 36vw;
+}
+
+
+
+/*
+//////////////////////////////////
+//////// Section 2    ///////////
+/////////////////////////////////
+*/
+
+
+.sec_2 .bot{
+    float: right;
+    width: 52vw;
+    margin-top: -33vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sec_2 .bot h4{
+    font-weight: 600;
+    font-size: 2.2vw;
+}
+
+.left .ss2{
+    position: relative;
+    width: 40vw;
+    top: -47vw;
+    left: 50vw;
+}
+
+.sec_2{
+    margin-top: 20vw; 
+    position: relative;
+}
+.sec_2 .left{
+    width: 48vw;
+    height: 25vw;
+}
+
+.sec_2 .left h4{
+    position: relative;
+    margin-left: 6vw;
+    top: 1vw;
+    font-weight: 600;
+    font-size:2.4vw;
+}
+
+.sec_2 .horizontal_line{
+    position: relative;
+    top: 1vw;
+    left: 6vw;
+    width: 96%;
+    margin-bottom: 0;
+}
+
+.sec_2 .bot_container{
+    margin-top: -8vw;
+    margin-left: 6.5vw;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    height: 50vw;
+}
+
+.sec_2 .bot{
+    margin-top: 0vw;
+    width: 61vw;
+
+}
+.sec_2 p{
+    max-height: 5vw;
+}
+
+.sec_2 .below_blue{
+    margin-top: 1.5vw;
+    display:flex;
+    float: left;
+    color: #00DAA9;
+    width: 10vw;
+    font-family: "Montserrat-bold";
+    height: 7vw;
+}
+
+.sec_2 .below_black{
+    margin-top: 1.5vw;
+    margin-left: 2vw;
+    font-weight: 400;
+    float:right;
+    display: flex;
+    width: 30vw;
+    max-height: 5vw;
+}
+
+/*
+////////////////////////////////
+//////////// Section 3  ////////
+////////////////////////////////
+*/
+
+
+.sec_3{
+    position: relative;
+    width: 100vw;
+    height: 40vw;
+    margin-top: -5vw;
+}
+
+.sec_3 .ss3{
+    position: relative;
+    width: 70vw;
+    left: -20vw;
+    top: -35vw;
+}
+
+.sec_3 .top{
+    position: relative;
+}
+
+.sec_3 .bg_num{
+    left: 55vw;
+    top: -15vw;
+}
+
+.sec_3 .right{
+    position: relative;
+    top: -28vw;
+    left: 15vw;
+    height: 1vw;
+    margin-bottom: 0vw;
+}
+
+.sec_3 h4{
+    width: 28vw;
+}
+
+.sec_3 .horizontal_line{
+    position: relative;
+    top: 1vw;
+    left: 0;
+    width: 90%;
+    margin-bottom: 0;
+}
+
+.bot{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 90vw;
+    height: 20vw;
+    margin-top: -35vw;
+    margin-left: 5vw;
+}
+
+.bot .text_container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 45vw;
+}
+
+.bot .text_container .below_blue{
+    display: flex;
+    width: 40vw;
+    height: 3vw;
+    margin-top: 3vw;
+
+}
+
+.bot .text_container .below_black{
+    float: left;
+    width: 34vw;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 10vw;
+}
