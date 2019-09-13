@@ -26,7 +26,7 @@
 }
 
 .header6 {
-    background-image: url(../assets/SSPages/SS6/ss6_mock1.jpg);
+    background-image: url(../assets/SSPages/SS6/ss6_mock1_beige.jpg);
 }
 
 .header7 {
@@ -61,19 +61,197 @@
     font-size: 125pt;
     opacity: 0.15;
     font-weight: 300;
+    text-decoration: none;
+}
+
+/* ========== Color Schemes ============ */
+
+.purple_bg {
+    background-color: #5F1AC1;
+}
+
+.orange_bg {
+    background-color: #FF9B2A;
+}
+
+.teal_bg {
+    background-color: #00DAA9;
+}
+
+.coral_bg {
+    background-color: #FF604E;
+}
+
+.navy_bg {
+    background-color: #283977;
+}
+
+.neutral_bg {
+    background-color: #F6EDE1;
+}
+
+.purple {
+    color: #5F1AC1;
+}
+
+.white {
+    color: white;
+}
+
+.teal {
+    color: #00DAA9;
+}
+
+.orange {
+    color: #FF9B2A;
+}
+
+.coral {
+    color: #FF604E;
+}
+
+.horizontal_line_teal {
+    border-bottom: 1px solid #00DAA9;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.horizontal_line_orange {
+    border-bottom: 1px solid #FF9B2A;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*     Button Stuff */
+
+.orange_bt {
+    color: white;
+    background-color: #FF9B2A;
+    filter: none;
+    border: 1px solid #FF9B2A;
+}
+
+.orange_bt:hover {
+    color: #FF9B2A;
+    filter: brightness(0) saturate(100%) invert(70%) sepia(27%) saturate(2992%) hue-rotate(338deg) brightness(103%) contrast(102%);
+    background-color: rgba(0,0,0,0);
+}
+
+.purple_bt {
+    color: white;
+    background-color: #5F1AC1;
+    filter: none;
+    border: 1px solid #5F1AC1;
+}
+
+.purple_bt:hover {
+    color: #5F1AC1;
+    filter: brightness(0) saturate(100%) invert(10%) sepia(93%) saturate(6055%) hue-rotate(268deg) brightness(88%) contrast(96%);
+    background-color: rgba(0,0,0,0);
+}
+
+.coral_bt {
+    color: white;
+    background-color: #FF604E;
+    filter: none;
+    border: 1px solid #FF604E;
+}
+
+.coral_bt:hover {
+    color: #FF604E;
+    filter: brightness(0) saturate(100%) invert(63%) sepia(81%) saturate(3776%) hue-rotate(327deg) brightness(98%) contrast(108%);
+    background-color: rgba(0,0,0,0);
+}
+
+.teal_bt {
+    color: white;
+    border: 1px solid #00DAA9;
+    filter: none;
+    background-color: #00DAA9;
+}
+
+.teal_bt:hover {
+    background-color: rgba(0,0,0,0);
+    color: #00DAA9;
+    filter: brightness(0) saturate(100%) invert(69%) sepia(27%) saturate(6732%) hue-rotate(123deg) brightness(101%) contrast(101%);
+}
+
+.orange_bt_inv {
+    color: #FF9B2A;
+    border: 1px solid #FF9B2A;
+    filter: brightness(0) saturate(100%) invert(70%) sepia(27%) saturate(2992%) hue-rotate(338deg) brightness(103%) contrast(102%);
+}
+
+.orange_bt_inv:hover {
+    color: white;
+    background-color: #FF9B2A;
+    filter: none;
+}
+
+.purple_bt_inv {
+    color: #5F1AC1;
+    border: 1px solid #5F1AC1;
+    filter: brightness(0) saturate(100%) invert(10%) sepia(93%) saturate(6055%) hue-rotate(268deg) brightness(88%) contrast(96%);
+}
+
+.purple_bt_inv:hover {
+    color: white;
+    background-color: #5F1AC1;
+    filter: none;
+}
+
+.coral_bt_inv {
+    color: #FF604E;
+    border: 1px solid #FF604E;
+    filter: brightness(0) saturate(100%) invert(63%) sepia(81%) saturate(3776%) hue-rotate(327deg) brightness(98%) contrast(108%);
+}
+
+.coral_bt_inv:hover {
+    color: white;
+    background-color: #FF604E;
+    filter: none;
+}
+
+.teal_bt_inv {
+    color: #00DAA9;
+    border: 1px solid #00DAA9;
+    filter: brightness(0) saturate(100%) invert(69%) sepia(27%) saturate(6732%) hue-rotate(123deg) brightness(101%) contrast(101%);
+}
+
+.teal_bt_inv:hover {
+    background-color: #00DAA9;
+    color: white;
+    filter: none;
+}
+
+.white_bt_inv {
+    color: white;
+    border: 1px solid white;
+}
+
+.white_bt_inv:hover {
+    background-color: white;
+}
+
+.white_bt_inv:hover img {
+    opacity: 0;
+}
+
+.white_bt_inv:hover p {
+    opacity: 0;
 }
 
 /* ======================= */
 
 .intro_section {
-    background-color: #3A0577;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     color: white;
     padding-top: 7vh;
     padding-bottom: 5vh;
-    padding-left: 5vw;
 }
 
 .intro_left {
@@ -95,7 +273,7 @@
 .ss_num {
     position: relative;
     top: -10vh;
-    left: -48vw;
+    left: -50vw;
     text-decoration: underline;
     font-size: 150px;
     font-weight: 500;
@@ -116,10 +294,7 @@
     align-items: center;
     padding: 15px 25px 15px 25px;
     font-size: 26px;
-    color: white;
-    border: 1px solid #FF604E;
     border-radius: 20px;
-    background-color: #FF604E;
     transition-duration: 0.7s;
     transition-property: color, background-color;
     -webkit-transition-duration: 0.7s;
@@ -129,11 +304,6 @@
 .download_button > img {
     width: 2vw;
     margin-right: 1vw;
-}
-
-.download_button:hover {
-    color: white;
-    background-color: #3A0577;
 }
 
 /* ================================== */
@@ -146,8 +316,6 @@
     align-items: center;
     padding-top: 10vh;
     padding-bottom: 10vh;
-    background-color: #F6EDE1;
-    color: #3A0577;
 }
 
 .download_section h3 {
@@ -161,25 +329,16 @@
     align-items: center;
     padding: 15px 25px 15px 25px;
     font-size: 26px;
-    color: #FF604E;
-    border: 1px solid #FF604E;
     border-radius: 20px;
     transition-duration: 0.7s;
     transition-property: color, background-color;
     -webkit-transition-duration: 0.7s;
     -webkit-transition-property: color, background-color;
-    filter: brightness(0) saturate(100%) invert(68%) sepia(60%) saturate(6577%) hue-rotate(332deg) brightness(108%) contrast(101%);
 }
 
 .download_button_inverse > img {
     width: 2vw;
     margin-right: 1vw;
-}
-
-.download_button_inverse:hover {
-    color: white;
-    background-color: #FF604E;
-    filter: none;
 }
 
 /* ======================== */
@@ -212,7 +371,7 @@
     /*margin-left: 5vw;*/
 }
 
-.sliding_menu p{
+.steps p{
     padding: 5%; /* used to be 20px */
     /*width: 350px;*/
     width: 90%;
@@ -240,14 +399,16 @@
     border-radius: 50px;
     width: 40px;
     height: 40px;
-    font-size: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
-.arrow > a{
-    height: 45px;
+.arrow > p{
+    font-size: 40px;
+    position: relative;
+    top: -3px;
 }
 
 .sliding_menu img {
@@ -285,8 +446,9 @@
 
 .closePopUp {
     position: absolute;
-    top: 5px;
-    left: 5px;
+    top: 2.5vh;
+    left: 2.5vw;
     color: white;
     font-size: 20px;
+    cursor: pointer;
 }

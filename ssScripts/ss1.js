@@ -5,6 +5,8 @@ function TopSection(props) {
         React.createElement(Header, {
             headImg: "1" }),
         React.createElement(IntroSection, {
+            buttonColor: "coral_bt",
+            headClass: "purple_bg",
             title: "Get Ready for Our Project",
             stoneNumber: "01",
             coverSrc: "assets/SSPages/SS1/ss1_cover.png",
@@ -19,7 +21,7 @@ function BotSection(props) {
     return React.createElement(
         "div",
         null,
-        React.createElement(DownloadButton, null),
+        React.createElement(DownloadButton, { color: "purple", buttonColor: "orange_bt" }),
         React.createElement(Toolkit, { currentStone: 1 }),
         React.createElement(Footer, null)
     );

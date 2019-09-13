@@ -2,6 +2,14 @@
 
 function Header(props) {
     let titleClass = "title_container header" + props.headImg;
+    let leftArrow = <a></a>;
+    if (props.headImg != 1) {
+        leftArrow = <a href={"ss"+ (parseInt(props.headImg)-1) +".html"}>&#x2039;</a>;
+    }
+    let rightArrow;
+    if (props.headImg != 9) {
+        rightArrow = <a href={"ss"+ (parseInt(props.headImg)+1) +".html"}>&#x203A;</a>;
+    }
     return (
         <div className= {titleClass}>
             <div className="header">
@@ -18,8 +26,8 @@ function Header(props) {
                 </nav>
             </div>
             <div className="top_step_nav in_margin">
-                <a href={props.leftLink}>&#x2039;</a>
-                <a href={props.rightLink}>&#x203A;</a>
+                {leftArrow}
+                {rightArrow}
             </div>
         </div>
     );
@@ -27,8 +35,10 @@ function Header(props) {
 
 function IntroSection(props) {
     let altText = "Cover image of Stepping Stone "+props.stoneNumber;
+    let classes = "intro_section in_margin " + props.headClass;
+    let downloadClass= "download_button "+props.buttonColor;
     return (
-        <div className="intro_section">
+        <div className={classes}>
             <div className="intro_left">
                 <h1>{props.title}</h1>
                 <h4>{props.subtitle}</h4>
@@ -38,7 +48,7 @@ function IntroSection(props) {
                 <br/>
                 <br/>
                 <div className="download_button_row">
-                    <div className="download_button">
+                    <div className={downloadClass}>
                         <img src="assets/SSPages/download.png"/>
                         <p>download</p>
                     </div>
@@ -156,11 +166,18 @@ function LetsGo(props) {
     );
 }*/
 
-function DownloadButton() {
+function DownloadButton(props) {
+    let buttonClasses = "download_button_inverse "+props.buttonColor+"_inv";
+    let sectionClasses;
+    if (props.bg) {
+        sectionClasses="download_section " + props.bg;
+    } else {
+        sectionClasses="download_section neutral_bg";
+    }
     return (
-        <div className="download_section">
-            <h3>Ready to get started?</h3>
-            <div className="download_button_inverse">
+        <div className={sectionClasses}>
+            <h3 className={props.color}>Ready to get started?</h3>
+            <div className={buttonClasses}>
                 <img src="assets/SSPages/download.png" alt="Download Symbol"/>
                 <p>download</p>
             </div>
@@ -182,9 +199,9 @@ class Toolkit extends React.Component {
                              "assets/OurApproach/thumbnails/CFCL Thumbnails-9.png"]
         let thumbnailTitles = []
         let currStone = props.currentStone;
-        let leftMost = Math.min(props.currentStone - 2, 1);
-        if (currStone == 1 || currStone == 2) {
-            leftMost = 2;
+        let leftMost = Math.max(props.currentStone - 2, 1);
+        if (leftMost > 5) {
+            leftMost = 5;
         }
         this.state = {
                         srcs: thumbnailSrcs,
@@ -220,14 +237,14 @@ class Toolkit extends React.Component {
     }
 
     render() {
-        let steps = [<div className="arrow"><a onClick={this.shiftLeft}>&#x2039;</a></div>];
+        let steps = [<div className="arrow" onClick={this.shiftLeft}><p>&#x2039;</p></div>];
         for (let i = 0; i < 5; i++) {
             let hrefStr = "ss" + (i + this.state.currentLeftMost) + ".html";
             steps.push( <div className="steps">
                             <a href={hrefStr}><img src={this.state.srcs[i + this.state.currentLeftMost - 1]}/></a>
                         </div>);
         }
-        steps.push(<div className="arrow"><a onClick={this.shiftRight}>&#x203A;</a></div>);
+        steps.push(<div className="arrow" onClick={this.shiftRight}><p>&#x203A;</p></div>);
         let popup;
         if (this.state.displayPopUp) {
             let stones = this.state.srcs.map((src) => <img src={src}/>);
@@ -240,7 +257,7 @@ class Toolkit extends React.Component {
         }
         return(
             <div className="bot_step_nav">
-                <h4>The Toolkit</h4>
+                <h4 className="purple">The Toolkit</h4>
                 <div className="sliding_menu">
                 {steps}
                 </div>

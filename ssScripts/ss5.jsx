@@ -5,12 +5,12 @@ function TopSection(props) {
         <Header
             headImg="5"/>
         <IntroSection
-            title="Choosing a Focus:"
-            subtitle="What do we want to change?"
+            buttonColor="coral_bt"
+            headClass="orange_bg"
+            title="Practice Research Skills"
             stoneNumber="05"
-            coverSrc="assets/SSPages/SS3/ss3_cover_transparent.png"
-            introPara="It's time to dive in and think critically about your community!"
-            introPara2="In Stepping Stone 3, you will choose your project's focus after exploring past and current issues shaping your community as well as your own personal experiences."
+            coverSrc="assets/SSPages/SS5/ss5_cover_transparent.png"
+            introPara="It's time to develop the skills you'll need to do your research! Stepping Stone 5 includes activities that will build your skills in facilitation, note-taking, active listening, asking questions, understanding data, and mapping."
             pageNums="24"
             fileSize="1.4"/>
         </div>
@@ -20,7 +20,7 @@ function TopSection(props) {
 function BotSection(props) {
     return (
         <div>
-            <DownloadButton/>
+            <DownloadButton color="coral" buttonColor="coral_bt"/>
             <Toolkit currentStone={5}/>
             <Footer/>
         </div>
