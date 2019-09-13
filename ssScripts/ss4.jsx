@@ -5,12 +5,12 @@ function TopSection(props) {
         <Header
             headImg="4"/>
         <IntroSection
-            title="Choosing a Focus:"
-            subtitle="What do we want to change?"
+            buttonColor="purple_bt"
+            headClass="teal_bg"
+            title="Develop Our Research Plan"
             stoneNumber="04"
-            coverSrc="assets/SSPages/SS3/ss3_cover_transparent.png"
-            introPara="It's time to dive in and think critically about your community!"
-            introPara2="In Stepping Stone 3, you will choose your project's focus after exploring past and current issues shaping your community as well as your own personal experiences."
+            coverSrc="assets/SSPages/SS4/ss4_cover_transparent.png"
+            introPara="It's time to design your research! In this stepping stone you will identify what you want to know about your issue and figure out the best way to collect that information."
             pageNums="24"
             fileSize="1.4"/>
         </div>
@@ -20,7 +20,7 @@ function TopSection(props) {
 function BotSection(props) {
     return (
         <div>
-            <DownloadButton/>
+            <DownloadButton color="purple" buttonColor="purple_bt"/>
             <Toolkit currentStone={4}/>
             <Footer/>
         </div>

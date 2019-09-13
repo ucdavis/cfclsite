@@ -6,12 +6,12 @@ function TopSection(props) {
         React.createElement(Header, {
             headImg: "6" }),
         React.createElement(IntroSection, {
-            title: "Choosing a Focus:",
-            subtitle: "What do we want to change?",
+            buttonColor: "teal_bt",
+            headClass: "coral_bg",
+            title: "Conduct Research",
             stoneNumber: "06",
-            coverSrc: "assets/SSPages/SS3/ss3_cover_transparent.png",
-            introPara: "It's time to dive in and think critically about your community!",
-            introPara2: "In Stepping Stone 3, you will choose your project's focus after exploring past and current issues shaping your community as well as your own personal experiences.",
+            coverSrc: "assets/SSPages/SS6/ss6_cover_transparent.png",
+            introPara: "It's time to go out and do your research! In Stepping Stone 6 you will finalize your research plan and collect data.",
             pageNums: "24",
             fileSize: "1.4" })
     );
@@ -21,7 +21,7 @@ function BotSection(props) {
     return React.createElement(
         "div",
         null,
-        React.createElement(DownloadButton, null),
+        React.createElement(DownloadButton, { color: "coral", buttonColor: "coral_bt" }),
         React.createElement(Toolkit, { currentStone: 6 }),
         React.createElement(Footer, null)
     );

@@ -5,6 +5,8 @@ function TopSection(props) {
         <Header
             headImg="3"/>
         <IntroSection
+            buttonColor="coral_bt"
+            headClass="orange_bg"
             title="Choosing a Focus:"
             subtitle="What do we want to change?"
             stoneNumber="03"
@@ -20,7 +22,7 @@ function TopSection(props) {
 function BotSection(props) {
     return (
         <div>
-            <DownloadButton/>
+            <DownloadButton color="orange" buttonColor="orange_bt"/>
             <Toolkit currentStone={3}/>
             <Footer/>
         </div>

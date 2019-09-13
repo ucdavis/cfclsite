@@ -4,6 +4,8 @@ function TopSection(props) {
         <Header
             headImg="1"/>
         <IntroSection
+            buttonColor="coral_bt"
+            headClass="purple_bg"
             title="Get Ready for Our Project"
             stoneNumber="01"
             coverSrc="assets/SSPages/SS1/ss1_cover.png"
@@ -18,7 +20,7 @@ function TopSection(props) {
 function BotSection(props) {
     return (
         <div>
-            <DownloadButton/>
+            <DownloadButton color="purple" buttonColor="orange_bt"/>
             <Toolkit currentStone={1}/>
             <Footer/>
         </div>

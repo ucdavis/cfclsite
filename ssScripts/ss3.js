@@ -6,6 +6,8 @@ function TopSection(props) {
         React.createElement(Header, {
             headImg: "3" }),
         React.createElement(IntroSection, {
+            buttonColor: "coral_bt",
+            headClass: "orange_bg",
             title: "Choosing a Focus:",
             subtitle: "What do we want to change?",
             stoneNumber: "03",
@@ -21,7 +23,7 @@ function BotSection(props) {
     return React.createElement(
         "div",
         null,
-        React.createElement(DownloadButton, null),
+        React.createElement(DownloadButton, { color: "orange", buttonColor: "orange_bt" }),
         React.createElement(Toolkit, { currentStone: 3 }),
         React.createElement(Footer, null)
     );
