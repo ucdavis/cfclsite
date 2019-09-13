@@ -1,0 +1,76 @@
+.instructions {
+    padding-top: 10vh;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.bg_num {
+    font-size: 150px;
+    position: relative;
+    line-height: 70px;
+    opacity: 0.1;
+    font-weight: 600;
+    bottom: 45vh;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.instr_title {
+    width: 50vw;
+    padding-bottom: 20vh;
+}
+
+.instr_title div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.instr_title h2 {
+    font-weight: 600;
+}
+
+.instr_title img {
+    width: 2.5vw;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 10vh;
+    align-items: center;
+}
+
+.section img {
+    max-width: 33vw;
+
+}
+
+.textSide {
+    width: 57vw;
+}
+
+.botText {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.botText > p {
+    min-width: 15vw;
+}
+
+#text3 .textSide {
+    width: 50vw;
+}
