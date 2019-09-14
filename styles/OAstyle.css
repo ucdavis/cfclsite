@@ -144,6 +144,11 @@ html {
     z-index: 1;
 }
 
+.value p{
+    width: 20vw;
+    margin: auto;
+}
+
 .value:hover{
     width: 25vw;
     font-size: 2.4vw;
@@ -353,6 +358,11 @@ html {
 .color_border_g:hover{
     box-shadow: 0 0 15px 2.5px #00DAA9;
     -webkit-box-shadow: 0 0 15px 2.5px #00DAA9;
+}
+
+.color_border_p:hover{
+    box-shadow: 0 0 15px 2.5px #3A0577;
+    -webkit-box-shadow: 0 0 15px 2.5px #3A0577;
 }
 
 .enlarge:hover{

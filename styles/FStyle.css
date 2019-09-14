@@ -94,7 +94,7 @@ nav a{
     background-color: #EAEAEA;
     padding: 1vw 2vw 1vw 3vw;
     margin-bottom: 0vw;
-    transition: color 0.5s linear, font-weight 0.5s linear, background-color 0.5s linear;
+    transition: color 0.5s linear, font-weight 0.5s linear,     background-color 0.5s linear;
 }
 
 .question_title:hover {
@@ -133,8 +133,13 @@ nav a{
 
 .blue_bold p {
     font-weight: 500;
+<<<<<<< HEAD
+    font-size: 33px;
+    transition: font-weight 0.5s linear, font-size 0.5s linear;
+=======
     font-size: 1.75vw;
     transition: font-weight 0.5s linear, font-size 0.4s linear;
+>>>>>>> 236238a47d1f86e5abf38fb47bf57624f2239fcd
 }
 
 .long_form {
