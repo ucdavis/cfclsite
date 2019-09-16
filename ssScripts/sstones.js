@@ -111,8 +111,8 @@ function IntroSection(props) {
                 "div",
                 { className: "download_button_row" },
                 React.createElement(
-                    "div",
-                    { className: downloadClass },
+                    "a",
+                    { className: downloadClass, href: props.pdfPath, download: true },
                     React.createElement("img", { src: "assets/SSPages/download.png" }),
                     React.createElement(
                         "p",
@@ -263,8 +263,8 @@ function DownloadButton(props) {
             "Ready to get started?"
         ),
         React.createElement(
-            "div",
-            { className: buttonClasses },
+            "a",
+            { className: buttonClasses, href: props.pdfPath, download: true },
             React.createElement("img", { src: "assets/SSPages/download.png", alt: "Download Symbol" }),
             React.createElement(
                 "p",

@@ -15,7 +15,8 @@ function TopSection(props) {
             introPara: "It's time to dive in and think critically about your community!",
             introPara2: "In Stepping Stone 3, you will choose your project's focus after exploring past and current issues shaping your community as well as your own personal experiences.",
             pageNums: "24",
-            fileSize: "1.4" })
+            fileSize: "1.4",
+            pdfPath: "assets/SSpages/SS3/CFCLModule3OnePage.pdf" })
     );
 }
 
@@ -23,7 +24,7 @@ function BotSection(props) {
     return React.createElement(
         "div",
         null,
-        React.createElement(DownloadButton, { color: "orange", buttonColor: "orange_bt" }),
+        React.createElement(DownloadButton, { color: "orange", buttonColor: "orange_bt", pdfPath: "assets/SSpages/SS3/CFCLModule3OnePage.pdf" }),
         React.createElement(Toolkit, { currentStone: 3 }),
         React.createElement(Footer, null)
     );

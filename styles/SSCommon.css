@@ -302,6 +302,7 @@ h4 {
     justify-content: space-around;
     align-items: center;
     padding: 15px 25px 15px 25px;
+    text-decoration: none;
     font-size: 26px;
     border-radius: 20px;
     transition-duration: 0.7s;
@@ -339,6 +340,7 @@ h4 {
     padding: 15px 25px 15px 25px;
     font-size: 26px;
     border-radius: 20px;
+    text-decoration: none;
     transition-duration: 0.7s;
     transition-property: color, background-color;
     -webkit-transition-duration: 0.7s;

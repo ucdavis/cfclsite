@@ -48,10 +48,10 @@ function IntroSection(props) {
                 <br/>
                 <br/>
                 <div className="download_button_row">
-                    <div className={downloadClass}>
+                    <a className={downloadClass} href={props.pdfPath} download>
                         <img src="assets/SSPages/download.png"/>
                         <p>download</p>
-                    </div>
+                    </a>
                     <p>{props.pageNums} page PDF | {props.fileSize} MB</p>
                 </div>
             </div>
@@ -177,10 +177,10 @@ function DownloadButton(props) {
     return (
         <div className={sectionClasses}>
             <h3 className={props.color}>Ready to get started?</h3>
-            <div className={buttonClasses}>
+            <a className={buttonClasses} href={props.pdfPath} download>
                 <img src="assets/SSPages/download.png" alt="Download Symbol"/>
                 <p>download</p>
-            </div>
+            </a>
         </div>
     );
 }
