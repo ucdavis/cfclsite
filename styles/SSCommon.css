@@ -76,7 +76,7 @@ h4 {
 /* ========== Color Schemes ============ */
 
 .purple_bg {
-    background-color: #5F1AC1;
+    background-color: #463489;
 }
 
 .orange_bg {
@@ -100,7 +100,7 @@ h4 {
 }
 
 .purple {
-    color: #5F1AC1;
+    color: #463489;
 }
 
 .white {
@@ -150,14 +150,14 @@ h4 {
 
 .purple_bt {
     color: white;
-    background-color: #5F1AC1;
+    background-color: #463489;
     filter: none;
-    border: 1px solid #5F1AC1;
+    border: 1px solid #463489;
 }
 
 .purple_bt:hover {
-    color: #5F1AC1;
-    filter: brightness(0) saturate(100%) invert(10%) sepia(93%) saturate(6055%) hue-rotate(268deg) brightness(88%) contrast(96%);
+    color: #463489;
+    filter: brightness(0) saturate(100%) invert(20%) sepia(41%) saturate(2541%) hue-rotate(233deg) brightness(93%) contrast(92%);
     background-color: rgba(0,0,0,0);
 }
 
@@ -201,13 +201,13 @@ h4 {
 
 .purple_bt_inv {
     color: #5F1AC1;
-    border: 1px solid #5F1AC1;
-    filter: brightness(0) saturate(100%) invert(10%) sepia(93%) saturate(6055%) hue-rotate(268deg) brightness(88%) contrast(96%);
+    border: 1px solid #463489;
+    filter: brightness(0) saturate(100%) invert(20%) sepia(41%) saturate(2541%) hue-rotate(233deg) brightness(93%) contrast(92%);
 }
 
 .purple_bt_inv:hover {
     color: white;
-    background-color: #5F1AC1;
+    background-color: #463489;
     filter: none;
 }
 

@@ -15,7 +15,7 @@ function TopSection(props) {
             introPara2="In Stepping Stone 3, you will choose your project's focus after exploring past and current issues shaping your community as well as your own personal experiences."
             pageNums="24"
             fileSize="1.4"
-            pdfPath="assets/SSpages/SS3/CFCLModule3OnePage.pdf"/>
+            pdfPath="assets/SSPages/SS3/CFCLModule3OnePage.pdf"/>
         </div>
     );
 }
@@ -23,7 +23,7 @@ function TopSection(props) {
 function BotSection(props) {
     return (
         <div>
-            <DownloadButton color="orange" buttonColor="orange_bt" pdfPath="assets/SSpages/SS3/CFCLModule3OnePage.pdf"/>
+            <DownloadButton color="orange" buttonColor="orange_bt" pdfPath="assets/SSPages/SS3/CFCLModule3OnePage.pdf"/>
             <Toolkit currentStone={3}/>
             <Footer/>
         </div>
