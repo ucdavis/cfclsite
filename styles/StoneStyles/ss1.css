@@ -1,12 +1,11 @@
 .instructions {
-    background-color: #F6EDE1;
     padding-top: 10vh;
     padding-bottom: 10vh;
 }
 
-.instructions h2, h4, .purple {
-    color: #3A0577;
-    font-weight: 500;
+.instructions h2, .instructions h4 {
+    color: #5F1AC1;
+    font-weight: 600;
 }
 
 h4 {
@@ -25,7 +24,7 @@ h4 {
 }
 
 .instr_title h2 {
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .instr_title img {
@@ -74,13 +73,6 @@ h4 {
     width: 30vw;
 }
 
-.horizontal_line {
-    border-bottom: 1px solid #00DAA9;
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
 .bot > div {
     width: 40vw;
 }
@@ -115,13 +107,16 @@ h4 {
     left: -35px;
 }
 
+.subheader {
+    font-weight: 500;
+}
+
 /* ================================== */
 
 .lets_go {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #3A0577;
     color: white;
     padding-bottom: 10vh;
 }
@@ -137,7 +132,7 @@ h4 {
     width: 66vw;
 }
 
-.lets_go h4, h2 {
+.lets_go h4, .lets_go h2 {
     color: white;
     margin: 5vh;
     font-weight: 600;

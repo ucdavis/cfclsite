@@ -10,6 +10,22 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 function Header(props) {
     var titleClass = "title_container header" + props.headImg;
+    var leftArrow = React.createElement("a", null);
+    if (props.headImg != 1) {
+        leftArrow = React.createElement(
+            "a",
+            { href: "ss" + (parseInt(props.headImg) - 1) + ".html" },
+            "\u2039"
+        );
+    }
+    var rightArrow = void 0;
+    if (props.headImg != 9) {
+        rightArrow = React.createElement(
+            "a",
+            { href: "ss" + (parseInt(props.headImg) + 1) + ".html" },
+            "\u203A"
+        );
+    }
     return React.createElement(
         "div",
         { className: titleClass },
@@ -50,25 +66,19 @@ function Header(props) {
         React.createElement(
             "div",
             { className: "top_step_nav in_margin" },
-            React.createElement(
-                "a",
-                { href: props.leftLink },
-                "\u2039"
-            ),
-            React.createElement(
-                "a",
-                { href: props.rightLink },
-                "\u203A"
-            )
+            leftArrow,
+            rightArrow
         )
     );
 }
 
 function IntroSection(props) {
     var altText = "Cover image of Stepping Stone " + props.stoneNumber;
+    var classes = "intro_section in_margin " + props.headClass;
+    var downloadClass = "download_button " + props.buttonColor;
     return React.createElement(
         "div",
-        { className: "intro_section" },
+        { className: classes },
         React.createElement(
             "div",
             { className: "intro_left" },
@@ -101,8 +111,8 @@ function IntroSection(props) {
                 "div",
                 { className: "download_button_row" },
                 React.createElement(
-                    "div",
-                    { className: "download_button" },
+                    "a",
+                    { className: downloadClass, href: props.pdfPath, download: true },
                     React.createElement("img", { src: "assets/SSPages/download.png" }),
                     React.createElement(
                         "p",
@@ -236,18 +246,25 @@ function LetsGo(props) {
     );
 }*/
 
-function DownloadButton() {
+function DownloadButton(props) {
+    var buttonClasses = "download_button_inverse " + props.buttonColor + "_inv";
+    var sectionClasses = void 0;
+    if (props.bg) {
+        sectionClasses = "download_section " + props.bg;
+    } else {
+        sectionClasses = "download_section neutral_bg";
+    }
     return React.createElement(
         "div",
-        { className: "download_section" },
+        { className: sectionClasses },
         React.createElement(
             "h3",
-            null,
+            { className: props.color },
             "Ready to get started?"
         ),
         React.createElement(
-            "div",
-            { className: "download_button_inverse" },
+            "a",
+            { className: buttonClasses, href: props.pdfPath, download: true },
             React.createElement("img", { src: "assets/SSPages/download.png", alt: "Download Symbol" }),
             React.createElement(
                 "p",
@@ -269,9 +286,9 @@ var Toolkit = function (_React$Component) {
         var thumbnailSrcs = ["assets/OurApproach/thumbnails/CFCL Thumbnails-1.png", "assets/OurApproach/thumbnails/CFCL Thumbnails-2.png", "assets/OurApproach/thumbnails/CFCL Thumbnails-3.png", "assets/OurApproach/thumbnails/CFCL Thumbnails-4.png", "assets/OurApproach/thumbnails/CFCL Thumbnails-5.png", "assets/OurApproach/thumbnails/CFCL Thumbnails-6.png", "assets/OurApproach/thumbnails/CFCL Thumbnails-7.png", "assets/OurApproach/thumbnails/CFCL Thumbnails-8.png", "assets/OurApproach/thumbnails/CFCL Thumbnails-9.png"];
         var thumbnailTitles = [];
         var currStone = props.currentStone;
-        var leftMost = Math.min(props.currentStone - 2, 1);
-        if (currStone == 1 || currStone == 2) {
-            leftMost = 2;
+        var leftMost = Math.max(props.currentStone - 2, 1);
+        if (leftMost > 5) {
+            leftMost = 5;
         }
         _this.state = {
             srcs: thumbnailSrcs,
@@ -316,10 +333,10 @@ var Toolkit = function (_React$Component) {
         value: function render() {
             var steps = [React.createElement(
                 "div",
-                { className: "arrow" },
+                { className: "arrow", onClick: this.shiftLeft },
                 React.createElement(
-                    "a",
-                    { onClick: this.shiftLeft },
+                    "p",
+                    null,
                     "\u2039"
                 )
             )];
@@ -337,10 +354,10 @@ var Toolkit = function (_React$Component) {
             }
             steps.push(React.createElement(
                 "div",
-                { className: "arrow" },
+                { className: "arrow", onClick: this.shiftRight },
                 React.createElement(
-                    "a",
-                    { onClick: this.shiftRight },
+                    "p",
+                    null,
                     "\u203A"
                 )
             ));
@@ -374,7 +391,7 @@ var Toolkit = function (_React$Component) {
                 { className: "bot_step_nav" },
                 React.createElement(
                     "h4",
-                    null,
+                    { className: "purple" },
                     "The Toolkit"
                 ),
                 React.createElement(
