@@ -9,7 +9,7 @@ function TopSection(props) {
             headClass="orange_bg"
             title="Get to Know Our Project & Team"
             stoneNumber="02"
-            coverSrc="assets/SSPages/SS3/ss3_cover_transparent.png"
+            coverSrc="assets/SSPages/SS2/ss2_cover.png"
             introPara="It's time to meet your team! In Stepping Stone 2, you will start to build the relationships, guidelines and collective understanding you'll rely on throughout your entire project."
             pageNums="24"
             fileSize="1.4"/>
