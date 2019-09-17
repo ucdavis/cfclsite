@@ -1,0 +1,207 @@
+.instructions {
+    background-color: #F6EDE1;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    line-height: 1.2;
+    height: 160vw;
+}
+
+
+.instructions h2, h4, .red, .red_text{
+    color: #FF604E;
+    font-family: "montserrat-bold";
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+p{
+    font-family: "montserrat-medium";
+    font-weight: 100;
+}
+
+.instr_title {
+    width: 52vw;
+}
+
+.instr_title div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.instr_title h2 {
+    font-weight: 600;
+    font-size: 5vw;
+    line-height: 1.2;
+    margin-bottom: 2vw;
+}
+
+.instr_title img {
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
+.bold{
+    font-weight: bold;
+    padding-right: 10px;
+    padding-top: .3vw;
+    margin-left: 1vw;
+    margin-bottom: 1vw;
+}
+
+
+.bg_num {
+    font-size: 15vw;
+    position: relative;
+    line-height: 70px;
+    opacity: 0.1;
+    font-weight: 600;
+}
+
+.sec_1 .bg_num {
+    top: 10vw;
+    left: 0;
+}
+
+.sec_1{
+    width: 90vw;
+    margin-bottom: 10vw;
+    height: 50vw;
+}
+
+.top{
+    position: relative;
+    width: 30vw;
+}
+.top .ss1{
+    position: absolute;
+    width: 60vw;
+    top: 10vw;
+    left: 35vw;
+    padding-top: 0;
+}
+
+
+.left{
+    position: relative;
+    float: left;
+    width: 45vw;
+    display: flex;
+    flex-wrap: wrap;
+    top: 10vw;
+    left: 5vw;
+}
+
+h4{
+    font-weight: 600;
+    font-size: 2.2vw;
+}
+
+
+.horizontal_line {
+    border-bottom: 1px solid #FF604E;
+    width: 70%;
+    margin-top: 1.5vw;
+    margin-bottom: 10px;
+}
+
+.below_red{
+    margin-top: 1.5vw;
+    display:flex;
+    float: left;
+    color: #FF604E;
+    width: 30vw;
+    font-family: "Montserrat-bold";
+    /*height: 7vw;*/
+}
+
+.below_black{
+    margin-top: 1.5vw;
+    margin-bottom: -2vw;
+    margin-left: 0vw;
+    font-weight: 400;
+    float:left;
+    display: flex;
+    width: 30vw;
+}
+
+.right{
+    position: relative;
+    float: right;
+    width: 45vw;
+    display: flex;
+    flex-wrap: wrap;
+    top: 43vw;
+    left: 10vw;
+}
+
+
+
+/*
+//////////////////////////////////
+//////// Section 2    ///////////
+/////////////////////////////////
+*/
+
+
+
+.sec_2{
+    margin-top: 20vw; 
+    position: relative;
+}
+
+.sec_2 .top{
+    position: relative;
+}
+
+.sec_2 .bg_num{
+    left: -5vw;
+}
+
+.sec_2 .bot{
+    position: absolute;
+    float: right;
+    width: 52vw;
+    top: -35vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sec_2 .horizontal_line{
+    width: 70%;
+}
+
+.sec_2 h4{
+    position: absolute;
+    font-weight: 600;
+    font-size: 2.2vw;
+    opacity: 1;
+}
+
+.left .ss2{
+    z-index: 2;
+    position: relative;
+    width: 55vw;
+    top: -10vw;
+    left: 32vw;
+    height: 40vw;
+
+}
+
+.sec_2 .top{
+    position: relative;
+}
+
+.sec_2 .logo_img{
+    z-index: 1;
+    position: absolute;
+    width: 60vw;
+    height: 80vw;
+    top: -10vw;
+    left: 50vw;
+    opacity: 1;
+}
