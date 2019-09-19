@@ -22,7 +22,7 @@ function BotSection(props) {
     return React.createElement(
         "div",
         null,
-        React.createElement(DownloadButton, { color: "white", buttonColor: "white_bt", bg: "navy_bg" }),
+        React.createElement(DownloadButton, { color: "orange", buttonColor: "orange_bt", bg: "navy_bg" }),
         React.createElement(Toolkit, { currentStone: 9 }),
         React.createElement(Footer, null)
     );

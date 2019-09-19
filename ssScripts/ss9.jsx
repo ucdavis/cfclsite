@@ -21,7 +21,7 @@ function TopSection(props) {
 function BotSection(props) {
     return (
         <div>
-            <DownloadButton color="white" buttonColor="white_bt" bg="navy_bg"/>
+            <DownloadButton color="orange" buttonColor="orange_bt" bg="navy_bg"/>
             <Toolkit currentStone={9}/>
             <Footer/>
         </div>

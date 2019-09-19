@@ -67,10 +67,6 @@ h4 {
     width: 100%;
 }
 
-.botText > p {
+.leftCol {
     min-width: 15vw;
-}
-
-#text3 .textSide {
-    width: 50vw;
 }

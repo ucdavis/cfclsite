@@ -1,14 +1,14 @@
 .instructions {
-    background-color: rgb(245, 245, 245);
+    background-color: #F6EDE1;
     padding-top: 10vw;
     padding-bottom: 10vw;
     line-height: 1.2;
 }
 
 
-.instructions h2, h4, .purple, .purple_text{
-    color: #463489;
-    font-weight: 500;
+.instructions h2, h4, .orange_text{
+    color: #FF9B2A;
+    font-family: "montserrat-bold";
 }
 
 h4 {
@@ -16,17 +16,24 @@ h4 {
     font-weight: 600;
 }
 
+p{
+    font-family: "montserrat-medium";
+    font-weight: 100;
+}
+
 .instr_title {
-    width: 48vw;
+    width: 49vw;
 }
 
 .instr_title div {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .instr_title h2 {
+    color: #FF604E;
     font-weight: 600;
     font-size: 5vw;
     line-height: 1.2;
@@ -35,15 +42,27 @@ h4 {
 
 .instr_title img {
     width: 2.5vw;
+    height: 2.5vw;
 }
 
 .bold{
     font-weight: bold;
     padding-right: 10px;
+    padding-top: .3vw;
+    margin-left: 1vw;
+    margin-bottom: 1vw;
 }
 
+.instr_title p{
+    font-family: "montserrat";
+    padding-top: .3vw;
+    margin-left: .3vw;
+    margin-bottom: 1vw;
+}
+
+
 .bg_num {
-    font-size: 150px;
+    font-size: 15vw;
     position: relative;
     line-height: 70px;
     opacity: 0.1;
@@ -66,15 +85,17 @@ h4 {
 }
 .left .ss1{
     position: relative;
-    width: 45vw;
-    top: 4vw;
-    left: -3.5vw;
+    width: 70vw;
+    top: 0vw;
+    left: -20vw;
+    padding-top: 0;
 }
+
 
 .right{
     float: right;
     width: 52vw;
-    margin-top: -33vw;
+    margin-top: -32vw;
     display: flex;
     flex-wrap: wrap;
 }
@@ -86,20 +107,25 @@ h4 {
 
 
 .horizontal_line {
-    border-bottom: 1px solid #00DAA9;
+    border-bottom: 1px solid #FF9B2A;
     width: 100%;
     margin-top: 1.5vw;
     margin-bottom: 10px;
 }
 
-.below_blue{
+.sec_1 .container{
+    margin-bottom: 3vw;
+    height: 23vw;
+}
+
+.below_orange{
     margin-top: 1.5vw;
     display:flex;
     float: left;
-    color: #00DAA9;
+    color: #FF9B2A;
     width: 10vw;
     font-family: "Montserrat-bold";
-    height: 7vw;
+    height: 12vw;
 }
 
 .below_black{
@@ -110,8 +136,8 @@ h4 {
     float:right;
     display: flex;
     width: 36vw;
-
 }
+
 
 
 /*
@@ -121,7 +147,7 @@ h4 {
 */
 
 
-.bot{
+.sec_2 .bot{
     float: right;
     width: 52vw;
     margin-top: -33vw;
@@ -129,66 +155,65 @@ h4 {
     flex-wrap: wrap;
 }
 
-.bot h4{
+.sec_2 .bot h4{
     font-weight: 600;
     font-size: 2.2vw;
 }
 
 .left .ss2{
     position: relative;
-    width: 60vw;
-    top: -35vw;
-    left: 45vw;
+    width: 47vw;
+    top: -8vw;
+    left: 50vw;
 }
 
 .sec_2{
-    margin-top: 20vw;
+    margin-top: 20vw; 
     position: relative;
 }
 .sec_2 .left{
-    width: 48vw;
+    width: 53vw;
     height: 25vw;
 }
 
 .sec_2 .left h4{
     position: relative;
     margin-left: 6vw;
-    top: 4vw;
+    top: -2vw;
     font-weight: 600;
     font-size:2.4vw;
 }
 
 .sec_2 .horizontal_line{
     position: relative;
-    top: 4vw;
+    top: -1vw;
     left: 6vw;
     width: 96%;
     margin-bottom: 0;
 }
 
 .sec_2 .bot_container{
-    margin-top: -5vw;
+    margin-top: -10vw;
     margin-left: 6.5vw;
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
-    height: 50vw;
+    height: 35vw;
 }
 
 .sec_2 .bot{
     margin-top: 0vw;
-    width: 61vw;
+    width: 50vw;
 
 }
 .sec_2 p{
     max-height: 5vw;
 }
 
-.sec_2 .below_blue{
+.sec_2 .below_orange{
     margin-top: 1.5vw;
     display:flex;
     float: left;
-    color: #00DAA9;
     width: 10vw;
     font-family: "Montserrat-bold";
     height: 7vw;
@@ -200,7 +225,7 @@ h4 {
     font-weight: 400;
     float:right;
     display: flex;
-    width: 41vw;
+    width: 32vw;
     max-height: 5vw;
 }
 
@@ -210,46 +235,94 @@ h4 {
 ////////////////////////////////
 */
 
+.congrats{
+    background-color: #FF604E;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    line-height: 1.2;
+    height: 60vw;
+}
+
+
+.congrats h2, .congrats h4, .congrats .white_text{
+    color: white;
+    font-family: "montserrat-bold";
+}
+
 
 .sec_3{
     position: relative;
     width: 100vw;
-    height: 45vw;
-}
-
-.sec_3 h4{
-    width: 35vw;
+    height: 20vw;
+    margin-top: -5vw;
 }
 
 .sec_3 .ss3{
     position: relative;
-    width: 55vw;
-    left: -12vw;
-    top: -11vw;
+    width: 90vw;
+    top: -10vw;
+    margin: auto;
 }
 
 .sec_3 .top{
     position: relative;
-    width: 30vw;
 }
 
-.sec_3 .right{
+.sec_3 .bg_num{
+    color: white;
+    opacity: .3;
+    left: 8vw;
+    top: 10vw;
+}
+
+
+.sec_3 h4{
     position: relative;
-    top: -7vw;
-    left: -5vw;
-    height: 40vw;
+    width: 28vw;
+    float: left;
+    margin-left: 5vw;
+    top: -17vw;
 }
 
-.sec_3 .below_black{
-    margin-top: 1.5vw;
-    margin-bottom: -2vw;
-    margin-left: 4vw;
-    font-weight: 400;
-    float:right;
+.sec_3 .horizontal_line{
+    position: relative;
+    top: -5vw;
+    left: 0;
+    width: 90%;
+    margin-bottom: 0;
+    border-bottom: 1px solid white;
+}
+
+.sec_3 .bot{
     display: flex;
-    width: 32vw;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    top: -16vw;
+    width: 90vw;
+    height: 20vw;
+    margin-left: 5vw;
 }
 
-.neutral_bg {
-    background-color: rgb(245, 245, 245);
+.sec_3 .bot .text_container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 45vw;
+}
+
+.sec_3 .bot .text_container .below_white{
+    color: white;
+    display: flex;
+    width: 13vw;
+    height: 3vw;
+    margin-top: 0vw;
+
+}
+
+.sec_3 .bot .text_container .below_black{
+    float: left;
+    display: flex;
+    width: 27vw;
+    margin: 0;
+    padding: 0;
 }

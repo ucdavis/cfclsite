@@ -43,6 +43,7 @@ function createContractFunction(questionNode) {
 let parentElem = document.getElementById('questions');
 for (let i = 0; i < parentElem.children.length; i++) {
     let elem = parentElem.children[i];
+    let flag = true;
     let expandFunc = createExpandFunction(elem);
     let contractFunc = createContractFunction(elem);
     let func = function() {
