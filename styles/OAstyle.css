@@ -102,6 +102,7 @@ html {
     align-items: flex-start;
     padding-bottom: 5vw;
     position: relative;
+    overflow: hidden;
 }
 
 .sideways_subheader {
@@ -198,12 +199,12 @@ html {
 }
 
 .leaf{
-    position: relative;
+    position: absolute;
     width: 20vw;
     height: 30vw;
     z-index: 1;
-    top: 60vw;
-    right: -23vw;
+    top: 30vw;
+    right: -9vw;
 
     /*
     filter: brightness(95%);
@@ -490,12 +491,12 @@ html {
     }
 
     .leaf{
-        position: relative;
+        position: absolute;
         width: 23vw;
         height: 37vw;
         max-height: none;
         z-index: 1;
-        top: 110vw;
+        top: 80vw;
         right: -10vw;
 
     }
