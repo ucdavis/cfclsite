@@ -133,6 +133,13 @@ h4 {
     margin-bottom: 10px;
 }
 
+.horizontal_line_purple {
+    border-bottom: 1px solid #463489;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 /*     Button Stuff */
 
 .orange_bt {

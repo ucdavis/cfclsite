@@ -2,14 +2,6 @@
     padding-top: 10vh;
 }
 
-.neutral_bg {
-    background-color: #F6F6F6;
-}
-
-.bold{
-    font-weight: bold;
-}
-
 .bg_num {
     font-size: 150px;
     position: relative;
@@ -19,15 +11,20 @@
 }
 
 .num1 {
-    bottom: 100vh;
+    bottom: 60vh;
+    left: -2.5vw;
 }
 
 .num2 {
-    bottom: 60vh;
+    bottom: 65vh;
+    left: -2.5vw;
 }
 
 .num3 {
-    bottom: 45vh;
+    bottom: 110vh;
+    left: -15vw;
+    color: white;
+    opacity: 0.2;
 }
 
 h2 {
@@ -62,30 +59,38 @@ h4 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: flex-start;
-    margin: 3vw;
+    padding-bottom: 10vh;
+    align-items: center;
 }
 
 .section img {
-    max-width: 33vw;
+    max-width: 45vw;
 
 }
 
 .textSide {
-    width: 57vw;
+    width: 45vw;
 }
 
-.botText {
+.lastSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.botSection {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
+    justify-content: center;
+    width: 90vw;
 }
 
-.leftCol {
-    width: 15vw;
-}
-
-.rightCol {
-    width: 30vw;
+.botSection > div {
+    width: 33vw;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
 }

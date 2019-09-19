@@ -164,7 +164,7 @@ html {
 
 .value h3{
     color: #00DAA9;
-    font-size: inherit; 
+    font-size: inherit;
     font-family: "montserrat-bold";
     font-weight: 400;
     /*font-size: 2.2vw;*/
@@ -293,7 +293,7 @@ html {
     min-height: 400px;
     min-width: 400px;
     */
-    
+
 }
 
 .stepping_stones_header p{
@@ -316,7 +316,8 @@ html {
 .stepping_stones .steps{
     margin: 2.5vw;
     width: 25vw;
-    font-size: 1.75vw; 
+    font-size: 1.75vw;
+    text-decoration: none;
     /*margin-right:auto;*/
     transition: filter 0.5s linear, width 0.5s linear,
         margin-bottom 0.5s linear, box-shadow 0.5s linear;
@@ -339,7 +340,7 @@ html {
     -moz-filter: brightness(120%);
     -o-filter: brightness(120%);
     -ms-filter: brightness(120%);
-    
+
 }
 
 .stepping_stones .darken:hover{
@@ -385,8 +386,8 @@ html {
 
 .stepping_stones p{
     padding: 5%; /* used to be 20px */
-    /*width: 350px;*/  
-    font-size: inherit;    
+    /*width: 350px;*/
+    font-size: inherit;
     color: white;
     line-height: 1.4;
     font-family: "montserrat-medium";
@@ -407,7 +408,7 @@ html {
 
 
 
-@media (max-width: 1100px) {  
+@media (max-width: 1100px) {
 
     .purpose_title h1{
         font-size: 5vw;
@@ -433,18 +434,18 @@ html {
         font-weight: bolder;
         white-space: nowrap;
     }
-    
+
     .sideways_subheader div {
         width: 110vw;
         border-bottom: 2px solid #FF604E;
         height: 1.5vw;
         margin-right: 20px;
     }
-    
-    
+
+
     .value{
         justify-content: space-evenly;
-        
+
         width: 36vw;
         height: 35vw;
         font-size: 3vw;
@@ -455,7 +456,7 @@ html {
         border-radius: 5px;
         z-index: 1;
     }
-    
+
     .value:hover{
         width: 38vw;
         font-size: 3.2vw;
@@ -463,25 +464,25 @@ html {
         transition: width 0.5s linear, box-shadow 0.5s linear,
                     font-size 0.5s linear;
     }
-    
+
     .value img {
         margin: auto;
         width: 30vw;
     }
-    
+
     .value h3{
         color: #00DAA9;
-        font-size: inherit; 
+        font-size: inherit;
         font-family: "montserrat-bold";
         font-weight: 400;
-    }    
+    }
     .value p{
         padding: 2vw 2vw 0 2vw;
         line-height: 1.4;
         font-size: 1.9vw;
         font-weight: 400;
     }
-    
+
     .leaf{
         position: relative;
         width: 20vw;
@@ -490,7 +491,7 @@ html {
         z-index: 1;
         top: 120vw;
         right: -23vw;
-    
+
     }
 
     /*
@@ -512,9 +513,9 @@ html {
         background-color: rgb(48, 48, 48);
         width: 40vw;
         height: 10vw;
-    
+
     }
-    
+
 
     .stepping_stones p{
         padding-top: 5%;
@@ -546,4 +547,3 @@ html {
     }
 
 }
-

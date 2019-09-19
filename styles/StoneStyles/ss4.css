@@ -142,7 +142,7 @@ h4 {
 }
 
 .sec_2{
-    margin-top: 20vw; 
+    margin-top: 20vw;
     position: relative;
 }
 .sec_2 .left{
@@ -248,4 +248,8 @@ h4 {
     float:right;
     display: flex;
     width: 32vw;
+}
+
+.neutral_bg {
+    background-color: rgb(245, 245, 245);
 }
