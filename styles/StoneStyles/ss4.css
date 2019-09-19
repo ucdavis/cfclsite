@@ -7,7 +7,7 @@
 
 
 .instructions h2, h4, .purple, .purple_text{
-    color: #3A0577;
+    color: #463489;
     font-weight: 500;
 }
 
@@ -214,7 +214,7 @@ h4 {
 .sec_3{
     position: relative;
     width: 100vw;
-    height: 70vw;
+    height: 45vw;
 }
 
 .sec_3 h4{
