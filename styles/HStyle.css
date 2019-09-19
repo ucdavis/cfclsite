@@ -21,6 +21,7 @@ nav a{
 .title{
     padding-left: 5vw;
     z-index: 1;
+    overflow: hidden;
 
 }
 
@@ -290,6 +291,8 @@ ul li:before {
 .more_info{
     padding: 5vw 5vw;
     background-color: white;
+    position: relative;
+    overflow: hidden;
 }
 
 
@@ -397,7 +400,7 @@ ul li:before {
     width: 45vw;
     height: 12vw;
     left: 60vw;
-    bottom: 4.5vw;
+    bottom: 14.5vw;
 }
 
 
