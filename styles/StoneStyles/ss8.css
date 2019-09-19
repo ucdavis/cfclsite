@@ -282,11 +282,13 @@ p{
     float: left;
     margin-left: 5vw;
     top: -17vw;
+    font-weight: 600;
+    font-size: 2.2vw;
 }
 
 .sec_3 .horizontal_line{
     position: relative;
-    top: -5vw;
+    top: -3vw;
     left: 0;
     width: 90%;
     margin-bottom: 0;
@@ -308,6 +310,7 @@ p{
     display: flex;
     flex-wrap: wrap;
     width: 45vw;
+    margin-bottom: 5vw;
 }
 
 .sec_3 .bot .text_container .below_white{
@@ -326,3 +329,38 @@ p{
     margin: 0;
     padding: 0;
 }
+
+
+@media (max-width: 750px) {
+    .congrats{
+        height: 70vw;
+        min-height: 250px;
+    }
+
+    .sec_1 .right{
+        margin-top: -38vw;
+    }
+
+    .sec_2 h4{
+        margin-top: 5vw;
+    } 
+    .sec_2 .bot_container{
+        margin-top: -5vw;
+    }
+
+}
+
+/*
+@media (max-width: 550px) {
+    .congrats{
+        height: 90vw;
+        
+    }
+}
+
+@media (max-width: 420px) {
+    .congrats{
+        height: 100vw;
+    }
+}
+*/

@@ -181,7 +181,7 @@ p{
 
 .sec_2 .bot_container{
     margin-top: -8vw;
-    margin-left: 6.5vw;
+    margin-left: 1vw;
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
@@ -298,4 +298,36 @@ p{
     margin-left: 0;
     margin-bottom: 0;
     margin-right: 10vw;
+}
+
+
+@media (max-width: 550px) {
+    .sec_3{
+        height: 60vw;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .sec_2 h4{
+        position: relative;
+        margin-top: 4vw;
+    }
+
+    .sec_2 .bot_container{
+        margin-top: -5vw;
+        
+    }
+}
+
+@media (max-width: 400px) {
+    .sec_2 h4{
+        position: relative;
+        margin-top: 12vw;
+    }
+
+    .sec_2 .bot_container{
+        margin-top: 3vw;
+        
+    }
 }
