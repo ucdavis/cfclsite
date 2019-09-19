@@ -1,5 +1,5 @@
 .body{
-    overflow: hidden;
+    position: fixed;
 }
 
 .title_container{
