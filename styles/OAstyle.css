@@ -1,3 +1,7 @@
+.body{
+    overflow: hidden;
+}
+
 .title_container{
     background-image: url(../assets/OurApproach/our_approach_header.jpg);
     background-size: 100vw;
@@ -361,8 +365,8 @@ html {
 }
 
 .color_border_p:hover{
-    box-shadow: 0 0 15px 2.5px #3A0577;
-    -webkit-box-shadow: 0 0 15px 2.5px #3A0577;
+    box-shadow: 0 0 15px 2.5px #463489;
+    -webkit-box-shadow: 0 0 15px 2.5px #463489;
 }
 
 .enlarge:hover{
@@ -480,16 +484,18 @@ html {
         line-height: 1.4;
         font-size: 1.9vw;
         font-weight: 400;
+        width: 32vw;
+        margin: auto;
     }
     
     .leaf{
         position: relative;
-        width: 20vw;
-        height: 30vw;
+        width: 23vw;
+        height: 37vw;
         max-height: none;
         z-index: 1;
-        top: 120vw;
-        right: -23vw;
+        top: 110vw;
+        right: -10vw;
     
     }
 

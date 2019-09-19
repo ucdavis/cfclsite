@@ -1,3 +1,7 @@
+.body{
+    overflow: hidden;
+}
+
 .title_container {
     background-color: #F6EDE1;
     display: flex;
@@ -403,5 +407,9 @@ ul li:before {
 
     .community_futures h3{
         font-size: 1.9vw;
+    }
+
+    .title h1{
+        margin-top: 5.25vw;
     }
 }

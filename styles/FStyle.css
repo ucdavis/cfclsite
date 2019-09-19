@@ -51,7 +51,7 @@ nav a{
     background-color: white;
 }
 
-.question {
+.question{
     display: flex;
     flex-direction: column;
     width: 60vw;
@@ -67,14 +67,14 @@ nav a{
     color: #00DAA9;
     font-size: 3vw;
 }
-/*
+
 .plus:hover{
     cursor: pointer;
 }
 .minus:hover{
     cursor: pointer;
 }
-
+/*
 .long_form{
     display: flex;
     flex-direction: row;
@@ -133,13 +133,8 @@ nav a{
 
 .blue_bold p {
     font-weight: 500;
-<<<<<<< HEAD
-    font-size: 33px;
-    transition: font-weight 0.5s linear, font-size 0.5s linear;
-=======
     font-size: 1.75vw;
     transition: font-weight 0.5s linear, font-size 0.4s linear;
->>>>>>> 236238a47d1f86e5abf38fb47bf57624f2239fcd
 }
 
 .long_form {
