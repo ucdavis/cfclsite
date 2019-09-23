@@ -16,11 +16,6 @@ h4 {
     font-weight: 600;
 }
 
-p{
-    font-family: "montserrat-medium";
-    font-weight: 100;
-}
-
 .instr_title {
     width: 49vw;
 }
@@ -155,7 +150,7 @@ p{
 }
 
 .sec_2{
-    margin-top: 20vw; 
+    margin-top: 20vw;
     position: relative;
 }
 .sec_2 .left{
@@ -316,7 +311,7 @@ p{
 
     .sec_2 .bot_container{
         margin-top: -5vw;
-        
+
     }
 }
 
@@ -328,6 +323,6 @@ p{
 
     .sec_2 .bot_container{
         margin-top: 3vw;
-        
+
     }
 }

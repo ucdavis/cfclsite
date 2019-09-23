@@ -5,6 +5,10 @@
     height: 57vw;
 }
 
+p {
+    font-weight: 400;
+}
+
 .header1 {
     background-image: url(../assets/SSPages/SS1/ss1_mock1.png);
 }
@@ -117,6 +121,13 @@ h4 {
 
 .coral {
     color: #FF604E;
+}
+
+.horizontal_line_lightgray {
+    border-bottom: 1px solid lightgray;
+    width: 80vw;
+    margin-top: 10px;
+    margin-bottom: 10vh;
 }
 
 .horizontal_line_teal {
@@ -262,12 +273,14 @@ h4 {
 /* ======================= */
 
 .intro_section {
+    color: white;
+    padding-top: 7vh;
+}
+
+.split_section {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    color: white;
-    padding-top: 7vh;
-    padding-bottom: 5vh;
 }
 
 .intro_left {
@@ -279,17 +292,15 @@ h4 {
     width: 40vw;
 }
 
-.intro_right img {
+.coverImg {
     max-width: 50vw;
     position: relative;
-    top: 35vh;
-
+    top: 30vh;
 }
 
 .ss_num {
     position: relative;
     top: -10vh;
-    left: -50vw;
     text-decoration: underline;
     font-size: 150px;
     font-weight: 500;
@@ -326,10 +337,17 @@ h4 {
 /* ================================== */
 
 .download_section {
-    border-top: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.download_section > div {
+    width: 80vw;
+    border-top: 2px solid lightgray;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding-top: 10vh;
     padding-bottom: 10vh;

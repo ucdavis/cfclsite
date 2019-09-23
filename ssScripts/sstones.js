@@ -80,65 +80,65 @@ function IntroSection(props) {
         "div",
         { className: classes },
         React.createElement(
-            "div",
-            { className: "intro_left" },
-            React.createElement(
-                "h1",
-                null,
-                props.title
-            ),
-            React.createElement(
-                "h4",
-                null,
-                props.subtitle
-            ),
-            React.createElement("br", null),
-            React.createElement("br", null),
-            React.createElement(
-                "p",
-                null,
-                props.introPara
-            ),
-            React.createElement("br", null),
-            React.createElement(
-                "p",
-                null,
-                props.introPara2
-            ),
-            React.createElement("br", null),
-            React.createElement("br", null),
-            React.createElement(
-                "div",
-                { className: "download_button_row" },
-                React.createElement(
-                    "a",
-                    { className: downloadClass, href: props.pdfPath, download: true },
-                    React.createElement("img", { src: "assets/SSPages/download.png" }),
-                    React.createElement(
-                        "p",
-                        null,
-                        "download"
-                    )
-                ),
-                React.createElement(
-                    "p",
-                    null,
-                    props.pageNums,
-                    " page PDF | ",
-                    props.fileSize,
-                    " MB"
-                )
-            )
+            "p",
+            { className: "ss_num" },
+            props.stoneNumber
+        ),
+        React.createElement(
+            "h1",
+            null,
+            props.title
         ),
         React.createElement(
             "div",
-            { className: "intro_right" },
+            { className: "split_section" },
             React.createElement(
-                "p",
-                { className: "ss_num" },
-                props.stoneNumber
+                "div",
+                { className: "intro_left" },
+                React.createElement(
+                    "h4",
+                    null,
+                    props.subtitle
+                ),
+                React.createElement("br", null),
+                React.createElement("br", null),
+                React.createElement(
+                    "p",
+                    null,
+                    props.introPara
+                ),
+                React.createElement("br", null),
+                React.createElement(
+                    "p",
+                    null,
+                    props.introPara2
+                ),
+                React.createElement("br", null),
+                React.createElement("br", null),
+                React.createElement(
+                    "div",
+                    { className: "download_button_row" },
+                    React.createElement(
+                        "a",
+                        { className: downloadClass, href: props.pdfPath, download: true },
+                        React.createElement("img", { src: "assets/SSPages/download.png" }),
+                        React.createElement(
+                            "p",
+                            null,
+                            "download"
+                        )
+                    ),
+                    React.createElement(
+                        "p",
+                        null,
+                        props.pageNums,
+                        " page PDF | ",
+                        props.fileSize,
+                        " MB"
+                    )
+                )
             ),
-            React.createElement("img", { src: props.coverSrc, alt: altText })
+            React.createElement("img", { className: "coverImg intro_right", src: props.coverSrc, alt: altText })
         )
     );
 }
@@ -258,18 +258,22 @@ function DownloadButton(props) {
         "div",
         { className: sectionClasses },
         React.createElement(
-            "h3",
-            { className: props.color },
-            "Ready to get started?"
-        ),
-        React.createElement(
-            "a",
-            { className: buttonClasses, href: props.pdfPath, download: true },
-            React.createElement("img", { src: "assets/SSPages/download.png", alt: "Download Symbol" }),
+            "div",
+            null,
             React.createElement(
-                "p",
-                null,
-                "download"
+                "h3",
+                { className: props.color },
+                "Ready to get started?"
+            ),
+            React.createElement(
+                "a",
+                { className: buttonClasses, href: props.pdfPath, download: true },
+                React.createElement("img", { src: "assets/SSPages/download.png", alt: "Download Symbol" }),
+                React.createElement(
+                    "p",
+                    null,
+                    "download"
+                )
             )
         )
     );

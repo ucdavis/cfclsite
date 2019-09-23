@@ -153,3 +153,11 @@ h4 {
 .split_half {
     width: 40vw;
 }
+
+.intro_section h1 {
+    width: 40vw;
+}
+
+.coverImg {
+    top: 0px;
+}

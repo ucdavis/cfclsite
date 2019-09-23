@@ -39,25 +39,25 @@ function IntroSection(props) {
     let downloadClass= "download_button "+props.buttonColor;
     return (
         <div className={classes}>
-            <div className="intro_left">
-                <h1>{props.title}</h1>
-                <h4>{props.subtitle}</h4>
-                <br/><br/>
-                <p>{props.introPara}</p><br/>
-                <p>{props.introPara2}</p>
-                <br/>
-                <br/>
-                <div className="download_button_row">
-                    <a className={downloadClass} href={props.pdfPath} download>
-                        <img src="assets/SSPages/download.png"/>
-                        <p>download</p>
-                    </a>
-                    <p>{props.pageNums} page PDF | {props.fileSize} MB</p>
+            <p className="ss_num">{props.stoneNumber}</p>
+            <h1>{props.title}</h1>
+            <div className="split_section">
+                <div className="intro_left">
+                    <h4>{props.subtitle}</h4>
+                    <br/><br/>
+                    <p>{props.introPara}</p><br/>
+                    <p>{props.introPara2}</p>
+                    <br/>
+                    <br/>
+                    <div className="download_button_row">
+                        <a className={downloadClass} href={props.pdfPath} download>
+                            <img src="assets/SSPages/download.png"/>
+                            <p>download</p>
+                        </a>
+                        <p>{props.pageNums} page PDF | {props.fileSize} MB</p>
+                    </div>
                 </div>
-            </div>
-            <div className="intro_right">
-                <p className="ss_num">{props.stoneNumber}</p>
-                <img src={props.coverSrc} alt={altText}/>
+                <img className="coverImg intro_right" src={props.coverSrc} alt={altText}/>
             </div>
         </div>
     );
@@ -176,11 +176,13 @@ function DownloadButton(props) {
     }
     return (
         <div className={sectionClasses}>
-            <h3 className={props.color}>Ready to get started?</h3>
-            <a className={buttonClasses} href={props.pdfPath} download>
-                <img src="assets/SSPages/download.png" alt="Download Symbol"/>
-                <p>download</p>
-            </a>
+            <div>
+                <h3 className={props.color}>Ready to get started?</h3>
+                <a className={buttonClasses} href={props.pdfPath} download>
+                    <img src="assets/SSPages/download.png" alt="Download Symbol"/>
+                    <p>download</p>
+                </a>
+            </div>
         </div>
     );
 }
