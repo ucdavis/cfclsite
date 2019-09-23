@@ -19,10 +19,15 @@ nav a{
     color: #555555;
 }
 
+.header{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .title{
     margin-left: 5vw;
     z-index: 1;
-    max-width: 100%;
+    max-width: 95%;
     overflow-x: hidden;
 }
 
@@ -30,7 +35,7 @@ nav a{
     position: relative;
     font-weight: 500;
     color: #FF604E;
-    margin-top: 7vw;
+    margin-top: 8vw;
     margin-bottom: 6vw;
     text-align: left;
     width: 60%;
@@ -42,7 +47,7 @@ nav a{
     font-size: 2.6vw;
     font-weight: 900;
     color: rgb(182, 144, 121);
-    margin-top: 8vw;
+    margin-top: 9vw;
     margin-bottom: 7vh;
     text-align: left;
     line-height: 1.4;
@@ -61,27 +66,27 @@ nav a{
     */
     width: 33vw;
     height: 46vw;
-    top: 15vw;
+    top: 16vw;
     left: 13vw;
     z-index: 1;
 }
 
 .homepage_revised{
     position: absolute;
-    width: 70vw;
+    width: 61.5vw;
     height: 40vw;
-    top: 9vw;
-    right:-7vw;
+    top: 10vw;
+    right: 0vw;
     z-index: 2;
-    overflow-x: hidden;
+
 }
 
 .homepage_lea{
     position: absolute;
-    width: 32vw;
+    width: 31.5vw;
     height: 2.5vw;
     top: 53vw;
-    right:-2vw;
+    right: 0vw;
     z-index: 5;
 }
 
@@ -294,7 +299,7 @@ ul li:before {
     padding: 5vw 5vw;
     background-color: white;
     position: relative;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 
