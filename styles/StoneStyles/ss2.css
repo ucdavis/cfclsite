@@ -92,7 +92,8 @@ p{
     width: 45vw;
     display: flex;
     flex-wrap: wrap;
-    top: 10vw;
+    /*top: 10vw;*/
+    margin-top: 8vw;
     left: 5vw;
 }
 
@@ -135,7 +136,7 @@ h4{
     width: 45vw;
     display: flex;
     flex-wrap: wrap;
-    top: 43vw;
+    top: 40vw;
     left: 10vw;
 }
 
@@ -152,6 +153,7 @@ h4{
 .sec_2{
     margin-top: 20vw; 
     position: relative;
+
 }
 
 .sec_2 .top{
@@ -163,12 +165,14 @@ h4{
 }
 
 .sec_2 .bot{
-    position: absolute;
-    float: right;
+    position: relative;
+    float: left;
     width: 52vw;
-    top: -35vw;
+    margin-top: -35vw;
+    left: 0vw;
     display: flex;
     flex-wrap: wrap;
+    height: 60vw;
 }
 
 .sec_2 .horizontal_line{
@@ -192,10 +196,6 @@ h4{
 
 }
 
-.sec_2 .top{
-    position: relative;
-}
-
 .sec_2 .logo_img{
     z-index: 1;
     position: absolute;
@@ -204,4 +204,29 @@ h4{
     top: -10vw;
     left: 50vw;
     opacity: 1;
+}
+
+.instructions{
+    height: 170vw;
+}
+
+@media (max-width: 700px) {
+    .instructions{
+        height: 190vw;
+    }
+
+    .left{
+        margin-top: 2vw;
+    }
+
+    .right{
+        top: 30vw;
+    }
+}
+
+@media (max-width: 410px) {
+    .sec_2 .left{
+        top: 5vw;
+        left: -40vw;
+    }
 }

@@ -1,5 +1,6 @@
-.body{
-    position: fixed;
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .title_container{
