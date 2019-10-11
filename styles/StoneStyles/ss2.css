@@ -30,7 +30,7 @@ h4 {
 
 .instr_title h2 {
     font-weight: 600;
-    font-size: 5vw;
+    font-size: 4.5vw;
     line-height: 1.2;
     margin-bottom: 2vw;
 }
@@ -146,7 +146,7 @@ h4{
 
 
 .sec_2{
-    margin-top: 20vw;
+    margin-top: 18vw;
     position: relative;
 
 }
@@ -219,9 +219,27 @@ h4{
     }
 }
 
+@media (max-width: 770px) {
+    .sec_2 h4{
+        margin-top: -5vw;
+    }
+
+    .sec_2 .bot{
+        margin-top: -40vw;
+    }
+}
+
 @media (max-width: 410px) {
     .sec_2 .left{
         top: 5vw;
         left: -40vw;
+    }
+
+    .sec_2 h4{
+        margin-top: -10vw;
+    }
+
+    .sec_2 .bot{
+        margin-top: -45vw;
     }
 }
