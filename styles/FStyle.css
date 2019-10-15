@@ -142,7 +142,7 @@ nav a{
 }
 
 .long_form {
-    max-height: 100vh;
+    max-height: 120vh;
     transition: max-height 0.5s ease, padding 0.5s ease;
     padding: 1vw 2vw 3vw 2vw;
 }
