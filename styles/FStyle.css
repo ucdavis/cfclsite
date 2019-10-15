@@ -43,6 +43,10 @@ nav a{
     color: #444444;
 }
 
+.centered_text a{
+    color: #00DAA9;
+}
+
 .question_list{
     display: flex;
     flex-direction: column;
