@@ -315,6 +315,13 @@ h4 {
     }
 }
 
+
+@media (max-width: 800px) {
+    .sec_3{
+        height: 50vw;
+    }
+}
+
 @media (max-width: 400px) {
     .sec_2 h4{
         position: relative;
@@ -325,4 +332,8 @@ h4 {
         margin-top: 3vw;
 
     }
+    .sec_3{
+        height: 60vw;
+    }
 }
+
