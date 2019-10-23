@@ -14,8 +14,8 @@ function TopSection(props) {
             coverSrc: "assets/SSPages/SS3/ss3_cover_transparent.png",
             introPara: "It's time to dive in and think critically about your community!",
             introPara2: "In Stepping Stone 3, you will choose your project's focus after exploring past and current issues shaping your community as well as your own personal experiences.",
-            pageNums: "24",
-            fileSize: "1.4",
+            pageNums: "18",
+            fileSize: "14",
             pdfPath: "assets/SSPages/SS3/CFCL Stepping Stone 3.pdf" })
     );
 }
