@@ -35,7 +35,7 @@ function Header(props) {
             React.createElement(
                 "a",
                 { href: "index.html" },
-                React.createElement("img", { className: "logo", src: "assets/Logos/CFCL_final_Logo.png",
+                React.createElement("img", { className: "logo", src: "assets/Logos/CFCL_final_Logonocomma.png",
                     alt: "Community Futures, Community Lore Logo" })
             ),
             React.createElement(
@@ -420,7 +420,7 @@ function Footer() {
     return React.createElement(
         "footer",
         null,
-        React.createElement("img", { className: "logo", src: "assets/Logos/CFCL_final_Logo_white.png",
+        React.createElement("img", { className: "logo", src: "assets/Logos/CFCL_final_Logo_whitenocomma.png",
             alt: "Community Futures, Community Lore Logo" }),
         React.createElement("img", { className: "davis_logo", src: "assets/Logos/ucdavis_logo_gold.png",
             alt: "UC Davis Logo" })
