@@ -14,7 +14,7 @@ function Header(props) {
         <div className= {titleClass}>
             <div className="header">
                 <a href="index.html">
-                    <img className= "logo" src="assets/Logos/CFCL_final_Logo.png"
+                    <img className= "logo" src="assets/Logos/CFCL_final_Logonocomma.png"
                         alt="Community Futures, Community Lore Logo"/>
                 </a>
 
@@ -275,7 +275,7 @@ class Toolkit extends React.Component {
 function Footer() {
     return (
         <footer>
-            <img className= "logo" src="assets/Logos/CFCL_final_Logo_white.png"
+            <img className= "logo" src="assets/Logos/CFCL_final_Logo_whitenocomma.png"
                 alt="Community Futures, Community Lore Logo"/>
             <img className= "davis_logo" src="assets/Logos/ucdavis_logo_gold.png"
                 alt="UC Davis Logo"/>

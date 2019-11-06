@@ -74,9 +74,9 @@ h4 {
 }
 .top .ss1{
     position: absolute;
-    width: 60vw;
+    width: 53vw;
     top: 10vw;
-    left: 35vw;
+    left: 43vw;
     padding-top: 0;
 }
 
@@ -146,8 +146,8 @@ h4{
 
 
 .sec_2{
-    margin-top: 18vw;
-    position: relative;
+    margin-top: 10vw;
+    position: absolute;
 
 }
 
@@ -163,11 +163,11 @@ h4{
     position: relative;
     float: left;
     width: 52vw;
-    margin-top: -35vw;
+    margin-top: -34vw;
     left: 0vw;
     display: flex;
     flex-wrap: wrap;
-    height: 60vw;
+    height: 20vw;
 }
 
 .sec_2 .horizontal_line{
@@ -179,6 +179,7 @@ h4{
     font-weight: 600;
     font-size: 2.2vw;
     opacity: 1;
+    width: 35vw;
 }
 
 .left .ss2{
