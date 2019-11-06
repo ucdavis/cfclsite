@@ -53,14 +53,14 @@
 
 .intro a{
     margin-left: 40vw;
-    margin-top: 5vh;
+    margin-top: 3vw;
     font-size: 1.85vw;
     font-family: "montserrat-medium";
     font-weight: 500;
-    padding: 15px 50px 20px 50px;
+    padding: 1vw 1.5vw 1vw 1.5vw;
 
     border: 2px solid;
-    border-radius: 40px;
+    border-radius: 3vw;
     text-decoration: none;
 }
 
@@ -133,9 +133,10 @@
     text-align: center;
     margin-right: 10vw;
 
-    padding: 12px 25px 12px 25px;
+    padding: 1vw 1.5vw 1vw 1.5vw;
+
     border: 2px solid;
-    border-radius: 60px;
+    border-radius: 4vw;
     text-decoration: none;
 
     transition-duration: 0.7s;
@@ -188,9 +189,10 @@
     width:20vw;
     margin:auto;
     align-items: center;
-    padding: 15px 5px 15px 5px;
+    padding: 1vw 1.5vw 1vw 1.5vw;
+
     border: 2px solid;
-    border-radius: 40px;
+    border-radius: 3vw;
     text-decoration: none;
 
     transition-duration: 0.7s;

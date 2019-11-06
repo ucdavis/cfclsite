@@ -49,7 +49,7 @@ h4 {
 
 
 .bg_num {
-    font-size: 150px;
+    font-size: 15vw;
     position: relative;
     line-height: 70px;
     opacity: 0.1;
@@ -73,9 +73,11 @@ h4 {
 .left .ss1{
     position: relative;
     width: 40vw;
+    height: auto;
     top: 4vw;
     left: -3.5vw;
     padding-top: 0;
+    overflow: visible !important;
 }
 
 
