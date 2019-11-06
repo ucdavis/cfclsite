@@ -11,7 +11,6 @@ function TopSection(props) {
             stoneNumber="09"
             coverSrc="assets/SSPages/SS9/ss9_cover.png"
             introPara="It's time to make change happen in your community! In this stepping stone, you will create a strategic plan and continue to work with key stakeholders and decision-makers to turn your research results into action."
-            introPara2="In Stepping Stone 3, you will choose your project's focus after exploring past and current issues shaping your community as well as your own personal experiences."
             pageNums="5"
             fileSize="8"/>
         </div>

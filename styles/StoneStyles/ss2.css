@@ -1,9 +1,18 @@
 .instructions {
     background-color: #F6EDE1;
     padding-top: 10vw;
-    padding-bottom: 10vw;
+    padding-bottom: 15vw;
     line-height: 1.2;
     height: 160vw;
+}
+
+.intro_section h1 {
+    width: 70vw;
+    margin-bottom: 2.5vh;
+}
+
+.intro_left p{
+    max-width: 45vw;
 }
 
 
@@ -13,7 +22,7 @@
 }
 
 h4 {
-    font-size: 30px;
+    font-size: 3vw;
     font-weight: 600;
 }
 
@@ -110,7 +119,7 @@ h4{
     display:flex;
     float: left;
     color: #FF604E;
-    width: 30vw;
+    width: 40vw;
     font-family: "Montserrat-bold";
     /*height: 7vw;*/
 }
@@ -122,7 +131,7 @@ h4{
     font-weight: 400;
     float:left;
     display: flex;
-    width: 30vw;
+    width: 40vw;
 }
 
 .right{
@@ -146,9 +155,8 @@ h4{
 
 
 .sec_2{
-    margin-top: 10vw;
+    margin-top: 15vw;
     position: absolute;
-
 }
 
 .sec_2 .top{
@@ -157,6 +165,7 @@ h4{
 
 .sec_2 .bg_num{
     left: -5vw;
+    top: 5vw;
 }
 
 .sec_2 .bot{
@@ -187,7 +196,7 @@ h4{
     position: relative;
     width: 55vw;
     top: -10vw;
-    left: 32vw;
+    left: 35vw;
     height: 40vw;
 
 }
@@ -197,7 +206,7 @@ h4{
     position: absolute;
     width: 60vw;
     height: 80vw;
-    top: -10vw;
+    top: -15vw;
     left: 50vw;
     opacity: 1;
 }

@@ -9,9 +9,10 @@
 }
 
 h4 {
-    font-size: 30px;
+    font-size: 3vw;
     font-weight: 600;
 }
+
 
 .instr_title {
     width: 50vw;
@@ -29,6 +30,8 @@ h4 {
 
 .instr_title img {
     width: 2.5vw;
+    height: 100%;
+    margin-right: 5px;
 }
 
 .bold{
@@ -70,7 +73,7 @@ h4 {
     flex-direction: column;
     justify-content: flex-end;
     padding-bottom: 3vh;
-    width: 30vw;
+    width: 40vw;
 }
 
 .bot > div {
@@ -108,7 +111,9 @@ h4 {
 }
 
 .subheader {
-    font-weight: 500;
+    font-weight: 600;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
 }
 
 /* ================================== */
@@ -119,6 +124,8 @@ h4 {
     align-items: center;
     color: white;
     padding-bottom: 10vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
 .lets_go .bg_num{
@@ -132,7 +139,7 @@ h4 {
     width: 66vw;
 }
 
-.lets_go h4, .lets_go h2 {
+.lets_go h4, .lets_go h1 {
     color: white;
     margin: 5vh;
     font-weight: 600;
@@ -151,13 +158,13 @@ h4 {
 }
 
 .split_half {
-    width: 40vw;
+    width: 35vw;
 }
 
 .intro_section h1 {
-    width: 40vw;
+    width: 50vw;
 }
 
 .coverImg {
-    top: 0px;
+    top: 1vw;
 }
