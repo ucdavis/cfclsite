@@ -224,7 +224,7 @@ h4 {
 .sec_3{
     position: relative;
     width: 100vw;
-    height: 40vw;
+    height: 50vw;
     margin-top: -5vw;
 }
 
@@ -298,13 +298,6 @@ h4 {
 }
 
 
-@media (max-width: 550px) {
-    .sec_3{
-        height: 60vw;
-    }
-}
-
-
 @media (max-width: 600px) {
     .sec_2 h4{
         position: relative;
@@ -316,6 +309,14 @@ h4 {
 
     }
 }
+
+@media (max-width: 550px) {
+    .sec_3{
+        height: 60vw;
+    }
+}
+
+
 
 
 @media (max-width: 800px) {

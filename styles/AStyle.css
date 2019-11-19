@@ -10,7 +10,8 @@ nav a{
 }
 
 .header_logo {
-    width: 200px;
+    margin-top: -3vw;
+    width: 20vw;
 }
 
 .centered_text {

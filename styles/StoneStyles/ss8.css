@@ -91,7 +91,7 @@ h4 {
 .right{
     float: right;
     width: 52vw;
-    margin-top: -32vw;
+    margin-top: -35vw;
     display: flex;
     flex-wrap: wrap;
 }
@@ -103,7 +103,7 @@ h4 {
 
 
 .horizontal_line {
-    border-bottom: 1px solid #FF9B2A;
+    border-bottom: 4px solid #FF9B2A;
     width: 100%;
     margin-top: 1.5vw;
     margin-bottom: 10px;

@@ -273,7 +273,7 @@ ul li:before {
     font-size: 1.85vw;
     color: white;
     border: 3px solid white;
-    border-radius: 60px;
+    border-radius: 5vw;
     text-decoration: none;
     font-weight: 500;
     transition-duration: 0.7s;
@@ -337,7 +337,7 @@ ul li:before {
     font-size: 1.75vw;
     color: white;
     border: 1px solid #FF604E;
-    border-radius: 50px;
+    border-radius: 4vw;
     text-decoration: none;
     font-weight: bold;
     transition-duration: 0.7s;
@@ -386,7 +386,7 @@ ul li:before {
     font-size: 1.7vw;
     color: white;
     border: 1px solid #FF9B2A;
-    border-radius: 50px;
+    border-radius: 4vw;
     text-decoration: none;
     font-weight: bold;
     transition-duration: 0.7s;
