@@ -298,6 +298,14 @@ h4 {
 }
 
 
+
+@media (max-width: 950px) {
+    .sec_3{
+        height: 55vw;
+    }
+}
+
+
 @media (max-width: 600px) {
     .sec_2 h4{
         position: relative;
@@ -306,24 +314,15 @@ h4 {
 
     .sec_2 .bot_container{
         margin-top: -5vw;
-
     }
-}
 
-@media (max-width: 550px) {
     .sec_3{
-        height: 60vw;
+        height: 62vw;
     }
 }
 
 
 
-
-@media (max-width: 800px) {
-    .sec_3{
-        height: 50vw;
-    }
-}
 
 @media (max-width: 400px) {
     .sec_2 h4{
@@ -336,7 +335,7 @@ h4 {
 
     }
     .sec_3{
-        height: 60vw;
+        height: 65vw;
     }
 }
 
