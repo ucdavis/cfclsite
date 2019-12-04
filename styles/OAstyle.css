@@ -39,8 +39,8 @@ html {
     padding: 1.2vw;
     font-size: 2vw;
     color: white;
-    border: 1px solid white;
-    border-radius: 40px;
+    border: .05vw solid white;
+    border-radius: 3vw;
     text-decoration: none;
     transition-duration: 0.7s;
     transition-property: color, background-color;
@@ -50,7 +50,7 @@ html {
 
 #SS_scroll:hover{
     color: navy;
-    background-color: white;
+    background-color: rgb(255,255,255,0.8);
     border-color: navy;
     transition-duration: 0.7s;
     transition-property: color, background-color;
@@ -252,11 +252,11 @@ html {
 
 .stories_header a{
     margin-top: 6vw;
-    padding: 25px;
+    padding: 1vw 1.5vw 1vw 1.5vw;
     font-size: 2vw;
     color: #FF604E;
-    border: 1px solid #FF604E;
-    border-radius: 40px;
+    border: 0.05vw solid #FF604E;
+    border-radius: 3vw;
     text-decoration: none;
     transition-duration: 0.7s;
     transition-property: color, background-color;

@@ -65,6 +65,7 @@ nav a{
     overflow: hidden;
     margin-top: 0vw;
     margin-bottom: 0vw;
+    transition: color 0.5s linear, background-color 0.5s linear;
 }
 
 .plus{
@@ -72,12 +73,6 @@ nav a{
     font-size: 3vw;
 }
 
-.plus:hover{
-    cursor: pointer;
-}
-.minus:hover{
-    cursor: pointer;
-}
 /*
 .long_form{
     display: flex;
@@ -116,7 +111,7 @@ nav a{
     font-family: "montserrat-bold";
     font-weight: 800;
     background-color: #EAEAEA;
-    border-radius: 40pt;
+    border-radius: 2vw;
     flex-shrink: 0;
     position: relative;
     left: .7vw;
