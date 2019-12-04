@@ -1,7 +1,7 @@
 .instructions {
     background-color: rgb(245, 245, 245);
     padding-top: 10vw;
-    padding-bottom: 10vw;
+    padding-bottom: 20vw;
     line-height: 1.2;
 }
 
@@ -253,6 +253,10 @@ h4 {
 
 .neutral_bg {
     background-color: rgb(245, 245, 245);
+}
+
+.download_section {
+    width: 100%;
 }
 
 

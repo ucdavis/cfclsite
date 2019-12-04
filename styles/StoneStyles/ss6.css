@@ -5,6 +5,9 @@
     line-height: 1.2;
 }
 
+.download_section {
+    padding-top: 15vw;
+}
 
 .instructions h2, h4, .blue, .blue_text{
     color: #00DAA9;
@@ -338,4 +341,3 @@ h4 {
         height: 60vw;
     }
 }
-
