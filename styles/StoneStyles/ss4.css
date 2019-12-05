@@ -1,7 +1,7 @@
 .instructions {
     background-color: rgb(245, 245, 245);
     padding-top: 10vw;
-    padding-bottom: 10vw;
+    padding-bottom: 20vw;
     line-height: 1.2;
 }
 
@@ -214,7 +214,8 @@ h4 {
 .sec_3{
     position: relative;
     width: 100vw;
-    height: 50vw;
+    height: 60vw;
+    margin-bottom: 10vw;
     /*max-height: 550pt;*/
 }
 
@@ -255,14 +256,31 @@ h4 {
     background-color: rgb(245, 245, 245);
 }
 
+.download_section {
+    width: 100%;
+}
 
-@media (max-width: 1100px) {
+
+@media (max-width: 900px) {
     .sec_3{
-        height: 60vw;
+        margin-bottom: 14vw;
     }
 }
 
 @media (max-width: 700px) {
+    .sec_3{
+        height: 70vw;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .sec_3{
+        height: 80vw;
+    }
+}
+
+@media (max-width: 350px) {
     .sec_3{
         height: 90vw;
     }
