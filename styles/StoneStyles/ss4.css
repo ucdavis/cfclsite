@@ -1,3 +1,7 @@
+nav a{
+    color: white;
+}
+
 .instructions {
     background-color: rgb(245, 245, 245);
     padding-top: 10vw;
@@ -73,7 +77,7 @@ h4 {
 
 .right{
     float: right;
-    width: 52vw;
+    width: 49vw;
     margin-top: -33vw;
     display: flex;
     flex-wrap: wrap;
@@ -104,7 +108,7 @@ h4 {
 
 .below_black{
     margin-top: 1.5vw;
-    margin-bottom: -2vw;
+    margin-bottom: 0vw;
     margin-left: 2vw;
     font-weight: 400;
     float:right;
@@ -172,7 +176,7 @@ h4 {
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
-    height: 50vw;
+    height: 55vw;
 }
 
 .sec_2 .bot{
@@ -214,7 +218,7 @@ h4 {
 .sec_3{
     position: relative;
     width: 100vw;
-    height: 60vw;
+    height: vw;
     margin-bottom: 10vw;
     /*max-height: 550pt;*/
 }
