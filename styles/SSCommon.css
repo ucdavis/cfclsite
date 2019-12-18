@@ -283,7 +283,7 @@ h4 {
 .intro_section {
     color: white;
     padding-top: 7vh;
-    padding-bottom: 7vh;
+    padding-bottom: 0vh;
 }
 
 .split_section {
@@ -304,7 +304,7 @@ h4 {
 .coverImg {
     width: 30vw;
     position: relative;
-    top: 30vh;
+    top: 23vh;
     padding-left: 5vw;
     height: 100%;
 }
