@@ -5,7 +5,7 @@
 .instructions {
     background-color: rgb(245, 245, 245);
     padding-top: 10vw;
-    padding-bottom: 20vw;
+    padding-bottom: 25vw;
     line-height: 1.2;
 }
 
@@ -13,6 +13,13 @@
 .instructions h2, h4, .purple, .purple_text{
     color: #463489;
     font-weight: 500;
+}
+
+.top_step_nav > a {
+    color: white;
+    opacity: 0.9;
+    font-family: "Montserrat-Light";
+    font-weight: 100;
 }
 
 h4 {
@@ -37,17 +44,8 @@ h4 {
     margin-bottom: 2vw;
 }
 
-.instr_title img {
-    width: 2.5vw;
-}
-
-.bold{
-    font-weight: bold;
-    padding-right: 10px;
-}
-
 .bg_num {
-    font-size: 150px;
+    font-size: 15vw;
     position: relative;
     line-height: 70px;
     opacity: 0.1;
@@ -62,7 +60,6 @@ h4 {
 
 .sec_1{
     width: 90vw;
-    margin-bottom: 10vw;
 }
 
 .left{
@@ -104,6 +101,7 @@ h4 {
     width: 10vw;
     font-family: "Montserrat-bold";
     height: 7vw;
+    font-weight: 100;
 }
 
 .below_black{
@@ -128,7 +126,7 @@ h4 {
 .bot{
     float: right;
     width: 52vw;
-    margin-top: -33vw;
+    top: -33vw;
     display: flex;
     flex-wrap: wrap;
 }
@@ -140,18 +138,25 @@ h4 {
 
 .left .ss2{
     position: relative;
-    width: 60vw;
-    top: -35vw;
-    left: 45vw;
+    width: 52vw;
+    top: 5vw;
+    left: 50vw;
 }
 
 .sec_2{
-    margin-top: 20vw;
+    margin-top: 7vw;
     position: relative;
 }
+
+.sec_2 .bg_num {
+    top: 5vw;
+    left: 0;
+}
+
 .sec_2 .left{
-    width: 48vw;
+    width: 70vw;
     height: 25vw;
+    margin-left: -2vw;
 }
 
 .sec_2 .left h4{
@@ -166,13 +171,13 @@ h4 {
     position: relative;
     top: 4vw;
     left: 6vw;
-    width: 96%;
+    width: 85%;
     margin-bottom: 0;
 }
 
 .sec_2 .bot_container{
-    margin-top: -5vw;
-    margin-left: 6.5vw;
+    margin-top: -10vw;
+    margin-left: 4.5vw;
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
@@ -181,7 +186,7 @@ h4 {
 
 .sec_2 .bot{
     margin-top: 0vw;
-    width: 61vw;
+    width: 47vw;
 
 }
 .sec_2 p{
@@ -193,7 +198,7 @@ h4 {
     display:flex;
     float: left;
     color: #00DAA9;
-    width: 10vw;
+    width: 12vw;
     font-family: "Montserrat-bold";
     height: 7vw;
 }
@@ -202,10 +207,20 @@ h4 {
     margin-top: 1.5vw;
     margin-left: 2vw;
     font-weight: 400;
-    float:right;
+    float:left;
     display: flex;
-    width: 41vw;
+    width: 32vw;
     max-height: 5vw;
+}
+
+.sec2_bot_2{
+    width: 80vw;
+    float: left;
+}
+
+.sec2_bot_2 .special{
+    width: 50vw;
+    overflow: visible;
 }
 
 /*
@@ -218,7 +233,6 @@ h4 {
 .sec_3{
     position: relative;
     width: 100vw;
-    height: vw;
     margin-bottom: 10vw;
     /*max-height: 550pt;*/
 }
@@ -273,7 +287,7 @@ h4 {
 
 @media (max-width: 700px) {
     .sec_3{
-        height: 70vw;
+        height: 50vw;
     }
 }
 
