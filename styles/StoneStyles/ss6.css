@@ -11,8 +11,7 @@
 
 .instructions h2, h4, .blue, .blue_text{
     color: #00DAA9;
-    font-family: "montserrat-bold";
-    font-weight: 100;
+    font-weight: 600;
 }
 
 h4 {
@@ -33,7 +32,7 @@ h4 {
 }
 
 .instr_title h2 {
-    font-weight: 400;
+    font-weight: 600;
     font-size: 4.5vw;
     line-height: 1.2;
     margin-bottom: 2vw;
