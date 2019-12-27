@@ -12,6 +12,7 @@
 .instructions h2, h4, .blue, .blue_text{
     color: #00DAA9;
     font-family: "montserrat-bold";
+    font-weight: 100;
 }
 
 h4 {
@@ -20,7 +21,8 @@ h4 {
 }
 
 .instr_title {
-    width: 49vw;
+    width: 50vw;
+    line-height: 1.2;
 }
 
 .instr_title div {
@@ -31,23 +33,10 @@ h4 {
 }
 
 .instr_title h2 {
-    font-weight: 600;
+    font-weight: 400;
     font-size: 4.5vw;
     line-height: 1.2;
     margin-bottom: 2vw;
-}
-
-.instr_title img {
-    width: 2.5vw;
-    height: 2.5vw;
-}
-
-.bold{
-    font-weight: bold;
-    padding-right: 10px;
-    padding-top: .3vw;
-    margin-left: 1vw;
-    margin-bottom: 1vw;
 }
 
 
@@ -93,7 +82,6 @@ h4 {
 }
 
 .right h4{
-    font-weight: 600;
     font-size: 2.2vw;
 }
 
@@ -111,8 +99,9 @@ h4 {
     float: left;
     color: #00DAA9;
     width: 10vw;
-    font-family: "Montserrat-bold";
+    font-family: "Montserrat";
     height: 7vw;
+    font-weight: 900;
 }
 
 .below_black{
@@ -137,7 +126,6 @@ h4 {
 .sec_2 .bot{
     float: right;
     width: 52vw;
-    margin-top: -33vw;
     display: flex;
     flex-wrap: wrap;
 }
@@ -150,24 +138,23 @@ h4 {
 .left .ss2{
     position: relative;
     width: 40vw;
-    top: -47vw;
+    top: -10vw;
     left: 50vw;
 }
 
 .sec_2{
-    margin-top: 20vw;
+    margin-top: 25vw;
     position: relative;
 }
 .sec_2 .left{
     width: 48vw;
-    height: 25vw;
+    height: 27vw;
 }
 
 .sec_2 .left h4{
     position: relative;
     margin-left: 6vw;
-    top: 1vw;
-    font-weight: 600;
+    top: -1vw;
     font-size:2.4vw;
 }
 
@@ -185,7 +172,7 @@ h4 {
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
-    height: 50vw;
+    height: 30vw;
 }
 
 .sec_2 .bot{
@@ -203,7 +190,8 @@ h4 {
     float: left;
     color: #00DAA9;
     width: 10vw;
-    font-family: "Montserrat-bold";
+    font-family: "Montserrat";
+    font-weight: 900;
     height: 7vw;
 }
 
@@ -228,7 +216,7 @@ h4 {
     position: relative;
     width: 100vw;
     height: 50vw;
-    margin-top: -5vw;
+    margin-top: 10vw;
 }
 
 .sec_3 .ss3{
@@ -249,7 +237,7 @@ h4 {
 
 .sec_3 .right{
     position: relative;
-    top: -28vw;
+    top: -30vw;
     left: 15vw;
     height: 1vw;
     margin-bottom: 0vw;
@@ -270,6 +258,7 @@ h4 {
 .bot{
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-start;
     flex-direction: row;
     width: 90vw;
     height: 20vw;
@@ -294,9 +283,7 @@ h4 {
 .bot .text_container .below_black{
     float: left;
     width: 34vw;
-    margin-top: 0;
     margin-left: 0;
-    margin-bottom: 0;
     margin-right: 10vw;
 }
 
@@ -305,6 +292,10 @@ h4 {
 @media (max-width: 950px) {
     .sec_3{
         height: 55vw;
+    }
+
+    .sec_3 .right{
+        top: -33vw;
     }
 }
 
@@ -321,6 +312,10 @@ h4 {
 
     .sec_3{
         height: 62vw;
+    }
+
+    .sec_3 .right{
+        top: -35vw;
     }
 }
 

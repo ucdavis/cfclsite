@@ -36,18 +36,6 @@ h4 {
     margin-bottom: 2vw;
 }
 
-.instr_title img {
-    width: 2.5vw;
-    height: 2.5vw;
-}
-
-.bold{
-    font-weight: bold;
-    padding-right: 10px;
-    padding-top: .3vw;
-    margin-left: 1vw;
-    margin-bottom: 1vw;
-}
 
 .instr_title p{
     font-family: "montserrat";
@@ -122,6 +110,7 @@ h4 {
     width: 10vw;
     font-family: "Montserrat-bold";
     height: 12vw;
+    font-weight: 100;
 }
 
 .below_black{

@@ -45,19 +45,6 @@ h4 {
     margin-bottom: 2vw;
 }
 
-.instr_title img {
-    width: 2.5vw;
-    height: 2.5vw;
-}
-
-.bold{
-    font-weight: bold;
-    padding-right: 10px;
-    padding-top: .3vw;
-    margin-left: 1vw;
-    margin-bottom: 1vw;
-}
-
 
 .bg_num {
     font-size: 15vw;
@@ -122,6 +109,7 @@ h4{
     color: #FF604E;
     width: 40vw;
     font-family: "Montserrat-bold";
+    font-weight: 100;
     /*height: 7vw;*/
 }
 

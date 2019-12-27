@@ -36,7 +36,7 @@ body {
     justify-content: space-between;
     width: 95vw;
     padding-left: 5vw;
-    
+
 }
 
 .logo{
@@ -44,12 +44,20 @@ body {
     max-height: 5vw;
 }
 
+.dropbtn {
+    display: none;
+}
+
+.menu {
+    width: 45%;
+    margin-right: 3vw;
+}
+
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 45%;
-    margin-right: 3vw;
+    width: 100%;
 }
 
 nav a{
@@ -121,6 +129,44 @@ a {
     nav a{
         font-size: 1.7vw;
     }
+}
+
+@media (max-width: 720px) {
+    .dropbtn {
+        display: flex;
+        max-width: 7vw;
+    }
+
+    .logo {
+        max-width: 40vw;
+        max-height: 5vh;
+    }
+
+    nav {
+        display: none;
+        position:absolute;
+        flex-direction: column;
+        background-color: #F1F1F1;
+        z-index: 2;
+        top:6vh;
+        width: 40vw;
+    }
+
+    .menu nav a {
+        font-size: 5vw;
+        color: black;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .menu:hover nav {
+        display: flex;
+    }
+
 }
 
 h1{

@@ -15,6 +15,7 @@ h1 {
     font-size: 7vw;
     font-family: 'Montserrat';
     font-weight: 500;
+    line-height: 1.2;
 }
 
 .header1 {
@@ -58,8 +59,16 @@ h1 {
     padding-right: 5vw;
 }
 
+.instr_title img {
+    width: 2.5vw;
+    height: 2.5vw;
+}
+
 .bold{
     font-weight: bold;
+    padding-right: 10px;
+    padding-top: 0vw;
+    margin-left: 1vw;
 }
 
 h4 {
@@ -79,7 +88,7 @@ h4 {
 }
 
 .top_step_nav > a {
-    font-size: 125pt;
+    font-size: 15vw;
     opacity: 0.15;
     font-weight: 300;
     text-decoration: none;
@@ -293,7 +302,7 @@ h4 {
 }
 
 .intro_left {
-    width: 60vw;
+    width: 40vw;
     margin-top: 2vh;
 }
 
