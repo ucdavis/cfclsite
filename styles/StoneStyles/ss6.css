@@ -100,7 +100,7 @@ h4 {
     width: 10vw;
     font-family: "Montserrat";
     height: 7vw;
-    font-weight: 900;
+    font-weight: 500;
 }
 
 .below_black{
@@ -185,12 +185,7 @@ h4 {
 
 .sec_2 .below_blue{
     margin-top: 1.5vw;
-    display:flex;
-    float: left;
-    color: #00DAA9;
     width: 10vw;
-    font-family: "Montserrat";
-    font-weight: 900;
     height: 7vw;
 }
 
