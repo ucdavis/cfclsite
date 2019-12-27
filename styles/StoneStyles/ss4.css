@@ -4,7 +4,7 @@
 
 .instructions {
     background-color: rgb(245, 245, 245);
-    padding-top: 10vw;
+    padding-top: 5vw;
     padding-bottom: 25vw;
     line-height: 1.2;
 }
@@ -99,9 +99,9 @@ h4 {
     float: left;
     color: #00DAA9;
     width: 10vw;
-    font-family: "Montserrat-bold";
+    font-family: "Montserrat";
     height: 7vw;
-    font-weight: 100;
+    font-weight: 500;
 }
 
 .below_black{
@@ -199,7 +199,7 @@ h4 {
     float: left;
     color: #00DAA9;
     width: 12vw;
-    font-family: "Montserrat-bold";
+    font-family: "Montserrat";
     height: 7vw;
 }
 
