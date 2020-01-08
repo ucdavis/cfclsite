@@ -5,6 +5,11 @@
     line-height: 1.2;
 }
 
+.coverImg {
+    width: 33vw;
+    left: 58vw;
+}
+
 
 .instructions h2, h4, .orange_text{
     color: #FF9B2A;

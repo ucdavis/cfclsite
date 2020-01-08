@@ -9,6 +9,12 @@
     padding-top: 15vw;
 }
 
+.coverImg {
+    top: 76vw;
+    left: 52vw;
+    width: 40vw;
+}
+
 .instructions h2, h4, .blue, .blue_text{
     color: #00DAA9;
     font-weight: 600;
