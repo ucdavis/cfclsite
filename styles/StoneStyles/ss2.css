@@ -16,6 +16,10 @@
     max-width: 45vw;
 }
 
+.coverImg {
+    top: 87vw;
+}
+
 
 .instructions h2, h4, .red, .red_text{
     color: #FF604E;
@@ -125,7 +129,7 @@ h4{
 
 .right{
     position: relative;
-    float: right;
+    float: left;
     width: 45vw;
     display: flex;
     flex-wrap: wrap;
