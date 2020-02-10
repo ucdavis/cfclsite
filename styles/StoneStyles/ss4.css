@@ -189,9 +189,6 @@ h4 {
     width: 47vw;
 
 }
-.sec_2 p{
-    max-height: 5vw;
-}
 
 .sec_2 .below_blue{
     margin-top: 1.5vw;
@@ -200,17 +197,19 @@ h4 {
     color: #00DAA9;
     width: 12vw;
     font-family: "Montserrat";
-    height: 7vw;
+    height: 12vw;
+    margin-bottom: 10vw;
 }
 
 .sec_2 .below_black{
     margin-top: 1.5vw;
+    margin-bottom: 0vw;
     margin-left: 2vw;
     font-weight: 400;
     float:left;
     display: flex;
     width: 32vw;
-    max-height: 5vw;
+
 }
 
 .sec2_bot_2{
@@ -257,12 +256,12 @@ h4 {
     position: relative;
     top: -7vw;
     left: -5vw;
-    /*height: 40vw;*/
+
 }
 
 .sec_3 .below_black{
     margin-top: 1.5vw;
-    margin-bottom: -2vw;
+    margin-bottom: 0vw;
     margin-left: 4vw;
     font-weight: 400;
     float:right;

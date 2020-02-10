@@ -68,7 +68,7 @@ h4 {
 .sec_1{
     margin-top: -5vw;
     width: 90vw;
-    margin-bottom: 30vw;
+    margin-bottom: 25vw;
 }
 
 .left{
@@ -106,7 +106,7 @@ h4 {
 
 .sec_1 .container{
     margin-bottom: 3vw;
-    height: 23vw;
+    height: 31vw;
 }
 
 .below_orange{
@@ -122,12 +122,11 @@ h4 {
 
 .below_black{
     margin-top: 1.5vw;
-    margin-bottom: -1vw;
     margin-left: 2vw;
     font-weight: 400;
     float:right;
     display: flex;
-    width: 36vw;
+    width: 37vw;
 }
 
 
@@ -138,6 +137,9 @@ h4 {
 /////////////////////////////////
 */
 
+.sec_2{
+    position: relative;
+}
 
 .sec_2 .bot{
     float: right;
@@ -159,9 +161,6 @@ h4 {
     left: 50vw;
 }
 
-.sec_2{
-    position: relative;
-}
 .sec_2 .left{
     width: 53vw;
     height: 25vw;
@@ -172,6 +171,7 @@ h4 {
     margin-left: 6vw;
     font-weight: 600;
     font-size:2.4vw;
+    top: -4.5vw;
 }
 
 .sec_2 .horizontal_line{
@@ -179,6 +179,7 @@ h4 {
     left: 6vw;
     width: 86%;
     margin-bottom: 0;
+    top: -3vw;
 }
 
 .sec_2 .bot_container{
@@ -195,27 +196,24 @@ h4 {
     width: 50vw;
 
 }
-.sec_2 p{
-    max-height: 5vw;
-}
 
 .sec_2 .below_orange{
     margin-top: 1.5vw;
     display:flex;
     float: left;
-    width: 10vw;
+    width: 11vw;
     font-family: "Montserrat-bold";
     height: 7vw;
+    margin-bottom: 9vw;
 }
 
 .sec_2 .below_black{
     margin-top: 1.5vw;
     margin-left: 2vw;
     font-weight: 400;
-    float:right;
+    float:left;
     display: flex;
     width: 32vw;
-    max-height: 5vw;
 }
 
 /*
