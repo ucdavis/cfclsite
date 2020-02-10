@@ -153,21 +153,21 @@ h4 {
 }
 
 .horizontal_line_teal {
-    border-bottom: 1px solid #00DAA9;
+    border-bottom: .12vw solid #00DAA9;
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .horizontal_line_orange {
-    border-bottom: 1px solid #FF9B2A;
+    border-bottom: .12vw solid #FF9B2A;
     width: 100%;
     margin-top: 1vw;
     margin-bottom: 1vw;
 }
 
 .horizontal_line_purple {
-    border-bottom: 1px solid #463489;
+    border-bottom: .12vw solid #463489;
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;

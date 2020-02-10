@@ -139,44 +139,43 @@ h4 {
 .left .ss2{
     position: relative;
     width: 52vw;
-    top: 5vw;
+    top: 2vw;
     left: 50vw;
 }
 
 .sec_2{
-    margin-top: 7vw;
     position: relative;
 }
 
 .sec_2 .bg_num {
-    top: 5vw;
+    top: 10vw;
     left: 0;
 }
 
 .sec_2 .left{
+    position: relative;
+    top: 8vw;
     width: 70vw;
-    height: 25vw;
     margin-left: -2vw;
 }
 
 .sec_2 .left h4{
     position: relative;
     margin-left: 6vw;
-    top: 4vw;
     font-weight: 600;
     font-size:2.4vw;
 }
 
 .sec_2 .horizontal_line{
     position: relative;
-    top: 4vw;
+    top: 2vw;
     left: 6vw;
     width: 85%;
     margin-bottom: 0;
 }
 
 .sec_2 .bot_container{
-    margin-top: -10vw;
+    margin-top: -25vw;
     margin-left: 4.5vw;
     width: 100vw;
     display: flex;
@@ -285,6 +284,11 @@ h4 {
 }
 
 @media (max-width: 700px) {
+    .sec_2 .left{
+        position: relative;
+        top: 5vw;
+    }
+
     .sec_3{
         height: 50vw;
     }
