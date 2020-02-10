@@ -83,15 +83,17 @@ h4 {
 .right {
     display: flex;
     flex-direction: row;
-    margin-bottom: 15vh;
+    margin-bottom: 5vw;
 }
 
 .right h4 {
-    margin-bottom: 5vh;
+    position: relative;
+    margin-bottom: 3vw;
 }
 
 .right .bg_num {
-    top: -300px;
+    position: relative;
+    top: -33vw;
     left: -35px;
 }
 
@@ -114,6 +116,13 @@ h4 {
     font-weight: 600;
     margin-top: 1vw;
     margin-bottom: 1vw;
+}
+
+.long{
+    width: 90vw;
+}
+.bot_right_1{
+    margin-top: 4.5vw;
 }
 
 /* ================================== */
