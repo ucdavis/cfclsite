@@ -1,18 +1,23 @@
 .instructions {
     background-color: #F6EDE1;
     padding-top: 10vw;
-    padding-bottom: 10vw;
+    padding-bottom: 5vw;
     line-height: 1.2;
 }
 
 .download_section {
-    padding-top: 15vw;
+    padding-top: 10vw;
+}
+
+.coverImg {
+    top: 76vw;
+    left: 52vw;
+    width: 45vw; 
 }
 
 .instructions h2, h4, .blue, .blue_text{
     color: #00DAA9;
-    font-family: "montserrat-bold";
-    font-weight: 100;
+    font-weight: 600;
 }
 
 h4 {
@@ -33,7 +38,7 @@ h4 {
 }
 
 .instr_title h2 {
-    font-weight: 400;
+    font-weight: 600;
     font-size: 4.5vw;
     line-height: 1.2;
     margin-bottom: 2vw;
@@ -87,7 +92,7 @@ h4 {
 
 
 .horizontal_line {
-    border-bottom: 1px solid #00DAA9;
+    border-bottom: .15vw solid #00DAA9;
     width: 100%;
     margin-top: 1.5vw;
     margin-bottom: 10px;
@@ -101,12 +106,12 @@ h4 {
     width: 10vw;
     font-family: "Montserrat";
     height: 7vw;
-    font-weight: 900;
+    font-weight: 500;
 }
 
 .below_black{
     margin-top: 1.5vw;
-    margin-bottom: -2vw;
+    margin-bottom: 0vw;
     margin-left: 2vw;
     font-weight: 400;
     float:right;
@@ -160,7 +165,6 @@ h4 {
 
 .sec_2 .horizontal_line{
     position: relative;
-    top: 1vw;
     left: 6vw;
     width: 96%;
     margin-bottom: 0;
@@ -186,12 +190,7 @@ h4 {
 
 .sec_2 .below_blue{
     margin-top: 1.5vw;
-    display:flex;
-    float: left;
-    color: #00DAA9;
     width: 10vw;
-    font-family: "Montserrat";
-    font-weight: 900;
     height: 7vw;
 }
 
@@ -249,7 +248,7 @@ h4 {
 
 .sec_3 .horizontal_line{
     position: relative;
-    top: 1vw;
+    top: -2vw;
     left: 0;
     width: 90%;
     margin-bottom: 0;
@@ -262,29 +261,29 @@ h4 {
     flex-direction: row;
     width: 90vw;
     height: 20vw;
-    margin-top: -35vw;
+    margin-top: -32vw;
     margin-left: 5vw;
 }
 
 .bot .text_container{
     display: flex;
     flex-wrap: wrap;
-    width: 45vw;
+    width: 40vw;
 }
 
 .bot .text_container .below_blue{
     display: flex;
     width: 40vw;
     height: 3vw;
-    margin-top: 3vw;
+    margin-top: 0vw;
 
 }
 
 .bot .text_container .below_black{
     float: left;
-    width: 34vw;
+    width: 37vw;
     margin-left: 0;
-    margin-right: 10vw;
+
 }
 
 

@@ -64,11 +64,16 @@ h1 {
     height: 2.5vw;
 }
 
+.instr_title h2 {
+    font-weight: 600;
+    margin-bottom: 2vw;
+}
+
 .bold{
     font-weight: bold;
     padding-right: 10px;
     padding-top: 0vw;
-    margin-left: 1vw;
+    /*margin-left: 1vw;*/
 }
 
 h4 {
@@ -84,7 +89,7 @@ h4 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 30vh;
+    margin-top: 15vw;
 }
 
 .top_step_nav > a {
@@ -148,21 +153,21 @@ h4 {
 }
 
 .horizontal_line_teal {
-    border-bottom: 1px solid #00DAA9;
+    border-bottom: .12vw solid #00DAA9;
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .horizontal_line_orange {
-    border-bottom: 1px solid #FF9B2A;
+    border-bottom: .12vw solid #FF9B2A;
     width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
 }
 
 .horizontal_line_purple {
-    border-bottom: 1px solid #463489;
+    border-bottom: .12vw solid #463489;
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -291,19 +296,21 @@ h4 {
 
 .intro_section {
     color: white;
-    padding-top: 7vh;
-    padding-bottom: 0vh;
+    padding-top: 3.0vw; 
+    padding-bottom: 0vw;
+    
 }
 
 .split_section {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 
 .intro_left {
-    width: 40vw;
-    margin-top: 2vh;
+    width: 45vw;
+    margin-top: 1vw;
+    min-height: 0vw;
 }
 
 .intro_right {
@@ -311,16 +318,15 @@ h4 {
 }
 
 .coverImg {
-    width: 30vw;
-    position: relative;
-    top: 23vh;
-    padding-left: 5vw;
-    height: 100%;
+    width: 31vw;
+    position: absolute;
+    left: 63vw;
+    top: 85vw;
 }
 
 .ss_num {
     position: relative;
-    top: -10vh;
+    top: -5vw;
     text-decoration: underline;
     font-size: 12.5vw;
     font-weight: 600;
@@ -332,6 +338,7 @@ h4 {
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
+    margin-bottom: 2vw;
 }
 
 
@@ -344,11 +351,12 @@ h4 {
     margin: 2vw 2vw 2vw 0vw;
     text-decoration: none;
     font-size: 26px;
-    border-radius: 20px;
+    border-radius: 1.25vw;
     transition-duration: 0.7s;
     transition-property: color, background-color;
     -webkit-transition-duration: 0.7s;
     -webkit-transition-property: color, background-color;
+    box-shadow: 5px 10px 8px rgba(37, 37, 37, 0.35) ;
 }
 
 .download_button > img {
