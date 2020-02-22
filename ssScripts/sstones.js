@@ -142,109 +142,6 @@ function IntroSection(props) {
         )
     );
 }
-/*
-function UpperRight(props) {
-
-    let leftSide = props.leftInstr.map((instr) => <div><p>{instr}</p><br/></div>);
-    let rightSide = props.rightInstr.map((instr) => <div><p>{instr}</p><br/></div>);
-    return (
-        <div className="up_right">
-            <div className="top">
-                <div><p className="bg_num">{props.index}.</p>
-                <h4>{props.title}</h4></div>
-                <img src={props.imgSrc} alt={props.imgAlt}/>
-            </div>
-            <div className="horizontal_line"></div>
-            <div className="bot">
-                <div>
-                    <p className="purple">{props.leftTitle}</p>
-                    <br/>
-                    {leftSide}
-                </div>
-
-                <div>
-                    <p className="purple">{props.rightTitle}</p>
-                    <br/>
-                    {rightSide}
-                </div>
-            </div>
-        </div>
-    );
-}
-
-function Right(props) {
-    let instrElems = props.instrs.map((instr) => <div><p>{instr}</p><br/></div>);
-    return (
-        <div className="right">
-            <div>
-                <h4>{props.title}</h4>
-                <div className="horizontal_line"></div>
-                <br/>
-                <div className="split">
-                <p className="purple">{props.subtitle}</p>
-                {instrElems}
-                </div>
-                <p className="bg_num">{props.index}.</p>
-            </div>
-            <img src={props.imgSrc} alt={props.imgAlt}/>
-        </div>
-    );
-}
-
-function Left(props) {
-    let instrElems = props.instrs.map((instr) => <div><p>{instr}</p><br/></div>);
-    return (
-        <div className="right">
-            <img src={props.imgSrc} alt={props.imgAlt}/>
-            <div>
-                <h4>{props.title}</h4>
-                <div className="horizontal_line"></div>
-                <br/>
-                <div className="split">
-                <p className="purple">{props.subtitle}</p>
-                {instrElems}
-                </div>
-                <p className="bg_num">{props.index}.</p>
-            </div>
-        </div>
-    );
-}
-
-function InstrTitle(props) {
-    return (
-        <div className="instr_title">
-            <h2>What do I do in this Stepping Stone?</h2>
-            <br/>
-            <div><img src="assets/SSPages/time.png" /> <p className="bold">Time Commitment:</p><p> {props.timeCommit} sessions</p></div>
-        </div>
-    );
-}
-
-function LetsGo(props) {
-    let leftSide = props.leftInstr.map((instr) => <div><p>{instr}</p><br/></div>);
-    let rightSide = props.rightInstr.map((instr) => <div><p>{instr}</p><br/></div>);
-    return (
-        <div className="lets_go in_margin">
-            <p className="bg_num">{props.index}.</p>
-            <img src={props.imgSrc} alt={props.imgAlt}/>
-            <h2>{props.title}</h2>
-            <h4>{props.subtitle}</h4>
-            <div className="horizontal_line"></div>
-            <div className="split">
-                <div className="split_half">
-                    <p className="blue">{props.leftTitle}</p>
-                    <br/>
-                    {leftSide}
-                </div>
-                <div className="split_half">
-                    <p className="blue">{props.rightTitle}</p>
-                    <br/>
-                    {rightSide}
-                </div>
-            </div>
-        </div>
-    );
-}*/
 
 function DownloadButton(props) {
     var buttonClasses = "download_button_inverse " + props.buttonColor + "_inv";
@@ -321,14 +218,22 @@ var Toolkit = function (_React$Component) {
     }, {
         key: "shiftLeft",
         value: function shiftLeft() {
-            if (this.state.currentLeftMost > 1) {
+            if (window.innerWidth < 800) {
+                if (this.state.currentLeftMost > 0) {
+                    this.setState({ currentLeftMost: this.state.currentLeftMost - 1 });
+                }
+            } else if (this.state.currentLeftMost > 1) {
                 this.setState({ currentLeftMost: this.state.currentLeftMost - 1 });
             }
         }
     }, {
         key: "shiftRight",
         value: function shiftRight() {
-            if (this.state.currentLeftMost < 5) {
+            if (window.innerWidth < 800) {
+                if (this.state.currentLeftMost < 7) {
+                    this.setState({ currentLeftMost: this.state.currentLeftMost + 1 });
+                }
+            } else if (this.state.currentLeftMost < 5) {
                 this.setState({ currentLeftMost: this.state.currentLeftMost + 1 });
             }
         }
@@ -344,15 +249,21 @@ var Toolkit = function (_React$Component) {
                     "\u2039"
                 )
             )];
-            for (var i = 0; i < 5; i++) {
-                var hrefStr = "ss" + (i + this.state.currentLeftMost) + ".html";
+            var display_num = 5;
+            var offset = 0;
+            if (window.innerWidth < 800) {
+                display_num = 3;
+                offset = 1;
+            }
+            for (var i = 0; i < display_num; i++) {
+                var hrefStr = "ss" + (i + this.state.currentLeftMost + offset) + ".html";
                 steps.push(React.createElement(
                     "div",
                     { className: "steps" },
                     React.createElement(
                         "a",
                         { href: hrefStr },
-                        React.createElement("img", { src: this.state.srcs[i + this.state.currentLeftMost - 1] })
+                        React.createElement("img", { src: this.state.srcs[i + this.state.currentLeftMost - 1 + offset] })
                     )
                 ));
             }

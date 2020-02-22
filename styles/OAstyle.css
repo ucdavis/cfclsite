@@ -555,3 +555,101 @@ html {
     }
 
 }
+
+@media (max-width: 500px) {
+    .title {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 73%;
+    }
+
+    .title h1 {
+        font-size: 25px;
+        padding-top: 0px;
+    }
+
+    #SS_scroll {
+        font-size: 16px;
+        margin: 0px;
+        margin-top: 15px;
+        border: 1px solid white;
+        padding: 2vw;
+        border-radius: 4vw;
+    }
+
+    .purpose_title h1 {
+        font-size: 25px;
+    }
+
+    .purpose_title p {
+        font-size: 16px;
+    }
+
+    .sideways_subheader {
+        font-size: 16px;
+        top: 200vw;
+        width: 400vw;
+    }
+
+    .sideways_subheader div {
+        width: 400vw;
+    }
+
+    .value {
+        width: 70vw;
+        height: 60vw;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .value p {
+        font-size: 16px;
+        width: 60vw;
+    }
+
+    .stories_title_container {
+        padding-top: 0px;
+        margin-bottom: 5px;
+    }
+
+    .stories_header h1 {
+        font-size: 20px;
+    }
+
+    .stories_header a {
+        font-size: 16px;
+        margin-top: 0px;
+        border: 1px solid #FF604E;
+        border-radius: 4vw;
+        padding: 10px;
+    }
+
+    .stepping_stones_header h1 {
+        font-size: 25px;
+        padding-top: 15vw;
+        margin-bottom: 15vw;
+    }
+
+    .stepping_stones_header p {
+        font-size: 16px;
+        line-height: 20px;
+        width: 85vw;
+    }
+
+    .stepping_stones .steps {
+        width: 70vw;
+    }
+
+    .stepping_stones .black {
+        width: 70vw;
+        height: 20vw;
+    }
+
+    .stepping_stones p {
+        font-size: 16px;
+    }
+}

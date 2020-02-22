@@ -125,6 +125,14 @@ a {
     font-weight: 400;
 }
 
+.wideOnly {
+    display: inline;
+}
+
+.narrowOnly {
+    display: none;
+}
+
 @media (max-width: 1000px) {
     nav a{
         font-size: 1.7vw;
@@ -134,12 +142,12 @@ a {
 @media (max-width: 720px) {
     .dropbtn {
         display: flex;
-        max-width: 7vw;
+        max-width: 10vw;
     }
 
     .logo {
-        max-width: 40vw;
-        max-height: 5vh;
+        max-width: 60vw;
+        max-height: 7vh;
     }
 
     nav {
@@ -148,7 +156,7 @@ a {
         flex-direction: column;
         background-color: #F1F1F1;
         z-index: 2;
-        top:6vh;
+        top:8vh;
         width: 40vw;
     }
 
@@ -165,6 +173,18 @@ a {
 
     .menu:hover nav {
         display: flex;
+    }
+
+    .header {
+        padding-bottom: 2vw;
+    }
+
+    .wideOnly {
+        display: none;
+    }
+
+    .narrowOnly {
+        display: inline;
     }
 
 }

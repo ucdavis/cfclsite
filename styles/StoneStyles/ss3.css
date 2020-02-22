@@ -70,3 +70,90 @@ h4 {
 .leftCol {
     min-width: 15vw;
 }
+
+@media (max-width: 720px) {
+    .top_step_nav {
+        margin-top: 4vw;
+    }
+    .top_step_nav > a {
+        font-size: 100px;
+    }
+    .ss_num {
+        font-size: 70px;
+        top: -12vw;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .split_section {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 5vw;
+    }
+
+    .intro_left {
+        width: 80vw;
+    }
+
+    .coverImg {
+        display: none;
+    }
+
+    .download_button img{
+        width: 5vw;
+    }
+
+    .instr_title {
+        padding-bottom: 10vw;
+        width: 70vw;
+    }
+
+    .instr_title h2 {
+        font-size: 20px;
+    }
+
+    .instr_title img {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .section {
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+
+    .section img {
+        max-width: 50vw;
+    }
+
+    .bg_num {
+        bottom: 85vw;
+    }
+
+    .textSide {
+        width: 80vw;
+    }
+
+    #text2 {
+        flex-direction: column-reverse;
+    }
+
+    #bg_num2 {
+        bottom: 95vw;
+    }
+
+    #bg_num3{
+        bottom: 50vw;
+    }
+
+}
