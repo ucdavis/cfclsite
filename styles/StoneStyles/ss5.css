@@ -16,13 +16,13 @@
 
 .num1 {
     position: relative;
-    top: -25vw;
-    right: 35vw;
+    top: 15vw;
+    left: 10vw;
 }
 
 .num2 {
     left: 12vw;
-    top: 12vw;
+    top: 11vw;
 }
 
 h2 {
@@ -30,13 +30,12 @@ h2 {
 }
 
 h4 {
-    font-size: 30px;
+    font-size: 2.2vw;
     font-weight: 600;
 }
 
 .instr_title {
     width: 50vw;
-    padding-bottom: 5vw;
 }
 
 .instr_title div {
@@ -46,6 +45,7 @@ h4 {
 }
 
 .img1{
+    position: relative;
     width: 60vw;
 }
 
@@ -126,4 +126,10 @@ h4 {
 
 .text2 .coral{
     font-size: 3vw; 
+}
+
+@media (max-width: 400px) {
+    .section1{
+        margin-top: -10vw;
+    }
 }

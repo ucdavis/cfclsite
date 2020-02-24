@@ -17,6 +17,10 @@
     font-family: "montserrat-bold";
 }
 
+h1{
+    width: 55vw;
+}
+
 h4 {
     font-size: 30px;
     font-weight: 600;
@@ -98,7 +102,7 @@ h4 {
 
 
 .horizontal_line {
-    border-bottom: 2px solid #FF9B2A;
+    border-bottom: .15vw solid #FF9B2A;
     width: 100%;
     margin-top: 1.5vw;
     margin-bottom: 10px;
@@ -139,6 +143,8 @@ h4 {
 
 .sec_2{
     position: relative;
+    height: 70vw;
+    margin-bottom: -50vw;
 }
 
 .sec_2 .bot{
@@ -154,16 +160,15 @@ h4 {
     font-size: 2.2vw;
 }
 
-.left .ss2{
+.ss2{
     position: relative;
     width: 47vw;
-    top: -8vw;
+    top: -15vw;
     left: 50vw;
 }
 
 .sec_2 .left{
     width: 53vw;
-    height: 25vw;
 }
 
 .sec_2 .left h4{
@@ -183,12 +188,12 @@ h4 {
 }
 
 .sec_2 .bot_container{
-    margin-top: -10vw;
     margin-left: 6.5vw;
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
     height: 35vw;
+    margin-top: -2vw;
 }
 
 .sec_2 .bot{
@@ -303,7 +308,7 @@ h4 {
 .sec_3 .bot .text_container .below_white{
     color: white;
     display: flex;
-    width: 12vw;
+    width: 15vw;
     height: 3vw;
     margin-top: 0vw;
     font-weight: 900;
@@ -315,28 +320,20 @@ h4 {
     display: flex;
     width: 27vw;
     margin-top: 0;
-    margin-left: 2vw; 
     padding: 0;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 
 @media (max-width: 750px) {
     .congrats{
-        height: 70vw;
-        min-height: 250px;
+        height: 80vw;
     }
 
     .sec_1 .right{
         margin-top: -38vw;
     }
 
-    .sec_2 h4{
-        margin-top: 5vw;
-    }
-    .sec_2 .bot_container{
-        margin-top: -5vw;
-    }
 
 }
 
