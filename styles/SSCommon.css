@@ -296,9 +296,9 @@ h4 {
 
 .intro_section {
     color: white;
-    padding-top: 3.0vw; 
+    padding-top: 3.0vw;
     padding-bottom: 0vw;
-    
+
 }
 
 .split_section {
@@ -521,7 +521,128 @@ h4 {
 }
 
 @media (max-width: 500px) {
-    .step {
+    h1 {
+        font-size: 25px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .split_section {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 5vw;
+    }
+
+    .intro_left {
+        width: 80vw;
+    }
+
+    .intro_left p {
+        max-width: 80vw;
+    }
+
+    .download_button_row > p {
+        display: none;
+    }
+
+    .coverImg {
+        display: none;
+    }
+
+    .download_button img{
+        width: 5vw;
+    }
+
+    .ss_num {
+        font-size: 70px;
+        top: -7vw;
+    }
+
+    .top_step_nav {
+        align-items: flex-start;
+        margin-top: 4vw;
+    }
+
+    .top_step_nav > a {
+        font-size: 100px;
+        line-height: 50px;
+    }
+
+    .sliding_menu .steps {
         width: 20vw;
+    }
+
+    .download_section div {
+        padding-top: 10vw;
+        padding-bottom: 10vw;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .download_section div h3{
+        font-size: 20px;
+        margin-bottom: 5vw;
+    }
+
+    .download_button_row {
+        justify-content: center;
+    }
+
+    .download_button {
+        padding: 3vw 10vw 3vw 10vw;
+        border-radius: 6vw;
+    }
+
+    .download_button a {
+        font-size: 20px;
+    }
+
+    .download_button img {
+        width: 20px;
+    }
+
+    .download_button_inverse {
+        padding: 3vw 10vw 3vw 10vw;
+        border-radius: 6vw;
+    }
+
+    .download_button_inverse a{
+        font-size: 20px;
+    }
+
+    .download_button_inverse img {
+        width: 20px;
+    }
+
+    .bot_step_nav {
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+
+    .bot_step_nav h4 {
+        font-size: 25px;
+    }
+    .bot_step_nav > a {
+        margin-top: 5vw;
+        font-size: 20px;
+    }
+
+    .sliding_menu {
+        width: 100vw;
+    }
+
+    .popup a img {
+        width: 30vw;
+    }
+
+    .closePopUp {
+        font-size: 40px;
     }
 }

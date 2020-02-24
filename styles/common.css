@@ -154,15 +154,16 @@ a {
         display: none;
         position:absolute;
         flex-direction: column;
-        background-color: #F1F1F1;
+        background-color: rgba(0, 218, 169, 0.75);
         z-index: 2;
         top:8vh;
-        width: 40vw;
+        width: 50vw;
     }
 
     .menu nav a {
-        font-size: 5vw;
-        color: black;
+        font-size: 20px;
+        color: #5F1AC1;
+        font-weight: bold;
     }
 
     .menu {
@@ -176,7 +177,7 @@ a {
     }
 
     .header {
-        padding-bottom: 2vw;
+        padding-bottom: 5vw;
     }
 
     .wideOnly {

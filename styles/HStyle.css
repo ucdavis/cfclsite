@@ -427,11 +427,12 @@ ul li:before {
 @media (max-width: 500px) {
 
     .homepage_revised {
-        top: 32vw;
+        top: 42vw;
     }
 
     .title_container {
-        padding-bottom: 5vw;
+        padding-bottom: 0vw;
+        height: 82vw;
     }
 
     .title {
@@ -450,6 +451,7 @@ ul li:before {
 
     .post_title {
         height: 95vw;
+        padding-left: 1vw;
     }
 
     .post_title .flowers {
@@ -524,17 +526,20 @@ ul li:before {
         margin-left: 0px;
         margin-right: 0px;
         width: 100vw;
-        height: 50vw;
+        height: 48vw;
+        margin-bottom: 0px;
+        background-size: 100vw 50vw;
     }
 
     .our_approach_container h2 {
         font-size: 20px;
+        padding-top: 15vw;
     }
 
     .our_approach_container a {
         font-size: 16px;
         padding: 2vw 3vw 2vw 3vw;
-        background-size: 100vw 52vw;
+        background-size: 100vw 48vw;
         margin-bottom: 0px;
     }
 
@@ -545,6 +550,7 @@ ul li:before {
         width: 100vw;
         height: 50vw;
         margin-bottom: 0px;
+        background-size: 100vw 60vw;
     }
 
     .stories_container h2 {
@@ -563,6 +569,33 @@ ul li:before {
     .orange_lea {
         bottom: 30vw;
     }
+}
 
+@media (max-width: 340px) {
+    .title {
+        margin-left: 0px;
+        max-width: 100%;
+    }
+    .title h1 {
+        width: 95%;
+        margin-left: 5vw;
+    }
 
+    .post_title {
+        height: 105vw;
+    }
+
+    .post_title .flowers {
+        top: 135vw;
+        left: 29vw;
+        margin-left: 0vw;
+    }
+
+    .community_futures {
+        height: 160vw;
+    }
+
+    .stepping_stones {
+        height: 240vw;
+    }
 }

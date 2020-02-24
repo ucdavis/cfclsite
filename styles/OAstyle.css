@@ -557,6 +557,9 @@ html {
 }
 
 @media (max-width: 500px) {
+    .header {
+        padding-bottom: 0px;
+    }
     .title {
         flex-direction: column;
         align-items: center;

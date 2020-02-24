@@ -69,47 +69,6 @@ h4 {
 }
 
 @media (max-width: 720px) {
-    .top_step_nav {
-        margin-top: 4vw;
-    }
-    .top_step_nav > a {
-        font-size: 100px;
-    }
-    .ss_num {
-        font-size: 70px;
-        top: -12vw;
-    }
-    h1 {
-        font-size: 25px;
-    }
-    h4 {
-        font-size: 20px;
-    }
-    p {
-        font-size: 16px;
-        line-height: 20px;
-    }
-
-    .split_section {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 5vw;
-    }
-
-    .intro_left {
-        width: 80vw;
-    }
-
-    .coverImg {
-        display: none;
-    }
-
-    .download_button img{
-        width: 5vw;
-    }
-
     .instr_title {
         padding-bottom: 10vw;
         width: 70vw;
