@@ -236,7 +236,7 @@ h4 {
 }
 
 .sec_3 h4{
-    width: 35vw;
+    width: 40vw;
 }
 
 .sec_3 .ss3{
@@ -254,16 +254,16 @@ h4 {
 .sec_3 .right{
     position: relative;
     top: -7vw;
-    left: -5vw;
+    left: -10vw;
+    width: 45vw;
 
 }
 
 .sec_3 .below_black{
     margin-top: 1.5vw;
     margin-bottom: 0vw;
-    margin-left: 4vw;
+    margin-left: 0vw;
     font-weight: 400;
-    float:right;
     display: flex;
     width: 32vw;
 }

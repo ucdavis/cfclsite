@@ -1,6 +1,6 @@
 .instructions {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
 }
 
 .instructions h2, .instructions h4 {
@@ -9,7 +9,7 @@
 }
 
 h4 {
-    font-size: 3vw;
+    font-size: 2.2vw;
     font-weight: 600;
 }
 
@@ -40,32 +40,49 @@ h4 {
 }
 
 .bg_num {
-    font-size: 150px;
+    font-size: 15vw;
     position: relative;
     line-height: 70px;
     opacity: 0.1;
     font-weight: 600;
 }
 
-.up_right .bg_num {
-    top: 50px;
-    left: -35px;
-}
-
 .up_right {
     display: flex;
     flex-direction: column;
-    margin-bottom: 15vh;
+    margin-bottom: 7vw;
 }
 
-.instructions img {
-    max-width: 45vw;
+
+
+
+.img1{
+    width: 45vw;
+    height: 23vw;
 }
 
+.img2{
+    position: absolute;
+    width: 45vw;
+    left: 45vw;
+    height: 20vw;
+    top: -1vw;
+}
+
+.img3{
+    position: relative;
+    left: 5vw;
+    height: 30vw;
+    width: 45vw;
+}
 .up_right .top,.bot{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.up_right h4{
+    width: 40vw;
 }
 
 .top > div {
@@ -91,12 +108,27 @@ h4 {
     margin-bottom: 3vw;
 }
 
-.right .bg_num {
-    position: relative;
-    top: -33vw;
-    left: -35px;
+.num1{
+    left: -3vw;
+    top: 2vw;
 }
 
+.num2 {
+    position: absolute;
+    top: 1vw;
+    left: -3vw;
+}
+
+.num3{
+    position: absolute;
+    top: -5vw;
+    left: -3vw;
+}
+
+.sec2{
+    margin-top: 15vw;
+    margin-bottom: 12vw;
+}
 .left {
     display: flex;
     flex-direction: row;
@@ -104,13 +136,9 @@ h4 {
 }
 
 .left h4 {
-    margin-bottom: 5vh;
+    margin-bottom: 2vw;
 }
 
-.left .bg_num {
-    top: -300px;
-    left: -35px;
-}
 
 .subheader {
     font-weight: 600;
@@ -132,13 +160,13 @@ h4 {
     flex-direction: column;
     align-items: center;
     color: white;
-    padding-bottom: 10vh;
+    padding-bottom: 7vw;
     padding-left: 10vw;
     padding-right: 10vw;
 }
 
 .lets_go .bg_num{
-    top: 150px;
+    top: 15vw;
     left: -40vw;
     color: white;
     opacity: 0.2;
@@ -176,4 +204,13 @@ h4 {
 
 .coverImg {
     top: 80vw;
+}
+
+@media (max-width: 600px){
+    .sec2{
+        margin-top: 17vw;
+    }
+    .num3{
+        top: -9vw;
+    }
 }

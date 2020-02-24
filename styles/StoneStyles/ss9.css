@@ -1,9 +1,9 @@
 .instructions {
-    padding-top: 10vh;
+    padding-top: 10vw;
 }
 
 .bg_num {
-    font-size: 150px;
+    font-size: 15vw;
     position: relative;
     line-height: 70px;
     opacity: 0.1;
@@ -11,20 +11,24 @@
 }
 
 .num1 {
-    bottom: 60vh;
+    top: -2vw;
     left: -2.5vw;
+}
+.image1{
+    position: relative;
+    left: -8vw;
 }
 
 .num2 {
-    bottom: 65vh;
     left: -2.5vw;
 }
 
 .num3 {
-    bottom: 110vh;
-    left: -15vw;
+    top: 9vw;
+    left: -11vw;
     color: white;
     opacity: 0.2;
+    z-index: 2;
 }
 
 h2 {
@@ -32,13 +36,13 @@ h2 {
 }
 
 h4 {
-    font-size: 30px;
+    font-size: 2.2vw;
     font-weight: 600;
 }
 
 .instr_title {
     width: 50vw;
-    padding-bottom: 20vh;
+    padding-bottom: 10vw;
 }
 
 .instr_title div {
@@ -56,18 +60,26 @@ h4 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-bottom: 10vh;
+    padding-bottom: 10vw;
     align-items: center;
 }
 
 .section img {
-    max-width: 45vw;
+    width: 50vw;
+    z-index: 10;
 
 }
 
 .textSide {
-    width: 45vw;
+    width: 55vw;
 }
+
+#sec1Text{
+    display: absolute;
+    width: 50vw;
+    max-width: 100%;
+}
+
 
 .lastSection {
     display: flex;
@@ -75,8 +87,17 @@ h4 {
     align-items: center;
     padding-left: 5vw;
     padding-right: 5vw;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 7vw;
+    padding-bottom: 7vw;
+}
+
+.lastSection h4{
+    width: 45vw;
+}
+.lastSection img {
+    width: 50vw;
+    z-index: 10;
+
 }
 
 .botSection {
