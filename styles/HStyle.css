@@ -192,7 +192,7 @@ nav a{
     font-weight: 900;
     opacity: .2;
     left: -4vw;
-    top: 2vw;   
+    top: 2vw;
 }
 
 .stepping_stones h1{
@@ -425,7 +425,177 @@ ul li:before {
     }
 }
 @media (max-width: 500px) {
+
+    .homepage_revised {
+        top: 42vw;
+    }
+
+    .title_container {
+        padding-bottom: 0vw;
+        height: 82vw;
+    }
+
+    .title {
+        overflow-y: hidden;
+    }
+
+    .title h1 {
+        font-size: 25px;
+        width: 70%;
+    }
+
     .title h2{
-        width: 35%;
+        width: 30vw;
+        font-size: 16px;
+    }
+
+    .post_title {
+        height: 95vw;
+        padding-left: 1vw;
+    }
+
+    .post_title .flowers {
+        top: 115vw;
+        left: 29vw;
+        margin-left: 0vw;
+    }
+
+    .post_title h2 {
+        font-size: 16px;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        padding-top: 5vw;
+    }
+
+    .community_futures {
+        padding-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 125vw;
+    }
+
+    .community_futures h1 {
+        font-size: 25px;
+        width: 75vw;
+        text-align: center;
+    }
+
+    .community_futures h3 {
+        font-size: 16px;
+        width: 75vw;
+    }
+
+    .stepping_stones {
+        height: 200vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0px;
+    }
+
+    .stepping_stones h1 {
+        font-size: 25px;
+        padding-top: 30vw;
+    }
+
+    .stepping_stones h2, .stepping_stones h3 {
+        font-size: 20px;
+        width: 85vw;
+    }
+
+    .stepping_stones ul {
+        font-size: 16px;
+        width: 85vw;
+    }
+
+    ul li:before {
+        padding-right: 15px;
+    }
+
+    .stepping_stones a {
+        font-size: 16px;
+    }
+
+    .more_info {
+        padding: 0px;
+    }
+
+    .our_approach_container {
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100vw;
+        height: 48vw;
+        margin-bottom: 0px;
+        background-size: 100vw 50vw;
+    }
+
+    .our_approach_container h2 {
+        font-size: 20px;
+        padding-top: 15vw;
+    }
+
+    .our_approach_container a {
+        font-size: 16px;
+        padding: 2vw 3vw 2vw 3vw;
+        background-size: 100vw 48vw;
+        margin-bottom: 0px;
+    }
+
+    .stories_container {
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100vw;
+        height: 50vw;
+        margin-bottom: 0px;
+        background-size: 100vw 60vw;
+    }
+
+    .stories_container h2 {
+        font-size: 20px;
+    }
+
+    .stories_container a {
+        font-size: 16px;
+        padding: 2vw 3vw 2vw 3vw;
+    }
+
+    .stepping_stones > h2 > br{
+        display: none;
+    }
+
+    .orange_lea {
+        bottom: 30vw;
+    }
+}
+
+@media (max-width: 340px) {
+    .title {
+        margin-left: 0px;
+        max-width: 100%;
+    }
+    .title h1 {
+        width: 95%;
+        margin-left: 5vw;
+    }
+
+    .post_title {
+        height: 105vw;
+    }
+
+    .post_title .flowers {
+        top: 135vw;
+        left: 29vw;
+        margin-left: 0vw;
+    }
+
+    .community_futures {
+        height: 160vw;
+    }
+
+    .stepping_stones {
+        height: 240vw;
     }
 }
