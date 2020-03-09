@@ -48,7 +48,6 @@ h4 {
 .bg_num {
     font-size: 15vw;
     position: relative;
-    line-height: 70px;
     opacity: 0.1;
     font-weight: 600;
 }
@@ -81,7 +80,7 @@ h4 {
 .right{
     float: right;
     width: 52vw;
-    margin-top: -20vw;
+    margin-top: -10vw;
     display: flex;
     flex-wrap: wrap;
 }
@@ -127,6 +126,9 @@ h4 {
 /////////////////////////////////
 */
 
+.sec_2 .bg_num{
+    top: 3vw;
+}
 
 .sec_2 .bot{
     float: right;
@@ -142,13 +144,13 @@ h4 {
 
 .left .ss2{
     position: relative;
-    width: 40vw;
+    width: 50vw;
     top: -10vw;
-    left: 50vw;
+    left: 45vw;
 }
 
 .sec_2{
-    margin-top: 25vw;
+    margin-top: 35vw;
     position: relative;
 }
 .sec_2 .left{
@@ -161,6 +163,7 @@ h4 {
     margin-left: 6vw;
     top: -1vw;
     font-size:2.4vw;
+    margin-top: 4vw;
 }
 
 .sec_2 .horizontal_line{
@@ -215,7 +218,7 @@ h4 {
     position: relative;
     width: 100vw;
     height: 50vw;
-    margin-top: 10vw;
+    margin-top: 20vw;
 }
 
 .sec_3 .ss3{
@@ -236,7 +239,7 @@ h4 {
 
 .sec_3 .right{
     position: relative;
-    top: -30vw;
+    top: -40vw;
     left: 15vw;
     height: 1vw;
     margin-bottom: 0vw;
@@ -286,52 +289,3 @@ h4 {
 
 }
 
-
-
-@media (max-width: 950px) {
-    .sec_3{
-        height: 55vw;
-    }
-
-    .sec_3 .right{
-        top: -33vw;
-    }
-}
-
-
-@media (max-width: 600px) {
-    .sec_2 h4{
-        position: relative;
-        margin-top: 4vw;
-    }
-
-    .sec_2 .bot_container{
-        margin-top: -5vw;
-    }
-
-    .sec_3{
-        height: 62vw;
-    }
-
-    .sec_3 .right{
-        top: -35vw;
-    }
-}
-
-
-
-
-@media (max-width: 400px) {
-    .sec_2 h4{
-        position: relative;
-        margin-top: 12vw;
-    }
-
-    .sec_2 .bot_container{
-        margin-top: 3vw;
-
-    }
-    .sec_3{
-        height: 65vw;
-    }
-}

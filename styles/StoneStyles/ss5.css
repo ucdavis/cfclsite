@@ -9,7 +9,6 @@
 .bg_num {
     font-size: 15vw;
     position: relative;
-    line-height: 70px;
     opacity: 0.1;
     font-weight: 600;
 }
@@ -125,11 +124,5 @@ h4 {
 }
 
 .text2 .coral{
-    font-size: 3vw; 
-}
-
-@media (max-width: 400px) {
-    .section1{
-        margin-top: -10vw;
-    }
+    font-size: 2.2vw; 
 }

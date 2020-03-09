@@ -47,7 +47,6 @@ h4 {
 .bg_num {
     font-size: 15vw;
     position: relative;
-    line-height: 70px;
     opacity: 0.1;
     font-weight: 600;
 }
@@ -87,7 +86,7 @@ h4 {
 
 
 .horizontal_line {
-    border-bottom: 1px solid #00DAA9;
+    border-bottom: 0.15vw solid #00DAA9;
     width: 100%;
     margin-top: 1.5vw;
     margin-bottom: .5vw;
@@ -139,7 +138,6 @@ h4 {
 .left .ss2{
     position: relative;
     width: 52vw;
-    top: 2vw;
     left: 50vw;
 }
 
@@ -154,7 +152,7 @@ h4 {
 
 .sec_2 .left{
     position: relative;
-    top: 8vw;
+    top: 10vw;
     width: 70vw;
     margin-left: -2vw;
 }
@@ -168,7 +166,7 @@ h4 {
 
 .sec_2 .horizontal_line{
     position: relative;
-    top: 2vw;
+    top: 0vw;
     left: 6vw;
     width: 85%;
     margin-bottom: 0;
@@ -284,10 +282,6 @@ h4 {
 }
 
 @media (max-width: 700px) {
-    .sec_2 .left{
-        position: relative;
-        top: 5vw;
-    }
 
     .sec_3{
         height: 50vw;
@@ -295,14 +289,9 @@ h4 {
 }
 
 
-@media (max-width: 500px) {
-    .sec_3{
-        height: 80vw;
-    }
-}
 
 @media (max-width: 350px) {
     .sec_3{
-        height: 90vw;
+        height: 70vw;
     }
 }
