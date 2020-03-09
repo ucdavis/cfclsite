@@ -239,7 +239,38 @@ h4{
     }
 
     .sec_2 .bot{
-        top: -28vw;
+        top: -35vw;
+    }
+}
+
+
+@media (max-width: 700px) {
+
+    .left{
+        margin-top: 2vw;
+    }
+
+    .right{
+        top: 30vw;
+    }
+
+    .intro_left p {
+        max-width: 80vw;
+    }
+}
+
+
+@media (max-width: 620px) {
+
+    .sec_2{
+        top: 210vw;
+    }
+    .sec_2 h4{
+        top: 10vw;
+    }
+
+    .sec_2 .bot{
+        top: -37vw;
     }
 
 }

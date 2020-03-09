@@ -73,3 +73,53 @@ h4 {
 .leftCol {
     min-width: 15vw;
 }
+
+@media (max-width: 720px) {
+    .instr_title {
+        padding-bottom: 10vw;
+        width: 70vw;
+    }
+
+    .instr_title h2 {
+        font-size: 20px;
+    }
+
+    .instr_title img {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .section {
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+
+    .section img {
+        max-width: 50vw;
+    }
+
+    .bg_num {
+        bottom: 85vw;
+    }
+
+    .textSide {
+        width: 80vw;
+    }
+
+    #text2 {
+        flex-direction: column-reverse;
+    }
+
+    #bg_num2 {
+        bottom: 95vw;
+    }
+
+    #bg_num3{
+        bottom: 50vw;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+}
