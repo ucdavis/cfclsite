@@ -263,9 +263,32 @@ h4{
 
 
 @media (max-width: 620px) {
+    .instr_title {
+        padding-bottom: 0px;
+        width: 70vw;
+    }
+
+    .instr_title h2 {
+        font-size: 20px;
+    }
+
+    .instr_title img {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .bg_num {
+        top: 20vw;
+        font-size: 70px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
 
     .sec_2{
-        top: 210vw;
+        top: 0vw;
+        position: static;
     }
     .sec_2 h4{
         top: 10vw;
