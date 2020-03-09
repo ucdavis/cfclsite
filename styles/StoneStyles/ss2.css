@@ -9,7 +9,7 @@
 
 .intro_section h1 {
     width: 70vw;
-    margin-bottom: 2.5vh;
+    margin-bottom: 2.5vw;
 }
 
 .intro_left p{
@@ -53,13 +53,12 @@ h4 {
 .bg_num {
     font-size: 15vw;
     position: relative;
-    line-height: 70px;
     opacity: 0.1;
     font-weight: 600;
 }
 
 .sec_1 .bg_num {
-    top: 10vw;
+    top: 7vw;
     left: 0;
 }
 
@@ -150,7 +149,7 @@ h4{
     margin-top: 15vw;
     position: absolute;
     top: 190vw;
-    left: 0vw;;
+    left: 5vw;
     width: 100vw;
 }
 
@@ -160,15 +159,14 @@ h4{
 
 .sec_2 .bg_num{
     left: -5vw;
-    top: 3vw;
+    top: 5vw;
 }
 
 .sec_2 .bot{
     position: relative;
     float: left;
     width: 52vw;
-    top: -32vw;
-    left: 0vw;
+    top: -31vw;
     display: flex;
     flex-wrap: wrap;
 
@@ -214,9 +212,7 @@ h4{
         top: 7vw;
     }
 
-    .sec_2 .bot{
-        top: -33vw;
-    }
+
 }
 
 @media (max-width: 1050px) {
@@ -225,14 +221,16 @@ h4{
     }
 
     .sec_2 .bot{
-        top: -34vw;
+        top: -30vw;
     }
 }
 
 @media (max-width: 900px) {
+    
     .instructions{
         height: 175vw;
     }
+
     .sec_2{
         top: 200vw;
     }
@@ -241,52 +239,9 @@ h4{
     }
 
     .sec_2 .bot{
-        top: -35vw;
+        top: -28vw;
     }
+
 }
 
 
-@media (max-width: 700px) {
-
-    .left{
-        margin-top: 2vw;
-    }
-
-    .right{
-        top: 30vw;
-    }
-}
-
-
-@media (max-width: 620px) {
-
-    .sec_2{
-        top: 210vw;
-    }
-    .sec_2 h4{
-        top: 10vw;
-    }
-
-    .sec_2 .bot{
-        top: -37vw;
-    }
-
-    .sec_2 .left{
-        height: 30vw;
-    }
-}
-
-@media (max-width: 410px) {
-    .sec_2 .left{
-        top: 5vw;
-        left: -40vw;
-    }
-
-    .sec_2 h4{
-        top: 9vw;
-    }
-
-    .sec_2 .bot{
-        top: -35vw;
-    }
-}

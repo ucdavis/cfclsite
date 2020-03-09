@@ -42,7 +42,6 @@ h4 {
 .bg_num {
     font-size: 15vw;
     position: relative;
-    line-height: 70px;
     opacity: 0.1;
     font-weight: 600;
 }
@@ -110,23 +109,23 @@ h4 {
 
 .num1{
     left: -3vw;
-    top: 2vw;
+    top: -1vw;
 }
 
 .num2 {
     position: absolute;
-    top: 1vw;
+    top: 7vw;
     left: -3vw;
 }
 
 .num3{
     position: absolute;
-    top: -5vw;
+    top: -3vw;
     left: -3vw;
 }
 
 .sec2{
-    margin-top: 15vw;
+    margin-top: 18vw;
     margin-bottom: 12vw;
 }
 .left {
@@ -204,13 +203,4 @@ h4 {
 
 .coverImg {
     top: 80vw;
-}
-
-@media (max-width: 600px){
-    .sec2{
-        margin-top: 17vw;
-    }
-    .num3{
-        top: -9vw;
-    }
 }
