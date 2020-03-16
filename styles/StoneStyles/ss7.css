@@ -119,5 +119,45 @@ h4 {
 
     .bg_num {
         font-size: 70px;
+        top: 10vw;
+    }
+
+    .section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section h4 {
+        font-size: 20px;
+    }
+
+    .textSide {
+        width: 90vw;
+    }
+
+    .num1 {
+        left: 0vw;
+    }
+
+    .botText {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section2 {
+        flex-direction: column-reverse;
+        margin-left: 0px;
+    }
+
+    .section3 {
+        margin-left: 3vw;
+    }
+
+    .rightCol {
+        width: 90vw;
+    }
+
+    .leftCol {
+        width: 90vw;
     }
 }

@@ -212,17 +212,17 @@ h4{
     .instructions{
         height: 175vw;
     }
-
-
 }
-
-
-@media (max-width: 700px) {
-
-}
-
 
 @media (max-width: 620px) {
+    .instructions {
+        height: 350vw;
+    }
+
+    .intro_left p {
+        max-width: 80vw;
+    }
+
     .instr_title {
         padding-bottom: 0px;
         width: 70vw;
@@ -246,16 +246,32 @@ h4{
         font-size: 20px;
     }
 
-    .sec_2{
+    .sec_2 {
         top: 0vw;
         position: static;
     }
-    .sec_2 h4{
+
+    .sec_2 h4 {
         top: 10vw;
     }
 
-    .sec_2 .bot{
+    .sec_2 .bot {
         top: -37vw;
+    }
+
+    .left, .right{
+        position: static;
+        /*float: none;*/
+        width: 90vw;
+        top: 0px;
+    }
+
+    .below_red {
+        width: 90vw;
+    }
+
+    .below_black {
+        width: 90vw;
     }
 
 }
