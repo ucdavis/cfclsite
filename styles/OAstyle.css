@@ -35,12 +35,12 @@ html {
 #SS_scroll{
     display:flex;
     margin: auto;
-    margin-top: 3vw;
-    padding: 1.2vw;
-    font-size: 2vw;
+    margin-top: 5vw;
+    padding: 1.7vw 3.2vw;
+    font-size: 1.85vw;
     color: white;
-    border: .05vw solid white;
-    border-radius: 3vw;
+    border: .1vw solid white;
+    border-radius: 5vw;
     text-decoration: none;
     transition-duration: 0.7s;
     transition-property: color, background-color;

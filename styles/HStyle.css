@@ -175,7 +175,6 @@ nav a{
 .stepping_stones{
     position: relative;
     height: 107vw;
-    max-height: 250vh;
     padding-left: 10vw;
     background-color: #FF604E;
     line-height: 1.4;
@@ -272,7 +271,7 @@ ul li:before {
     padding: 1.7vw 3.2vw;
     font-size: 1.85vw;
     color: white;
-    border: 3px solid white;
+    border: .1vw solid white;
     border-radius: 5vw;
     text-decoration: none;
     font-weight: 500;

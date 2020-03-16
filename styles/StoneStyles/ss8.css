@@ -29,6 +29,7 @@ h4 {
 
 .instr_title {
     width: 49vw;
+    margin-bottom: 10vw;
 }
 
 .instr_title div {
@@ -58,7 +59,6 @@ h4 {
 .bg_num {
     font-size: 15vw;
     position: relative;
-    line-height: 70px;
     opacity: 0.1;
     font-weight: 600;
 }
@@ -143,8 +143,8 @@ h4 {
 
 .sec_2{
     position: relative;
-    height: 70vw;
-    margin-bottom: -50vw;
+
+    margin-bottom: -30vw;
 }
 
 .sec_2 .bot{
@@ -155,10 +155,6 @@ h4 {
     flex-wrap: wrap;
 }
 
-.sec_2 .bot h4{
-    font-weight: 600;
-    font-size: 2.2vw;
-}
 
 .ss2{
     position: relative;
@@ -175,8 +171,8 @@ h4 {
     position: relative;
     margin-left: 6vw;
     font-weight: 600;
-    font-size:2.4vw;
-    top: -4.5vw;
+    font-size:2.2vw;
+
 }
 
 .sec_2 .horizontal_line{
@@ -184,7 +180,7 @@ h4 {
     left: 6vw;
     width: 86%;
     margin-bottom: 0;
-    top: -3vw;
+
 }
 
 .sec_2 .bot_container{
@@ -193,7 +189,7 @@ h4 {
     display: flex;
     flex-wrap: wrap;
     height: 35vw;
-    margin-top: -2vw;
+
 }
 
 .sec_2 .bot{
@@ -323,31 +319,3 @@ h4 {
     padding: 0;
     font-weight: 400;
 }
-
-
-@media (max-width: 750px) {
-    .congrats{
-        height: 80vw;
-    }
-
-    .sec_1 .right{
-        margin-top: -38vw;
-    }
-
-
-}
-
-/*
-@media (max-width: 550px) {
-    .congrats{
-        height: 90vw;
-
-    }
-}
-
-@media (max-width: 420px) {
-    .congrats{
-        height: 100vw;
-    }
-}
-*/

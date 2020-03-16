@@ -5,14 +5,13 @@
 .bg_num {
     font-size: 15vw;
     position: relative;
-    line-height: 70px;
     opacity: 0.1;
     font-weight: 600;
 }
 
 .num1 {
-    top: -2vw;
-    left: -2.5vw;
+    top: -5vw;
+    left: 3.5vw;
 }
 .image1{
     position: relative;
@@ -20,7 +19,7 @@
 }
 
 .num2 {
-    left: -2.5vw;
+    left: 2.5vw;
 }
 
 .num3 {
@@ -77,7 +76,10 @@ h4 {
 #sec1Text{
     display: absolute;
     width: 50vw;
-    max-width: 100%;
+}
+
+.section2{
+    margin-left: 7vw;
 }
 
 
@@ -105,10 +107,31 @@ h4 {
     flex-direction: row;
     justify-content: center;
     width: 90vw;
+    margin-top: 2.5vw;
 }
 
 .botSection > div {
     width: 33vw;
     margin-left: 2.5vw;
     margin-right: 2.5vw;
+}
+
+@media (max-width: 720px) {
+    .instr_title {
+        padding-bottom: 0px;
+        width: 90vw;
+    }
+
+    .instr_title h2 {
+        font-size: 20px;
+    }
+
+    .instr_title img {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .bg_num {
+        font-size: 70px;
+    }
 }
