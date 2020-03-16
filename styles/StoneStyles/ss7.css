@@ -95,9 +95,69 @@ h4 {
 }
 
 .leftCol {
-    width: 17vw; 
+    width: 17vw;
 }
 
 .rightCol {
     width: 30vw;
+}
+
+@media (max-width: 720px) {
+    .instr_title {
+        padding-bottom: 0px;
+        width: 90vw;
+    }
+
+    .instr_title h2 {
+        font-size: 20px;
+    }
+
+    .instr_title img {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .bg_num {
+        font-size: 70px;
+        top: 10vw;
+    }
+
+    .section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section h4 {
+        font-size: 20px;
+    }
+
+    .textSide {
+        width: 90vw;
+    }
+
+    .num1 {
+        left: 0vw;
+    }
+
+    .botText {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section2 {
+        flex-direction: column-reverse;
+        margin-left: 0px;
+    }
+
+    .section3 {
+        margin-left: 3vw;
+    }
+
+    .rightCol {
+        width: 90vw;
+    }
+
+    .leftCol {
+        width: 90vw;
+    }
 }

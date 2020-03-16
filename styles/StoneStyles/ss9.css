@@ -115,3 +115,75 @@ h4 {
     margin-left: 2.5vw;
     margin-right: 2.5vw;
 }
+
+@media (max-width: 720px) {
+    .instr_title {
+        padding-bottom: 0px;
+        width: 90vw;
+    }
+
+    .instr_title h2 {
+        font-size: 20px;
+    }
+
+    .instr_title img {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .bg_num {
+        font-size: 70px;
+        top: 10vw;
+    }
+
+    .num1 {
+        left: -40vw;
+    }
+
+    .section h4 {
+        font-size: 20px;
+    }
+
+    .textSide {
+        width: 90vw;
+    }
+
+    #sec1Text {
+        width: 90vw;
+    }
+
+    .sec1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section2 {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-left: 3vw;
+    }
+
+    .image1 {
+        position: static;
+        top: 0px;
+        left: 0px;
+    }
+
+    .lastSection h4 {
+        font-size: 20px;
+        width: 80vw;
+    }
+
+    .botSection {
+        flex-direction: column;
+    }
+
+    .botSection div {
+        width: 90vw;
+        margin-bottom: 5vw;
+    }
+
+    .num3 {
+        left: 35vw;
+    }
+}

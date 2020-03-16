@@ -204,3 +204,132 @@ h4 {
 .coverImg {
     top: 80vw;
 }
+
+.bg_img {
+    position: relative;
+}
+
+@media (max-width: 600px){
+    .sec2{
+        margin-top: 17vw;
+    }
+    .num3{
+        top: -9vw;
+    }
+}
+
+@media (max-width: 720px) {
+    .instr_title {
+        padding-bottom: 0px;
+        width: 90vw;
+    }
+
+    .instr_title h2 {
+        font-size: 20px;
+    }
+
+    .instr_title img {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .up_right .top {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .top div {
+        flex-direction: row;
+        width: 100vw;
+        justify-content: flex-start;
+    }
+
+    .top h4 {
+        width: 80vw;
+    }
+
+    .up_right .bot {
+        flex-direction: column;
+    }
+
+    .up_right .bot div {
+        width: 90vw;
+    }
+
+    .bg_img {
+        position: static;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .bg_num {
+        top: -20vw;
+        font-size: 70px;
+    }
+
+    .num1 {
+        left: 5vw;
+    }
+
+    .num2 {
+        position: relative;
+        top: 5vw;
+        left: -5vw;
+    }
+
+    .img2 {
+        position: relative;
+        width: 65vw;
+        top: 5vw;
+        left: -8vw;
+        height: auto;
+    }
+
+    .sec2 {
+        margin-top: 3vw;
+        margin-bottom: 0px;
+    }
+
+    .num3{
+        position: relative;
+        top: 20vw;
+        left: -35vw;
+    }
+
+    .right {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .img3 {
+        height: auto;
+        width: 65vw;
+        left: 0px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    .lets_go .bg_num {
+        left: -35vw;
+    }
+
+    .lets_go > h1, .lets_go > h4 {
+        margin: 0vw;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+
+    .split {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .split_half {
+        width: 80vw;
+        margin-bottom: 5vw;
+    }
+}

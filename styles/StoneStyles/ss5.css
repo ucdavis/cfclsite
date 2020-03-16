@@ -124,5 +124,70 @@ h4 {
 }
 
 .text2 .coral{
-    font-size: 2.2vw; 
+    font-size: 2.2vw;
+}
+
+@media (max-width: 720px) {
+    .instr_title {
+        padding-bottom: 0px;
+        width: 90vw;
+    }
+
+    .instr_title h2 {
+        font-size: 20px;
+    }
+
+    .instr_title img {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .bg_num {
+        font-size: 70px;
+    }
+
+    .num1 {
+        left: 0vw;
+    }
+
+    .num2 {
+
+    }
+
+    .section1 > h4 {
+        font-size: 20px;
+    }
+
+    .split_text {
+        flex-direction: column;
+    }
+
+    .split_text > div {
+        width: 90vw;
+        margin-bottom: 5vw;
+    }
+
+    .section2 {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .top {
+        flex-direction: column;
+    }
+
+    .text2 {
+        position: static;
+        width: 90vw;
+    }
+
+    .text2 .coral {
+        font-size: 20px;
+    }
+
+    .num2 {
+        left: 0vw;
+        top: -80vw;
+    }
 }
