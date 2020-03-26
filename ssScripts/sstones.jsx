@@ -36,7 +36,7 @@ function Header(props) {
 function IntroSection(props) {
     let altText = "Cover image of Stepping Stone "+props.stoneNumber;
     let classes = "intro_section in_margin " + props.headClass;
-    let downloadClass= "download_button "+props.buttonColor;
+    let downloadClass = "download_button "+props.buttonColor;
     return (
         <div className={classes}>
             <p className="ss_num">{props.stoneNumber}</p>
@@ -87,15 +87,25 @@ function DownloadButton(props) {
 class Toolkit extends React.Component {
     constructor(props) {
         super(props);
+        /*let thumbnailSrcs = ["assets/SSPages/Mobile_Thumbnails/ss1thumbnail.png",
+                                 "assets/SSPages/Mobile_Thumbnails/ss2thumbnail.png",
+                                 "assets/SSPages/Mobile_Thumbnails/ss3thumbnail.png",
+                                 "assets/SSPages/Mobile_Thumbnails/ss4thumbnail.png",
+                                 "assets/SSPages/Mobile_Thumbnails/ss5thumbnail.png",
+                                 "assets/SSPages/Mobile_Thumbnails/ss6thumbnail.png",
+                                 "assets/SSPages/Mobile_Thumbnails/ss7thumbnail.png",
+                                 "assets/SSPages/Mobile_Thumbnails/ss8thumbnail.png",
+                                 "assets/SSPages/Mobile_Thumbnails/ss9thumbnail.png"]
         let thumbnailSrcs = ["assets/OurApproach/thumbnails/CFCL Thumbnails-1.png",
-                             "assets/OurApproach/thumbnails/CFCL Thumbnails-2.png",
-                             "assets/OurApproach/thumbnails/CFCL Thumbnails-3.png",
-                             "assets/OurApproach/thumbnails/CFCL Thumbnails-4.png",
-                             "assets/OurApproach/thumbnails/CFCL Thumbnails-5.png",
-                             "assets/OurApproach/thumbnails/CFCL Thumbnails-6.png",
-                             "assets/OurApproach/thumbnails/CFCL Thumbnails-7.png",
-                             "assets/OurApproach/thumbnails/CFCL Thumbnails-8.png",
-                             "assets/OurApproach/thumbnails/CFCL Thumbnails-9.png"]
+                                 "assets/OurApproach/thumbnails/CFCL Thumbnails-2.png",
+                                 "assets/OurApproach/thumbnails/CFCL Thumbnails-3.png",
+                                 "assets/OurApproach/thumbnails/CFCL Thumbnails-4.png",
+                                 "assets/OurApproach/thumbnails/CFCL Thumbnails-5.png",
+                                 "assets/OurApproach/thumbnails/CFCL Thumbnails-6.png",
+                                 "assets/OurApproach/thumbnails/CFCL Thumbnails-7.png",
+                                 "assets/OurApproach/thumbnails/CFCL Thumbnails-8.png",
+                                 "assets/OurApproach/thumbnails/CFCL Thumbnails-9.png"]
+                                 */
         let thumbnailTitles = []
         let currStone = props.currentStone;
         let leftMost = Math.max(props.currentStone - 2, 1);
@@ -103,7 +113,6 @@ class Toolkit extends React.Component {
             leftMost = 5;
         }
         this.state = {
-                        srcs: thumbnailSrcs,
                         titles: thumbnailTitles,
                         currentLeftMost: leftMost,
                         currentStone:currStone,
@@ -153,8 +162,14 @@ class Toolkit extends React.Component {
         }
         for (let i = 0; i < display_num; i++) {
             let hrefStr = "ss" + (i + this.state.currentLeftMost + offset) + ".html";
+            let srcStr;
+            if (window.innerWidth < 800) {
+                srcStr = "assets/SSPages/Mobile_Thumbnails/ss"+ (i + this.state.currentLeftMost + offset) +"thumbnail.png";
+            } else {
+                srcStr = "assets/OurApproach/thumbnails/CFCL Thumbnails-"+ (i + this.state.currentLeftMost + offset) +".png";
+            }
             steps.push( <div className="steps">
-                            <a href={hrefStr}><img src={this.state.srcs[i + this.state.currentLeftMost - 1 + offset]}/></a>
+                            <a href={hrefStr}><img src={srcStr}/></a>
                         </div>);
         }
         steps.push(<div className="arrow" onClick={this.shiftRight}><p>&#x203A;</p></div>);

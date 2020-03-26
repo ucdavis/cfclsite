@@ -182,9 +182,27 @@ var Toolkit = function (_React$Component) {
     function Toolkit(props) {
         _classCallCheck(this, Toolkit);
 
+        /*let thumbnailSrcs = ["assets/SSPages/Mobile_Thumbnails/ss1thumbnail.png",
+                                 "assets/SSPages/Mobile_Thumbnails/ss2thumbnail.png",
+                                 "assets/SSPages/Mobile_Thumbnails/ss3thumbnail.png",
+                                 "assets/SSPages/Mobile_Thumbnails/ss4thumbnail.png",
+                                 "assets/SSPages/Mobile_Thumbnails/ss5thumbnail.png",
+                                 "assets/SSPages/Mobile_Thumbnails/ss6thumbnail.png",
+                                 "assets/SSPages/Mobile_Thumbnails/ss7thumbnail.png",
+                                 "assets/SSPages/Mobile_Thumbnails/ss8thumbnail.png",
+                                 "assets/SSPages/Mobile_Thumbnails/ss9thumbnail.png"]
+        let thumbnailSrcs = ["assets/OurApproach/thumbnails/CFCL Thumbnails-1.png",
+                                 "assets/OurApproach/thumbnails/CFCL Thumbnails-2.png",
+                                 "assets/OurApproach/thumbnails/CFCL Thumbnails-3.png",
+                                 "assets/OurApproach/thumbnails/CFCL Thumbnails-4.png",
+                                 "assets/OurApproach/thumbnails/CFCL Thumbnails-5.png",
+                                 "assets/OurApproach/thumbnails/CFCL Thumbnails-6.png",
+                                 "assets/OurApproach/thumbnails/CFCL Thumbnails-7.png",
+                                 "assets/OurApproach/thumbnails/CFCL Thumbnails-8.png",
+                                 "assets/OurApproach/thumbnails/CFCL Thumbnails-9.png"]
+                                 */
         var _this = _possibleConstructorReturn(this, (Toolkit.__proto__ || Object.getPrototypeOf(Toolkit)).call(this, props));
 
-        var thumbnailSrcs = ["assets/OurApproach/thumbnails/CFCL Thumbnails-1.png", "assets/OurApproach/thumbnails/CFCL Thumbnails-2.png", "assets/OurApproach/thumbnails/CFCL Thumbnails-3.png", "assets/OurApproach/thumbnails/CFCL Thumbnails-4.png", "assets/OurApproach/thumbnails/CFCL Thumbnails-5.png", "assets/OurApproach/thumbnails/CFCL Thumbnails-6.png", "assets/OurApproach/thumbnails/CFCL Thumbnails-7.png", "assets/OurApproach/thumbnails/CFCL Thumbnails-8.png", "assets/OurApproach/thumbnails/CFCL Thumbnails-9.png"];
         var thumbnailTitles = [];
         var currStone = props.currentStone;
         var leftMost = Math.max(props.currentStone - 2, 1);
@@ -192,7 +210,6 @@ var Toolkit = function (_React$Component) {
             leftMost = 5;
         }
         _this.state = {
-            srcs: thumbnailSrcs,
             titles: thumbnailTitles,
             currentLeftMost: leftMost,
             currentStone: currStone,
@@ -257,13 +274,19 @@ var Toolkit = function (_React$Component) {
             }
             for (var i = 0; i < display_num; i++) {
                 var hrefStr = "ss" + (i + this.state.currentLeftMost + offset) + ".html";
+                var srcStr = void 0;
+                if (window.innerWidth < 800) {
+                    srcStr = "assets/SSPages/Mobile_Thumbnails/ss" + (i + this.state.currentLeftMost + offset) + "thumbnail.png";
+                } else {
+                    srcStr = "assets/OurApproach/thumbnails/CFCL Thumbnails-" + (i + this.state.currentLeftMost + offset) + ".png";
+                }
                 steps.push(React.createElement(
                     "div",
                     { className: "steps" },
                     React.createElement(
                         "a",
                         { href: hrefStr },
-                        React.createElement("img", { src: this.state.srcs[i + this.state.currentLeftMost - 1 + offset] })
+                        React.createElement("img", { src: srcStr })
                     )
                 ));
             }
