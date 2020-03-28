@@ -220,7 +220,7 @@ h4 {
 
 @media (max-width: 720px) {
     .instr_title {
-        padding-bottom: 0px;
+        padding-bottom: 10vw;
         width: 90vw;
     }
 
@@ -331,5 +331,9 @@ h4 {
     .split_half {
         width: 80vw;
         margin-bottom: 5vw;
+    }
+
+    .intro_section h1 {
+        width: 90vw;
     }
 }
