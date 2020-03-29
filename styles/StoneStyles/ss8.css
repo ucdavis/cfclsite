@@ -14,7 +14,7 @@
 
 .instructions h2, h4, .orange_text{
     color: #FF9B2A;
-    font-family: "montserrat-bold";
+    font-family: "montserrat-medium";
 }
 
 h1{
@@ -22,7 +22,6 @@ h1{
 }
 
 h4 {
-    font-size: 30px;
     font-weight: 600;
 }
 
@@ -42,7 +41,7 @@ h4 {
 .instr_title h2 {
     color: #FF604E;
     font-weight: 600;
-    font-size: 4.5vw;
+    font-size: 3.5vw;
     line-height: 1.2;
     margin-bottom: 2vw;
 }

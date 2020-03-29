@@ -23,7 +23,7 @@
 
 .instructions h2, h4, .red, .red_text{
     color: #FF604E;
-    font-family: "montserrat-bold";
+    font-family: "montserrat-medium";
 }
 
 h4 {
@@ -44,7 +44,7 @@ h4 {
 
 .instr_title h2 {
     font-weight: 600;
-    font-size: 4.5vw;
+    font-size: 3.5vw;
     line-height: 1.2;
     margin-bottom: 2vw;
 }
@@ -165,7 +165,7 @@ h4{
     position: relative;
     float: left;
     width: 52vw;
-    top: -29vw;
+    top: -35vw;
     display: flex;
     flex-wrap: wrap;
 
@@ -176,12 +176,12 @@ h4{
 }
 
 .sec_2 h4{
-    position: absolute;
+    position: relative;
     font-weight: 600;
     font-size: 2.2vw;
     opacity: 1;
     width: 35vw;
-    top: 9vw;
+    top: 5vw;
 }
 
 .left .ss2{
@@ -214,9 +214,10 @@ h4{
     }
 }
 
-@media (max-width: 620px) {
+@media (max-width: 720px) {
     .instructions {
         height: 350vw;
+        padding-top: 20vw;
     }
 
     .intro_left p {
@@ -235,6 +236,10 @@ h4{
     .instr_title img {
         width: 5vw;
         height: 5vw;
+    }
+
+    .logo_img{
+        display: none;
     }
 
     .bg_num {
