@@ -14,7 +14,7 @@
 
 .instructions h2, h4, .orange_text{
     color: #FF9B2A;
-    font-family: "montserrat-bold";
+    font-family: "montserrat-medium";
 }
 
 h1{
@@ -22,7 +22,6 @@ h1{
 }
 
 h4 {
-    font-size: 30px;
     font-weight: 600;
 }
 
@@ -42,7 +41,7 @@ h4 {
 .instr_title h2 {
     color: #FF604E;
     font-weight: 600;
-    font-size: 4.5vw;
+    font-size: 3.5vw;
     line-height: 1.2;
     margin-bottom: 2vw;
 }
@@ -155,6 +154,13 @@ h4 {
     flex-wrap: wrap;
 }
 
+.ss2_mini{
+    display: none;
+    position: relative;
+    width: 47vw;
+    top: -15vw;
+    left: 50vw;
+}
 
 .ss2{
     position: relative;
@@ -318,4 +324,196 @@ h4 {
     margin-top: 0;
     padding: 0;
     font-weight: 400;
+}
+
+
+@media (max-width: 720px) {
+    .instr_title {
+        padding-bottom: 0px;
+        width: 90vw;
+    }
+
+    .instr_title h2 {
+        margin-top: 10vw;
+        font-size: 20px;
+    }
+
+    .instr_title img {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .bg_num {
+        font-size: 70px;
+        top: 10vw;
+    }
+
+    .num1 {
+        left: -40vw;
+    }
+
+    .section h4 {
+        font-size: 20px;
+    }
+
+    .sec_1{
+        position: relative;
+        height: auto;
+        margin-bottom: 0vw;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .sec_1 h4{
+        font-size: 20px;
+    }
+
+    .sec_1 .left{
+        width: 100vw;
+    }
+
+    .sec_1 .right{
+        width: 90vw;
+        margin-top: 0;
+    }
+
+    .sec_1 .container{
+        height: auto;
+    }
+    .sec_1 .container2{
+        height: auto;
+    }
+
+    .left .ss1{
+        position: relative;
+        left: 10vw;
+        padding-top: 0;
+    }
+
+    .below_orange{
+        width: 90vw;
+        height: 5vw;
+        height: auto;
+    }
+
+    .below_black{
+        width: 90vw;
+        margin-top: 4vw;
+        margin-left: 0vw;
+
+    }
+
+    .sec_2{
+        height: auto;
+        margin-top: -20vw;
+        margin-bottom: 0vw;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .left .ss1{
+        position: relative;
+        left: 10vw;
+        padding-top: 0;
+    }
+
+
+    .sec_2 .left{
+        width: 90vw;
+    }
+
+    .sec_2 .right{   
+        margin-top: 0;
+    }
+
+    .sec_2 .bg_num{
+        width: 100vw;
+    }
+
+    .sec_2 .left h4{
+        font-size: 20px;
+        padding-top: 40vw;
+        margin-left: 0vw;
+        width: 80vw;
+    }
+
+    .sec_2 .bot_container{
+        height: auto;
+        width: 90vw;
+        margin-left: 0vw;;
+    }
+
+    .sec_2 .bot{
+        width: 90vw;
+        margin-left: 0vw;;
+    }
+
+    .sec_2 .below_orange{
+
+        width: 90vw;
+        height: auto;
+        margin-bottom: 0vw;
+        margin-top: 3vw;
+    }
+
+    .sec_2 .below_black{
+        width: 90vw;
+        height: auto;
+        margin-left: 0vw;
+    }
+
+    .ss2_mini{
+        display: inline-block;
+        position: relative;
+        left: 18vw;
+        top: 20vw;
+    }
+
+    .ss2{
+        display: none;
+    }
+
+    .congrats{
+        height: auto;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    .sec_3{
+        height: auto;
+        overflow-y: visible;
+        overflow-x: hidden;
+    }
+
+    .sec_3 .top{
+        height: auto;
+    }
+
+    .sec_3 h4{
+        font-size: 20px;
+        width: 80vw;
+        height: auto;
+    }
+
+    .sec_3 .bot{
+        height: auto;
+    }
+
+    .sec_3 .bot .text_container{
+        width: 80vw;
+        height: auto;
+    }
+
+    .sec_3 .bot .text_container .below_white{
+
+        width: 90vw;
+        height: auto;
+        margin-bottom: 0vw;
+        margin-top: 3vw;
+    }
+
+    .sec_3 .bot .text_container .below_black{
+        width: 98vw;
+        height: auto;
+        margin-left: 0vw;
+    }
 }
