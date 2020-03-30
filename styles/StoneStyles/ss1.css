@@ -209,16 +209,13 @@ h4 {
     position: relative;
 }
 
-@media (max-width: 600px){
+@media (max-width: 720px) {
     .sec2{
         margin-top: 17vw;
     }
     .num3{
         top: -9vw;
     }
-}
-
-@media (max-width: 720px) {
     .instr_title {
         padding-bottom: 10vw;
         width: 90vw;
