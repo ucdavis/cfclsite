@@ -520,7 +520,7 @@ h4 {
     cursor: pointer;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 720px) {
     h1 {
         font-size: 25px;
     }

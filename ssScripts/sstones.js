@@ -301,16 +301,19 @@ var Toolkit = function (_React$Component) {
             ));
             var popup = void 0;
             if (this.state.displayPopUp) {
-                var stones = this.state.srcs.map(function (src) {
-                    return React.createElement("img", { src: src });
-                });
                 var stoneLinks = [];
                 for (var _i = 0; _i < 9; _i++) {
                     var link = "ss" + (_i + 1) + ".html";
+                    var stone = void 0;
+                    if (window.innerWidth < 800) {
+                        stone = "assets/SSPages/Mobile_Thumbnails/ss" + (_i + 1) + "thumbnail.png";
+                    } else {
+                        stone = "assets/OurApproach/thumbnails/CFCL Thumbnails-" + (_i + 1) + ".png";
+                    }
                     stoneLinks.push(React.createElement(
                         "a",
                         { href: link },
-                        stones[_i]
+                        React.createElement("img", { src: stone })
                     ));
                 }
                 popup = React.createElement(

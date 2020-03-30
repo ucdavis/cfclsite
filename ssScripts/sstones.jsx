@@ -175,11 +175,16 @@ class Toolkit extends React.Component {
         steps.push(<div className="arrow" onClick={this.shiftRight}><p>&#x203A;</p></div>);
         let popup;
         if (this.state.displayPopUp) {
-            let stones = this.state.srcs.map((src) => <img src={src}/>);
             let stoneLinks = [];
             for (let i = 0; i < 9; i ++) {
                 let link = "ss" + (i+1) + ".html";
-                stoneLinks.push(<a href={link}>{stones[i]}</a>)
+                let stone;
+                if (window.innerWidth < 800) {
+                    stone = "assets/SSPages/Mobile_Thumbnails/ss"+ (i + 1) +"thumbnail.png";
+                } else {
+                    stone = "assets/OurApproach/thumbnails/CFCL Thumbnails-"+ (i + 1) +".png";
+                }
+                stoneLinks.push(<a href={link}><img src={stone}/></a>)
             }
             popup= (<div className="popup">{stoneLinks}<p className="closePopUp" onClick={this.hidePopUp}>X</p></div>);
         }
