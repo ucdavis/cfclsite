@@ -87,25 +87,6 @@ function DownloadButton(props) {
 class Toolkit extends React.Component {
     constructor(props) {
         super(props);
-        /*let thumbnailSrcs = ["assets/SSPages/Mobile_Thumbnails/ss1thumbnail.png",
-                                 "assets/SSPages/Mobile_Thumbnails/ss2thumbnail.png",
-                                 "assets/SSPages/Mobile_Thumbnails/ss3thumbnail.png",
-                                 "assets/SSPages/Mobile_Thumbnails/ss4thumbnail.png",
-                                 "assets/SSPages/Mobile_Thumbnails/ss5thumbnail.png",
-                                 "assets/SSPages/Mobile_Thumbnails/ss6thumbnail.png",
-                                 "assets/SSPages/Mobile_Thumbnails/ss7thumbnail.png",
-                                 "assets/SSPages/Mobile_Thumbnails/ss8thumbnail.png",
-                                 "assets/SSPages/Mobile_Thumbnails/ss9thumbnail.png"]
-        let thumbnailSrcs = ["assets/OurApproach/thumbnails/CFCL Thumbnails-1.png",
-                                 "assets/OurApproach/thumbnails/CFCL Thumbnails-2.png",
-                                 "assets/OurApproach/thumbnails/CFCL Thumbnails-3.png",
-                                 "assets/OurApproach/thumbnails/CFCL Thumbnails-4.png",
-                                 "assets/OurApproach/thumbnails/CFCL Thumbnails-5.png",
-                                 "assets/OurApproach/thumbnails/CFCL Thumbnails-6.png",
-                                 "assets/OurApproach/thumbnails/CFCL Thumbnails-7.png",
-                                 "assets/OurApproach/thumbnails/CFCL Thumbnails-8.png",
-                                 "assets/OurApproach/thumbnails/CFCL Thumbnails-9.png"]
-                                 */
         let thumbnailTitles = []
         let currStone = props.currentStone;
         let leftMost = Math.max(props.currentStone - 2, 1);
@@ -133,7 +114,7 @@ class Toolkit extends React.Component {
     }
 
     shiftLeft() {
-        if (window.innerWidth < 800) {
+        if (window.innerWidth < 720) {
             if (this.state.currentLeftMost > 0) {
                 this.setState({currentLeftMost: this.state.currentLeftMost - 1});
             }
@@ -144,7 +125,7 @@ class Toolkit extends React.Component {
 
     shiftRight() {
         if (window.innerWidth < 800) {
-            if (this.state.currentLeftMost < 7) {
+            if (this.state.currentLeftMost < 6) {
                 this.setState({currentLeftMost: this.state.currentLeftMost + 1});
             }
         } else if (this.state.currentLeftMost < 5) {
@@ -156,7 +137,7 @@ class Toolkit extends React.Component {
         let steps = [<div className="arrow" onClick={this.shiftLeft}><p>&#x2039;</p></div>];
         let display_num = 5;
         let offset = 0;
-        if (window.innerWidth < 800) {
+        if (window.innerWidth < 720) {
             display_num = 3;
             offset = 1;
         }
@@ -164,7 +145,7 @@ class Toolkit extends React.Component {
             let hrefStr = "ss" + (i + this.state.currentLeftMost + offset) + ".html";
             let srcStr;
             if (window.innerWidth < 800) {
-                srcStr = "assets/SSPages/Mobile_Thumbnails/ss"+ (i + this.state.currentLeftMost + offset) +"thumbnail.png";
+                srcStr = "assets/SSPages/Mobile_Thumbnails/ss"+ (i + this.state.currentLeftMost + offset) +"thumbnail.jpg";
             } else {
                 srcStr = "assets/OurApproach/thumbnails/CFCL Thumbnails-"+ (i + this.state.currentLeftMost + offset) +".png";
             }
@@ -179,8 +160,8 @@ class Toolkit extends React.Component {
             for (let i = 0; i < 9; i ++) {
                 let link = "ss" + (i+1) + ".html";
                 let stone;
-                if (window.innerWidth < 800) {
-                    stone = "assets/SSPages/Mobile_Thumbnails/ss"+ (i + 1) +"thumbnail.png";
+                if (window.innerWidth < 720) {
+                    stone = "assets/SSPages/Mobile_Thumbnails/ss"+ (i + 1) +"thumbnail.jpg";
                 } else {
                     stone = "assets/OurApproach/thumbnails/CFCL Thumbnails-"+ (i + 1) +".png";
                 }
