@@ -54,14 +54,11 @@
 .intro a{
     margin-left: 40vw;
     margin-top: 3vw;
-    font-size: 1.85vw;
-    font-family: "montserrat-medium";
-    font-weight: 500;
-    padding: 1.7vw 3.2vw;
+/*    padding: 1.7vw 3.2vw;
 
     border: .1vw solid;
     border-radius: 5vw;
-    text-decoration: none;
+    text-decoration: none;*/
 }
 
 .intro .stepping_stones{
@@ -78,6 +75,10 @@
     background-color: #FF604E;
 }
 
+/*.coral_bt_inv:hover {
+    border-color: #FF604E;
+}*/
+
 .intro .tell_us_your_story{
     color: rgb(116, 99, 228);
     border-color: rgb(116, 99, 228);
@@ -89,6 +90,16 @@
 
  .tell_us_your_story:hover{
     color: white;
+    background-color: rgb(116, 99, 228);
+}
+
+.purple_bt_inv {
+    color: rgb(116, 99, 228);
+    border-color: rgb(116, 99, 228);
+}
+
+.purple_bt_inv:hover{
+    border-color: rgb(116, 99, 228);
     background-color: rgb(116, 99, 228);
 }
 
@@ -127,7 +138,9 @@
 .spreadsheet{
     float:right;
     display: flex;
-    width: 25vw;
+    text-align: center;
+    margin-right: 10vw;
+/*    width: 25vw;
     color: #FF9B2A;
     font-size: 2.5vw;
     text-align: center;
@@ -142,13 +155,13 @@
     transition-duration: 0.7s;
     transition-property: color, background-color;
     -webkit-transition-duration: 0.7s;
-    -webkit-transition-property: color, background-color;
+    -webkit-transition-property: color, background-color;*/
 }
 
-.spreadsheet:hover{
+/*.spreadsheet:hover{
     color: white;
     background-color: #FF9B2A;
-}
+}*/
 
 /*
 //////////////////////
@@ -183,11 +196,11 @@
 
 .approach a{
 
-    color: #00DAA9;
-    font-size: 1.85vw;
+/*    color: #00DAA9;
+    font-size: 1.85vw;*/
     margin:auto;
     margin-top: 5vw;
-    padding: 1.7vw 3.2vw 1.7vw 3.2vw;
+/*    padding: 1.7vw 3.2vw 1.7vw 3.2vw;
 
     border: .1vw solid;
     border-radius: 5vw;
@@ -196,15 +209,15 @@
     transition-duration: 0.7s;
     transition-property: color, background-color;
     -webkit-transition-duration: 0.7s;
-    -webkit-transition-property: color, background-color;
+    -webkit-transition-property: color, background-color;*/
 }
 
-.approach a:hover{
+/*.approach a:hover{
     color: white;
     background-color: #00DAA9;
-}
+}*/
 
-@media (max-width: 500px) {
+@media (max-width: 720px) {
     .title_container {
         height: 50vw;
         background-size: 100vw 50vw;
@@ -244,7 +257,6 @@
     .intro a {
         margin-left: 0px;
         margin-top: 7vw;
-        font-size: 16px;
     }
 
     .featured_stories {
@@ -278,9 +290,9 @@
 
     .featured_stories a {
         font-size: 16px;
-        max-width: 80vw;
-        width: 50vw;
         margin: 0px;
+        margin-left: 10vw;
+        border-radius: 50px;
     }
 
     .approach {
@@ -294,6 +306,5 @@
 
     .approach a {
         font-size: 16px;
-        width: 40vw;
     }
 }
