@@ -217,14 +217,17 @@ nav a{
 .stepping_stones ul{
     width: 60vw;
     font-size: 1.75vw;
+    list-style-type: disc;
+    margin-left: 1.5vw;
+    max-width: 80vw;
 }
 
-ul li:before {
+/*ul li:before {
     content: "• ";
     font-size: 2vw;
     font-weight: bolder;
     padding-right: 30px;
-}
+}*/
 
 .stepping_stones h3{
     position: relative;
@@ -266,7 +269,7 @@ ul li:before {
     top: 23vw;
     left: 82.5vw;
 }
-.stepping_stones a{
+/*.stepping_stones a{
     margin-top: 5vw;
     padding: 1.7vw 3.2vw;
     font-size: 1.85vw;
@@ -284,7 +287,7 @@ ul li:before {
 .stepping_stones a:hover{
     background-color: white;
     color: #FF604E;
-}
+}*/
 
 /*
 ///////////////////////
@@ -329,7 +332,10 @@ ul li:before {
 }
 
 .our_approach_container a{
-    background-color: #FF604E;
+    margin-top: 0vw;
+    margin-left: 10vw;
+}
+/*    background-color: #FF604E;
     margin-top: 0vw;
     margin-left: 10vw;
     padding: 1.1vw 2vw;
@@ -350,7 +356,7 @@ ul li:before {
 .our_approach_container a:hover{
     background-color: white;
     color: #FF604E;
-}
+}*/
 
 
 .stories_container{
@@ -378,7 +384,10 @@ ul li:before {
 }
 
 .stories_container a{
-    background-color: #FF9B2A;
+    /*margin-top: 35vh;*/
+    margin-left: 10vw;
+}
+/*    background-color: #FF9B2A;
     margin-top: 35vh;
     margin-left: 10vw;
     padding: 1.4vw 4vw;
@@ -399,7 +408,7 @@ ul li:before {
 .stories_container a:hover{
     background-color: white;
     color: #FF9B2A;
-}
+}*/
 
 .orange_lea{
     position: absolute;
@@ -423,7 +432,7 @@ ul li:before {
         margin-top: 5.25vw;
     }
 }
-@media (max-width: 500px) {
+@media (max-width: 720px) {
 
     .homepage_revised {
         top: 42vw;
@@ -508,13 +517,13 @@ ul li:before {
         width: 85vw;
     }
 
-    ul li:before {
+    /*ul li:before {
         padding-right: 15px;
-    }
+    }*/
 
-    .stepping_stones a {
-        font-size: 16px;
-    }
+    /*ul li {
+        text-align: center;
+    }*/
 
     .more_info {
         padding: 0px;
@@ -535,13 +544,6 @@ ul li:before {
         padding-top: 15vw;
     }
 
-    .our_approach_container a {
-        font-size: 16px;
-        padding: 2vw 3vw 2vw 3vw;
-        background-size: 100vw 48vw;
-        margin-bottom: 0px;
-    }
-
     .stories_container {
         margin-top: 0px;
         margin-left: 0px;
@@ -554,11 +556,6 @@ ul li:before {
 
     .stories_container h2 {
         font-size: 20px;
-    }
-
-    .stories_container a {
-        font-size: 16px;
-        padding: 2vw 3vw 2vw 3vw;
     }
 
     .stepping_stones > h2 > br{

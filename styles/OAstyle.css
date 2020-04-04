@@ -33,29 +33,13 @@ html {
 }
 
 #SS_scroll{
-    display:flex;
     margin: auto;
     margin-top: 5vw;
-    padding: 1.7vw 3.2vw;
-    font-size: 1.85vw;
-    color: white;
-    border: .1vw solid white;
-    border-radius: 5vw;
-    text-decoration: none;
-    transition-duration: 0.7s;
-    transition-property: color, background-color;
-    -webkit-transition-duration: 0.7s;
-    -webkit-transition-property: color, background-color;
 }
 
 #SS_scroll:hover{
     color: navy;
-    background-color: rgb(255,255,255,0.8);
     border-color: navy;
-    transition-duration: 0.7s;
-    transition-property: color, background-color;
-    -webkit-transition-duration: 0.7s;
-    -webkit-transition-property: color, background-color;
 }
 
 .purpose_title{
@@ -252,7 +236,8 @@ html {
 
 .stories_header a{
     margin-top: 6vw;
-    padding: 1vw 1.5vw 1vw 1.5vw;
+}
+/*    padding: 1vw 1.5vw 1vw 1.5vw;
     font-size: 2vw;
     color: #FF604E;
     border: 0.05vw solid #FF604E;
@@ -267,7 +252,7 @@ html {
 .stories_header a:hover {
     color: white;
     background-color: #FF604E;
-}
+}*/
 
 
 /*
@@ -551,12 +536,11 @@ html {
     */
     .stories_header a{
         margin-top: 6vw;
-        padding: 15px
     }
 
 }
 
-@media (max-width: 500px) {
+@media (max-width: 720px) {
     .header {
         padding-bottom: 0px;
     }
@@ -569,16 +553,12 @@ html {
 
     .title h1 {
         font-size: 25px;
-        padding-top: 0px;
+        padding-top: 10px;
     }
 
     #SS_scroll {
-        font-size: 16px;
         margin: 0px;
         margin-top: 15px;
-        border: 1px solid white;
-        padding: 2vw;
-        border-radius: 4vw;
     }
 
     .purpose_title h1 {
@@ -609,6 +589,14 @@ html {
         justify-content: center;
     }
 
+    .value:hover{
+        width: 80vw;
+        font-size: 25px;
+        box-shadow: 0 0 7px 4px rgba(0, 218, 171, 0.719);
+        transition: width 0.5s linear, box-shadow 0.5s linear,
+                    font-size 0.5s linear;
+    }
+
     .value p {
         font-size: 16px;
         width: 60vw;
@@ -623,13 +611,13 @@ html {
         font-size: 20px;
     }
 
-    .stories_header a {
+/*    .stories_header a {
         font-size: 16px;
         margin-top: 0px;
         border: 1px solid #FF604E;
         border-radius: 4vw;
         padding: 10px;
-    }
+    }*/
 
     .stepping_stones_header h1 {
         font-size: 25px;
