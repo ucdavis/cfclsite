@@ -182,6 +182,7 @@
     padding:8vw;
     display: flex;
     flex-wrap: wrap;
+    background-color: rgb(32, 32, 66);
 }
 
 .approach h1{
@@ -200,6 +201,7 @@
     font-size: 1.85vw;*/
     margin:auto;
     margin-top: 5vw;
+    
 /*    padding: 1.7vw 3.2vw 1.7vw 3.2vw;
 
     border: .1vw solid;
