@@ -540,7 +540,7 @@ html {
 
 }
 
-@media (max-width: 720px) {
+@media (max-width: 550px) {
     .header {
         padding-bottom: 0px;
     }
@@ -638,6 +638,11 @@ html {
     .stepping_stones .black {
         width: 70vw;
         height: 20vw;
+    }
+
+    .stepping_stones .tall {
+        width: 70vw;
+        height: auto;
     }
 
     .stepping_stones p {

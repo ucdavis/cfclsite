@@ -180,7 +180,7 @@ h4 {
 .sec_2 .bot_container{
     margin-top: -25vw;
     margin-left: 4.5vw;
-    width: 100vw;
+    width: 80vw;
     display: flex;
     flex-wrap: wrap;
     height: 55vw;
@@ -215,12 +215,11 @@ h4 {
 }
 
 .sec2_bot_2{
-    width: 80vw;
+    width: 47vw;
     float: left;
 }
 
 .sec2_bot_2 .special{
-    width: 50vw;
     overflow: visible;
 }
 

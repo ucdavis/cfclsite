@@ -174,7 +174,8 @@ nav a{
 
 .stepping_stones{
     position: relative;
-    height: 107vw;
+    height: auto;
+    padding-bottom: 15vw;
     padding-left: 10vw;
     background-color: #FF604E;
     line-height: 1.4;
@@ -432,7 +433,7 @@ nav a{
         margin-top: 5.25vw;
     }
 }
-@media (max-width: 720px) {
+@media (max-width: 500px) {
 
     .homepage_revised {
         top: 42vw;
@@ -495,7 +496,6 @@ nav a{
     }
 
     .stepping_stones {
-        height: 200vw;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -515,6 +515,10 @@ nav a{
     .stepping_stones ul {
         font-size: 16px;
         width: 85vw;
+    }
+
+    .stepping_stones .red_lea{
+        display: none;
     }
 
     /*ul li:before {
@@ -567,14 +571,24 @@ nav a{
     }
 }
 
-@media (max-width: 340px) {
+@media (max-width: 380px) {
     .title {
-        margin-left: 0px;
+
         max-width: 100%;
+    }
+
+    .homepage_revised{
+        width: 50vw;
+        height: auto;
+        top: 50vw;
     }
     .title h1 {
         width: 95%;
         margin-left: 5vw;
+    }
+
+    .title h2{
+        width: 44vw;
     }
 
     .post_title {
@@ -591,7 +605,5 @@ nav a{
         height: 160vw;
     }
 
-    .stepping_stones {
-        height: 240vw;
-    }
+
 }
