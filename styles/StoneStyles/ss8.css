@@ -284,7 +284,7 @@ h4 {
     position: relative;
     top: -3vw;
     left: 0;
-    width: 90%;
+    width: 88%;
     margin-bottom: 0;
     border-bottom: 1px solid white;
 }
@@ -303,25 +303,30 @@ h4 {
 .sec_3 .bot .text_container{
     display: flex;
     flex-wrap: wrap;
-    width: 45vw;
-    margin-bottom: 5vw;
+    width: 42vw;
 }
 
 .sec_3 .bot .text_container .below_white{
     color: white;
     display: flex;
-    width: 15vw;
-    height: 3vw;
+    width: 14vw;
+    height: auto;
     margin-top: 0vw;
     font-weight: 900;
 
 }
 
+.sec_3 .bot .text_container .long{
+    width: 20vw;
+    margin-left: -2vw;
+}
+
 .sec_3 .bot .text_container .below_black{
-    float: left;
+    float: right;
     display: flex;
-    width: 27vw;
+    width: 22vw;
     margin-top: 0;
+    margin-left: 0;
     padding: 0;
     font-weight: 400;
 }
@@ -386,20 +391,20 @@ h4 {
 
     .below_orange{
         width: 90vw;
-        height: 5vw;
         height: auto;
+        margin-top: 3vw;
     }
 
     .below_black{
         width: 90vw;
-        margin-top: 4vw;
+        margin-top: 3vw;
         margin-left: 0vw;
 
     }
 
     .sec_2{
         height: auto;
-        margin-top: -20vw;
+        margin-top: -30vw;
         margin-bottom: 0vw;
         overflow-y: auto;
         overflow-x: hidden;
@@ -454,13 +459,14 @@ h4 {
         width: 90vw;
         height: auto;
         margin-left: 0vw;
+        margin-top: 3vw;
     }
 
     .ss2_mini{
         display: inline-block;
         position: relative;
         left: 18vw;
-        top: 20vw;
+        top: 10vw;
     }
 
     .ss2{
@@ -505,9 +511,15 @@ h4 {
         margin-top: 3vw;
     }
 
+    .sec_3 .bot .text_container .long{
+        margin-left: 0;
+    }
     .sec_3 .bot .text_container .below_black{
         width: 98vw;
         height: auto;
         margin-left: 0vw;
+        margin-top: 3vw;
     }
+
+
 }

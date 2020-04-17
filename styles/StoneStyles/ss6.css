@@ -191,9 +191,6 @@ h4 {
     width: 61vw;
 
 }
-.sec_2 p{
-    max-height: 5vw;
-}
 
 .sec_2 .below_blue{
     margin-top: 1.5vw;
@@ -208,7 +205,6 @@ h4 {
     float:right;
     display: flex;
     width: 30vw;
-    max-height: 5vw;
 }
 
 /*
@@ -353,13 +349,13 @@ h4 {
 
     .below_blue{
         width: 90vw;
-        height: 5vw;
         height: auto;
+        margin-top: 3vw;
     }
 
     .below_black{
         width: 90vw;
-        margin-top: 4vw;
+        margin-top: 3vw;
         margin-left: 0vw;
 
     }
@@ -377,8 +373,8 @@ h4 {
         height: auto;
         margin-top: 0vw;
         margin-bottom: 0vw;
-        overflow-y: auto;
-        overflow-x: hidden;
+        padding-bottom: 5vw;
+        overflow-y: visible;
     }
 
     .sec_2 .left{
@@ -399,40 +395,17 @@ h4 {
     }
 
     .sec_2 .left h4{
+        height: auto;
         font-size: 20px;
         padding-top: 5vw;
         margin-left: 0vw;
         width: 80vw;
     }
 
-    .sec_2 .bot_container{
-        height: auto;
-        overflow-y: auto;
-        overflow-x: hidden;
-        width: 90vw;
-        margin-left: 0vw;;
+    .sec_2 .horizontal_line{
+        margin-left: -5vw;
     }
 
-    .sec_2 .bot{
-        height: auto;
-        width: 90vw;
-        margin-left: 0vw;;
-    }
-
-    .sec_2 .below_blue{
-
-        width: 90vw;
-        height: auto;
-        margin-bottom: 0vw;
-        margin-top: 3vw;
-    }
-
-    .sec_2 .below_black{
-        width: 90vw;
-        height: auto;
-        margin-left: 0vw;
-        margin-top: 0;
-    }
 
     .ss2_mini{
         display: inline-block;
@@ -446,10 +419,40 @@ h4 {
     }
 
     .sec_2 .bot_container{
+        flex-direction: column;
+        flex-wrap: nowrap;
         height: auto;
+        overflow-y: visible;
         margin-top: 0;
+        width: 90vw;
     }
 
+    .sec_2 .bot{
+        height: auto;
+        overflow-y: visible;
+        width: 90vw;
+        margin-left: 0vw;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .sec_2 .below_blue{
+
+        width: 90vw;
+        height: auto;
+        overflow-y: visible;
+        margin-bottom: 0vw;
+        margin-top: 3vw;
+    }
+
+    .sec_2 .below_black{
+        width: 90vw;
+        height: auto;
+        overflow-y: visible;
+        margin-left: 0vw;
+        margin-top: 3vw;
+
+    }
     
     .sec_3{
         margin-top: 0;
@@ -513,5 +516,6 @@ h4 {
         width: 98vw;
         height: auto;
         margin-left: 0vw;
+        margin-top: 3vw;
     }
 }
