@@ -305,10 +305,12 @@ h4{
 
     .below_red {
         width: 85vw;
+        margin-top: 3vw;
     }
 
     .below_black {
         width: 80vw;
+        margin-top: 3vw;
     }
 
 }
