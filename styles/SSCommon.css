@@ -27,27 +27,27 @@ h1 {
 }
 
 .header3 {
-    background-image: url(../assets/SSPages/SS3/ss3_mock1.jpg);
+    background-image: url(../assets/SSPages/SS3/ss3_mock1.png);
 }
 
 .header4 {
-    background-image: url(../assets/SSPages/SS4/ss4_mock1.jpg);
+    background-image: url(../assets/SSPages/SS4/ss4_mock1.png);
 }
 
 .header5 {
-    background-image: url(../assets/SSPages/SS5/ss5_mock1.jpg);
+    background-image: url(../assets/SSPages/SS5/ss5_mock1.png);
 }
 
 .header6 {
-    background-image: url(../assets/SSPages/SS6/ss6_mock1_beige.jpg);
+    background-image: url(../assets/SSPages/SS6/ss6_mock1.png);
 }
 
 .header7 {
-    background-image: url(../assets/SSPages/SS7/ss7_mock1.jpg);
+    background-image: url(../assets/SSPages/SS7/ss7_mock1.png);
 }
 
 .header8 {
-    background-image: url(../assets/SSPages/SS8/ss8_mock1.jpg);
+    background-image: url(../assets/SSPages/SS8/ss8_mock1.png);
 }
 
 .header9 {
@@ -373,6 +373,7 @@ h4 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-height: 40vh;
 }
 
 .download_section > div {
@@ -536,6 +537,13 @@ h4 {
     p {
         font-size: 16px;
         line-height: 20px;
+    }
+
+    .title_container {
+        background-size: 120vw;
+        background-repeat: no-repeat;
+        height: 69vw;
+        background-position-x: center;
     }
 
     .split_section {
