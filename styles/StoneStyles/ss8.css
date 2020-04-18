@@ -331,6 +331,16 @@ h4 {
     font-weight: 400;
 }
 
+.white_bt_inv:hover img {
+    filter: brightness(0) saturate(100%) invert(63%) sepia(81%) saturate(3776%) hue-rotate(327deg) brightness(98%) contrast(108%);
+    opacity: 1;
+}
+
+.white_bt_inv:hover p {
+    color: #FF604E;
+    opacity: 1;
+}
+
 
 @media (max-width: 720px) {
     .instr_title {
@@ -421,7 +431,7 @@ h4 {
         width: 90vw;
     }
 
-    .sec_2 .right{   
+    .sec_2 .right{
         margin-top: 0;
     }
 
