@@ -285,11 +285,10 @@ nav a{
     -webkit-transition-duration: 0.7s;
     -webkit-transition-property: color, background-color;
 }
-
+*/
 .stepping_stones a:hover{
-    background-color: white;
     color: #FF604E;
-}*/
+}
 
 /*
 ///////////////////////
