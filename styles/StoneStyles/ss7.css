@@ -159,7 +159,8 @@ h4 {
     }
 
     .section3 {
-        margin-left: 3vw;
+        margin-left: 0vw;
+        width: 80vw;
     }
 
     .rightCol {
