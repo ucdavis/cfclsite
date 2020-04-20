@@ -265,7 +265,7 @@ h4{
     .left, .right{
         position: relative;
         /*float: none;*/
-        width: 90vw;
+        width: 80vw;
         top: 0px;
         margin-top: 0;
     }
