@@ -287,6 +287,14 @@ html {
 
 }
 
+.posters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50vw;
+}
+
 .stepping_stones_header p{
     padding: 2vh 0 2vh;
     width: 35vw;
@@ -509,7 +517,6 @@ html {
 
     }
 
-
     .stepping_stones p{
         padding-top: 5%;
         font-size: 2.3vw;
@@ -629,6 +636,11 @@ html {
         font-size: 16px;
         line-height: 20px;
         width: 85vw;
+    }
+
+    .posters {
+        margin-left: 18vw;
+        flex-direction: column;
     }
 
     .stepping_stones .steps {
