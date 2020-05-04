@@ -307,7 +307,7 @@ a {
     }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 550px) {
     .dropbtn {
         display: flex;
         max-width: 10vw;
@@ -326,6 +326,7 @@ a {
         z-index: 2;
         top:8vh;
         width: 50vw;
+        font-family: "Montserrat";
     }
 
     .menu nav a {
