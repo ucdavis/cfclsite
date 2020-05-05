@@ -19,10 +19,13 @@ nav a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5vw;
+    margin-top: 3vw;
     margin-bottom: 10vw;
 }
 
+.centered_text p{
+    margin-top: 2vw;
+}
 .title_container h1 {
     font-weight: bold;
     color: #FF604E;
@@ -97,7 +100,17 @@ nav a{
 
 a{
     color: #FF604E;
+    
+}
+
+#clickHere{
     text-decoration: none;
+}
+
+#lastParagraph{
+    padding-top: 2vw;
+    width: 34.5vw;
+    margin-left: 4.5vw;
 }
 
 @media (max-width: 500px) {
@@ -140,6 +153,12 @@ a{
     .right p {
         font-size: 16px;
         line-height: 20px;
+    }
+
+    #lastParagraph{
+        padding-top: 2vw;
+        width: 100%;
+        margin-left: 0vw;
     }
 }
 
