@@ -149,8 +149,7 @@ a{
 }
 
 .resourceList {
-    width: 60vw;
-    margin-left: 5vw;
+    margin-left: 3vw;
     list-style: disc;
 }
 
@@ -269,13 +268,11 @@ a{
     }
 
     .resourceList {
-        width: 60vw;
+        /*width: 60vw;*/
         margin-left: 5vw;
-        list-style: disc;
     }
 
     .resourceList li {
-        font-weight: 300;
         font-size: 16px;
         line-height: 20px;
     }
