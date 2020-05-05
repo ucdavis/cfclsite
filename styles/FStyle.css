@@ -148,12 +148,16 @@ a{
     padding: 1vh 2vw 1vh 2vw;
 }
 
-li{
+.resourceList {
+    margin-left: 3vw;
+    list-style: disc;
+}
+
+.resourceList li {
     font-weight: 300;
     font-size: 1.5vw;
     line-height: 2.25vw;
 }
-
 
 
 /*
@@ -261,5 +265,15 @@ li{
 
     .long_form {
         max-height: 200vh;
+    }
+
+    .resourceList {
+        /*width: 60vw;*/
+        margin-left: 5vw;
+    }
+
+    .resourceList li {
+        font-size: 16px;
+        line-height: 20px;
     }
 }
