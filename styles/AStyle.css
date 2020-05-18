@@ -20,7 +20,7 @@ nav a{
     flex-direction: column;
     align-items: center;
     margin-top: 3vw;
-    margin-bottom: 10vw;
+    margin-bottom: 10vh;
 }
 
 .centered_text p{
@@ -100,7 +100,7 @@ nav a{
 
 a{
     color: #FF604E;
-    
+
 }
 
 
