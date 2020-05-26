@@ -1,6 +1,6 @@
 'use strict';
 
-function Header(props) {
+/*function Header(props) {
     let titleClass = "title_container header" + props.headImg;
     let leftArrow = <a></a>;
     if (props.headImg != 1) {
@@ -31,9 +31,9 @@ function Header(props) {
             </div>
         </div>
     );
-}
+}*/
 
-function IntroSection(props) {
+/*function IntroSection(props) {
     let altText = "Cover image of Stepping Stone "+props.stoneNumber;
     let classes = "intro_section in_margin " + props.headClass;
     let downloadClass = "download_button "+props.buttonColor;
@@ -61,9 +61,9 @@ function IntroSection(props) {
             </div>
         </div>
     );
-}
+}*/
 
-function DownloadButton(props) {
+/*function DownloadButton(props) {
     let buttonClasses = "download_button_inverse "+props.buttonColor+"_inv";
     let sectionClasses;
     if (props.bg) {
@@ -82,7 +82,7 @@ function DownloadButton(props) {
             </div>
         </div>
     );
-}
+}*/
 
 class Toolkit extends React.Component {
     constructor(props) {
@@ -132,7 +132,7 @@ class Toolkit extends React.Component {
             this.setState({currentLeftMost: this.state.currentLeftMost + 1});
         }
     }
-
+    
     render() {
         let steps = [<div className="arrow" onClick={this.shiftLeft}><p>&#x2039;</p></div>];
         let display_num = 5;
@@ -184,7 +184,7 @@ class Toolkit extends React.Component {
 
 
 
-function Footer() {
+/*function Footer() {
     return (
         <footer>
             <img className= "logo" src="assets/Logos/CFCL_final_Logo_whitenocomma.png"
@@ -193,4 +193,4 @@ function Footer() {
                 alt="UC Davis Logo"/>
         </footer>
     );
-}
+}*/
