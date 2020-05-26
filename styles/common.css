@@ -29,6 +29,51 @@ body {
     src: url(../assets/Fonts/Montserrat-Light.ttf);
 }
 
+.covid_banner {
+  background-color: #FF604E;
+  color: white;
+  position: fixed;
+  top: 80vh;
+  height: 20vh;
+  width: 100%;
+  z-index: 100;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.covid_banner div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.covid_banner a {
+  color: white;
+}
+
+.covid_banner p {
+  font-size: 20px;
+}
+
+.covid_banner img {
+  margin-right: 3vw;
+  margin-left: 3vw;
+  max-height: 7vh;
+}
+
+.covid_banner .bold {
+  font-weight: 600;
+}
+
+#banner_exit {
+  position: absolute;
+  top: 0vh;
+  left: 97vw;
+  font-size: 30px;
+}
+
 .header{
     padding-top: 1vw;
     display: flex;
