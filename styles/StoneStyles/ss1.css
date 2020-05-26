@@ -13,6 +13,14 @@ h4 {
     font-weight: 600;
 }
 
+.virtual_env {
+    margin-top: 20px;
+    margin-bottom: 3vw;
+}
+
+.virtual_env a {
+  color: #FF604E;
+}
 
 .instr_title {
     width: 50vw;
