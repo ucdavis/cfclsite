@@ -99,28 +99,14 @@ h4 {
     text-decoration: none;
 }
 
-.arrowLabel1 {
+.arrowLabel {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.arrowLabel1 p {
+.arrowLabel p {
   font-size: 2vw;
-}
-
-.arrowLabel2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.arrowLabel2 p{
-  font-size: 1.5vw;
-}
-
-.arrowLabel3 {
-
 }
 
 /* ========== Color Schemes ============ */
