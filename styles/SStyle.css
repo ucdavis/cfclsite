@@ -148,9 +148,11 @@
     width: 100%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
     margin-bottom: 5vw;
+    margin-top: -5vw;
 }
 
 .tile{
@@ -158,19 +160,38 @@
     height: 25vw;
     background-color: #FF9B2A;
     text-decoration: none;
-    padding: 4vw;
-    border-radius: 50px;
+    margin: 2vw;
+    position: relative;
+
+}
+
+.longTile{
+    width: 50vw;
+    height: 20vw;
+    background-color: #FF9B2A;
+    text-decoration: none;
+    
+}
+
+.tile > div{
+    position: absolute;
+    bottom: 0;
+    padding: 2vw;
 }
 
 .tile h3{
     color: white;
-    padding-bottom: 2vw;
+    padding-bottom: 1vw;
+    font-size: 28px;
+    
     
 } 
 
 .tile p{
+    
     color: white;
-
+    font-size: 17px;
+    line-height: 1.4;
 
 }
 
@@ -276,7 +297,7 @@
         width: 80vw;
     }
 
-    .featured_stories h2 {
+    .featured_stories > spreadsheetDiv h2 {
         font-size: 18px;
         float: none;
         width: 100%;
@@ -285,7 +306,7 @@
         margin-bottom: 5vw;
     }
 
-    .featured_stories a {
+    .featured_stories > spreadsheetDiv a {
         font-size: 16px;
         margin: 0px;
         border-radius: 50px;

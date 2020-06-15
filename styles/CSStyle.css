@@ -9,7 +9,7 @@ body{
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  margin: 10vw 0vw;
+  margin-top: 10vw;
   vertical-align: text-top;
 }
 
@@ -58,4 +58,24 @@ body{
 
 .infoSection > .largeInfo{
   width: 45%;
+}
+
+.overview{
+  background-color: #F6EDE1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.overview > h2{
+  color: grey;
+  margin-left: 4vw;
+  padding-top: 5vw;
+  width: 100%;
+}
+
+.overview > p{
+  padding: 4vw;
+  width: 40%;
 }
