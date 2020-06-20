@@ -157,7 +157,9 @@
 
 .tile{
     width: 25vw;
+    min-width: 400px;
     height: 25vw;
+    min-height: 400px;
     background-color: #FF9B2A;
     text-decoration: none;
     margin: 2vw;
@@ -167,7 +169,9 @@
 
 .longTile{
     width: 50vw;
-    height: 20vw;
+    min-width: 800px;
+    height: 25vw;
+    min-height: 400px;
     background-color: #FF9B2A;
     text-decoration: none;
     
@@ -194,6 +198,19 @@
     line-height: 1.4;
 
 }
+
+.tileB{
+    border-bottom: 15px solid #00DAA9 ;
+}
+
+.tileR{
+    border-bottom: 15px solid #FF604E;
+}
+
+.tileP{
+    border-bottom: 15px solid #463489;
+}
+
 
 
 
@@ -244,7 +261,7 @@
 
     .title_container h1 {
         font-size: 20px;
-        padding-top: 5vw;
+
         line-height: 20px;
     }
 
@@ -323,5 +340,11 @@
 
     .approach a {
         font-size: 16px;
+    }
+}
+
+@media (max-width: 550px) {
+    .title_container h1 {
+        padding-top: 5vw;
     }
 }
