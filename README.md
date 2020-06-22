@@ -58,6 +58,18 @@ This contains some extra resources that we wanted to be able to link to. There s
 
 ## Recommendations for Updating and Future Tasks
 
+### Stories Database
+
+The least complete part of the site right now is the stories page. Right now, you will have to manually go in and change the HTML to edit the stories. Ideally, there would be a way for Brandon and Kristen to do this without any HTML knowledge. But, this would require a database, which would require a server. So, you will have to look into server-side technologies on how to implement this. It would be similar to a blog, which should be fairly simple, as far as full-stack website engineering goes. This way, you could have a database of stories similar to the spreadsheet that we currently have, and the site would automatically pull a select few. We would need to create a new page that would allow Brandon and Kristen to modify the database.
+
+### Interactive Stories Page
+
+In addition to a database, adding more interactivity to the stories page could be a possible future step. You'll want to use something like React or Angular to allow users to click around, and maybe move around a "map" of the different featured stories.
+
+### Interactive Stepping Stones
+
+The stepping stone pages are extremely important, as they actually teach the information that CFCL wants to disseminate. I think that adding more interactivity, making each one more of a lesson, would be a really cool addition to the site, and would make the site more of a learning tool than just a place to download the stepping stone PDFs. These activities would have to be guided heavily by the PDFs, but it would make them much more engaging and content-rich.
+
 ## Contributors
 
 Daniel Ritchie
