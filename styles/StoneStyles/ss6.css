@@ -155,11 +155,12 @@ h4 {
 
 .sec_2{
     margin-top: 35vw;
+    margin-bottom: 30vw;
     position: relative;
 }
 .sec_2 .left{
     width: 48vw;
-    height: 27vw;
+    height: auto;
 }
 
 .sec_2 .left h4{
@@ -178,12 +179,11 @@ h4 {
 }
 
 .sec_2 .bot_container{
-    margin-top: -8vw;
+    margin-top: -27vw;
     margin-left: 1vw;
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
-    height: 30vw;
 }
 
 .sec_2 .bot{

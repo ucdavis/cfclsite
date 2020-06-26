@@ -9,7 +9,8 @@ body{
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  margin-top: 10vw;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
   vertical-align: text-top;
 }
 
@@ -20,7 +21,6 @@ body{
 .CSTitle h1{
   width: 44%;
   font-size: 4vw;
-  margin-top: -18vw;
   text-align: center;
 }
 
@@ -47,7 +47,6 @@ body{
 
 .infoSection > .info{
   width: 33%;
-  height: 15vw;
   padding-top: 1vw;
   
 }
@@ -66,7 +65,13 @@ body{
   flex-direction: row;
   flex-wrap: wrap;
   padding: 5vw;
+  position: relative;
 
+}
+
+#leaf{
+  position: absolute;
+  left: 60vw;
 }
 
 .overview > h2{
