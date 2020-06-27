@@ -181,6 +181,7 @@
     position: absolute;
     bottom: 0;
     padding: 2vw;
+    padding-bottom: 1vw;
 }
 
 .tile h3{
