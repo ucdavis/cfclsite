@@ -102,7 +102,7 @@
 */
 
 .featured_stories{
-    padding: 5vw 5vw 5vw 8vw;
+    padding: 5vw 5vw 5vw 5vw;
     color: #FF9B2A;
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +112,7 @@
     font-size: 4vw;
     width: 100vw;
     margin-bottom: 5vw;
+    padding-left: 3vw;
 }
 
 .lea{
@@ -119,6 +120,7 @@
     width: 40vw;
     margin-right: 30vw;
     margin-bottom: 10vw;
+    margin-left: 3vw;
 }
 
 .featured_stories h2{
@@ -133,6 +135,7 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    padding-left: 3vw;
 }
 
 
@@ -149,29 +152,33 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    margin: auto;
     margin-bottom: 5vw;
     margin-top: -5vw;
 }
 
 .tile{
-    width: 25vw;
-    min-width: 400px;
-    height: 25vw;
-    min-height: 400px;
+    width: 20vw;
+    min-width: 300px;
+    height: 20vw;
+    min-height: 300px;
     background-color: #FF9B2A;
     text-decoration: none;
     margin: 2vw;
     position: relative;
 
+    background-size: cover;                     
+    background-repeat:  no-repeat;
+    background-position: center center;
+
 }
 
 .longTile{
-    width: 50vw;
-    min-width: 800px;
-    height: 25vw;
-    min-height: 400px;
+    width: 44vw;
+    min-width: 660px;
+    min-height: 300px;
+    height: 20vw;
     background-color: #FF9B2A;
     text-decoration: none;
     
@@ -187,7 +194,7 @@
 .tile h3{
     color: white;
     padding-bottom: 1vw;
-    font-size: 28px;
+    font-size: 22px;
     
     
 } 
@@ -195,7 +202,7 @@
 .tile p{
     
     color: white;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 1.4;
 
 }
