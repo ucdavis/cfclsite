@@ -160,14 +160,17 @@
 
 .tile{
     width: 20vw;
-    min-width: 300px;
+    min-width: 270px;
     height: 20vw;
-    min-height: 300px;
+    min-height: 270px;
     background-color: #FF9B2A;
     text-decoration: none;
     margin: 2vw;
     position: relative;
 
+    -webkit-background-size: cover;
+    -moz-background-size:  cover;
+    -o-background-size: cover;
     background-size: cover;                     
     background-repeat:  no-repeat;
     background-position: center center;
@@ -176,12 +179,16 @@
 
 .longTile{
     width: 44vw;
-    min-width: 660px;
-    min-height: 300px;
+    min-width: 594px;
+    min-height: 270px;
     height: 20vw;
     background-color: #FF9B2A;
     text-decoration: none;
     
+}
+
+.darken{
+    filter: brightness(0.9);
 }
 
 .tile > div{
@@ -211,8 +218,8 @@
     border-bottom: 15px solid #00DAA9 ;
 }
 
-.tileR{
-    border-bottom: 15px solid #FF604E;
+.tileO{
+    border-bottom: 15px solid #FF9B2A;
 }
 
 .tileP{
@@ -258,6 +265,13 @@
     margin:auto;
     margin-top: 5vw;
     
+}
+
+@media (max-width: 1080px) {
+    .longTile{
+        width: 20vw;
+        min-width: 270px;
+    }
 }
 
 
