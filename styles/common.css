@@ -34,7 +34,7 @@ body {
   color: white;
   position: fixed;
   bottom: 0;
-  height: 10vw;
+  height: 15vw;
   width: 100%;
   z-index: 100;
   display: flex;
@@ -75,9 +75,9 @@ body {
   margin-top: 10px;
 }
 
-@media (max-width: 930px) {
+@media (max-width: 800px) {
   .covid_banner {
-    height: 20vw;
+    height: 25vw;
   }
   .covid_banner p {
     font-size: 16px;
@@ -90,9 +90,15 @@ body {
 
 }
 
-@media (max-width: 650px) {
+@media (max-width: 525px) {
   .covid_banner {
-    height: 35vh;
+    height: 50vw;
+  }
+}
+
+@media (max-width: 400px) {
+  .covid_banner {
+    height: 70vw;
   }
 }
 
