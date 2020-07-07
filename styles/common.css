@@ -33,8 +33,8 @@ body {
   background-color: #FF604E;
   color: white;
   position: fixed;
-  top: calc(100vh - 10vw);
-  height: 10vw;
+  bottom: 0;
+  height: 15vw;
   width: 100%;
   z-index: 100;
   display: flex;
@@ -70,14 +70,14 @@ body {
 
 #banner_exit {
   font-size: 30px;
-  margin-right: 15px;
-  margin-top: -10vh;
+  align-self: flex-start;
+  margin-right: 10px;
+  margin-top: 10px;
 }
 
-@media (max-width: 930px) {
+@media (max-width: 800px) {
   .covid_banner {
-    top: calc(100vh - 20vw);
-    height: 20vw;
+    height: 25vw;
   }
   .covid_banner p {
     font-size: 16px;
@@ -87,19 +87,18 @@ body {
   .covid_banner img {
     display:none;
   }
-  #banner_exit {
-    margin-top: -15vh;
+
+}
+
+@media (max-width: 525px) {
+  .covid_banner {
+    height: 50vw;
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 400px) {
   .covid_banner {
-    top: 65vh;
-    height: 35vh;
-  }
-  #banner_exit {
-    margin-top: -22.5vh;
-    margin-right: 5px;
+    height: 70vw;
   }
 }
 

@@ -88,7 +88,7 @@ h4 {
 
 .section3text{
     position: relative;
-    width: 54vw;
+    width: 35vw;
     left: 4vw;
 }
 
@@ -97,6 +97,7 @@ h4 {
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    word-wrap: break-word;
 }
 
 .leftCol {
