@@ -109,6 +109,16 @@ h4 {
   font-size: 2vw;
 }
 
+@media (max-width: 500px){
+  .arrowLabelSS {
+    display: none;
+  } 
+
+  .arrowLabel p {
+    display: none;
+  }
+}
+
 /* ========== Color Schemes ============ */
 
 .purple_bg {
