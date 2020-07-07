@@ -60,7 +60,8 @@ body {
 .covid_banner img {
   margin-right: 3vw;
   margin-left: 3vw;
-  max-height: 7vh;
+  height: 7vh;
+  width: 5vh;
 }
 
 .covid_banner .bold {
