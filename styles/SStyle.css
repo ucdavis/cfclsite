@@ -53,11 +53,7 @@
 .intro a{
     margin-left: 40vw;
     margin-top: 3vw;
-/*    padding: 1.7vw 3.2vw;
 
-    border: .1vw solid;
-    border-radius: 5vw;
-    text-decoration: none;*/
 }
 
 .intro .stepping_stones{
@@ -74,9 +70,6 @@
     background-color: #FF604E;
 }
 
-/*.coral_bt_inv:hover {
-    border-color: #FF604E;
-}*/
 
 .intro .tell_us_your_story{
     color: rgb(116, 99, 228);
@@ -109,7 +102,7 @@
 */
 
 .featured_stories{
-    padding: 5vw 5vw 5vw 8vw;
+    padding: 5vw 5vw 5vw 5vw;
     color: #FF9B2A;
     display: flex;
     flex-wrap: wrap;
@@ -119,13 +112,15 @@
     font-size: 4vw;
     width: 100vw;
     margin-bottom: 5vw;
+    padding-left: 3vw;
 }
 
 .lea{
     float:left;
     width: 40vw;
     margin-right: 30vw;
-    margin-bottom: 10vw;
+    margin-bottom: 5vw;
+    margin-left: 3vw;
 }
 
 .featured_stories h2{
@@ -134,33 +129,105 @@
     width: 30vw;
 }
 
+.spreadsheetDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 3vw;
+}
+
+
 .spreadsheet{
     float:right;
     display: flex;
     text-align: center;
     margin-right: 10vw;
-/*    width: 25vw;
-    color: #FF9B2A;
-    font-size: 2.5vw;
-    text-align: center;
-    margin-right: 10vw;
 
-    padding: 1vw 1.5vw 1vw 1.5vw;
-
-    border: 2px solid;
-    border-radius: 4vw;
-    text-decoration: none;
-
-    transition-duration: 0.7s;
-    transition-property: color, background-color;
-    -webkit-transition-duration: 0.7s;
-    -webkit-transition-property: color, background-color;*/
 }
 
-/*.spreadsheet:hover{
-    color: white;
+.storiesSection{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 5vw;
+    margin-top: -5vw;
+}
+
+.tile{
+    width: 20vw;
+    min-width: 270px;
+    height: 20vw;
+    min-height: 270px;
     background-color: #FF9B2A;
-}*/
+    text-decoration: none;
+    margin: 2vw;
+    position: relative;
+
+    -webkit-background-size: cover;
+    -moz-background-size:  cover;
+    -o-background-size: cover;
+    background-size: cover;                     
+    background-repeat:  no-repeat;
+    background-position: center center;
+
+}
+
+.longTile{
+    width: 44vw;
+    min-width: 594px;
+    min-height: 270px;
+    height: 20vw;
+    background-color: #FF9B2A;
+    text-decoration: none;
+    
+}
+
+.darken{
+    filter: brightness(0.9);
+}
+
+.tile > div{
+    position: absolute;
+    bottom: 0;
+    padding: 2vw;
+    padding-bottom: 1vw;
+}
+
+.tile h3{
+    color: white;
+    padding-bottom: 1vw;
+    font-size: 22px;
+    
+    
+} 
+
+.tile p{
+    
+    color: white;
+    font-size: 16px;
+    line-height: 1.4;
+
+}
+
+.tileB{
+    border-bottom: 15px solid #00DAA9 ;
+}
+
+.tileO{
+    border-bottom: 15px solid #FF9B2A;
+}
+
+.tileP{
+    border-bottom: 15px solid #463489;
+}
+
+
+
 
 /*
 //////////////////////
@@ -195,28 +262,18 @@
 }
 
 .approach a{
-
-/*    color: #00DAA9;
-    font-size: 1.85vw;*/
     margin:auto;
     margin-top: 5vw;
     
-/*    padding: 1.7vw 3.2vw 1.7vw 3.2vw;
-
-    border: .1vw solid;
-    border-radius: 5vw;
-    text-decoration: none;
-
-    transition-duration: 0.7s;
-    transition-property: color, background-color;
-    -webkit-transition-duration: 0.7s;
-    -webkit-transition-property: color, background-color;*/
 }
 
-/*.approach a:hover{
-    color: white;
-    background-color: #00DAA9;
-}*/
+@media (max-width: 1080px) {
+    .longTile{
+        width: 20vw;
+        min-width: 270px;
+    }
+}
+
 
 @media (max-width: 720px) {
     .title_container {
@@ -226,7 +283,7 @@
 
     .title_container h1 {
         font-size: 20px;
-        padding-top: 5vw;
+
         line-height: 20px;
     }
 
@@ -268,10 +325,8 @@
         font-size: 20px;
     }
 
-    .main {
-        display: flex;
+    .spreadsheetDiv {
         flex-direction: column;
-        align-items: center;
     }
 
     .lea {
@@ -281,18 +336,18 @@
         width: 80vw;
     }
 
-    .featured_stories h2 {
+    .featured_stories > spreadsheetDiv h2 {
         font-size: 18px;
         float: none;
-        width: 60vw;
+        width: 100%;
+        text-align: center;
         align-self: flex-start;
         margin-bottom: 5vw;
     }
 
-    .featured_stories a {
+    .featured_stories > spreadsheetDiv a {
         font-size: 16px;
         margin: 0px;
-        margin-left: 10vw;
         border-radius: 50px;
     }
 
@@ -307,5 +362,11 @@
 
     .approach a {
         font-size: 16px;
+    }
+}
+
+@media (max-width: 550px) {
+    .title_container h1 {
+        padding-top: 5vw;
     }
 }

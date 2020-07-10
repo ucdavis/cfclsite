@@ -1,0 +1,100 @@
+body{
+  background-color: #333333;
+  height: 100%;
+}
+
+.CSTitle{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  vertical-align: text-top;
+}
+
+.CSTitle > *{
+  color: #FF604E;
+}
+
+.CSTitle h1{
+  width: 44%;
+  font-size: 4vw;
+  padding-left: 2vw;
+}
+
+.white{
+  color: white;
+}
+
+.infoSection{
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  vertical-align: top;
+
+}
+
+.infoSection > .topic{
+  width: 100%;
+  text-align: left;
+
+}
+
+.infoSection > .info{
+  width: 33%;
+  padding-top: 1vw;
+  
+}
+
+.infoSection > .smallInfo{
+  width: 22%;
+}
+
+.infoSection > .largeInfo{
+  width: 45%;
+}
+
+.overview{
+  background-color: #F6EDE1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 5vw;
+  position: relative;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+}
+
+#leaf{
+  position: absolute;
+  left: 60vw;
+}
+
+.overview > h2{
+  color: grey;
+  margin-left: 4vw;
+  padding-top: 5vw;
+  width: 100%;
+}
+
+.overview > p{
+  padding: 2vw;
+  width: 80%;
+  margin:auto;
+}
+
+.bannerSection{
+  height: auto;
+  width: 100%;
+}
+
+.bannerSection img{
+  object-fit: scale-down;
+  width: 100vw;
+}
