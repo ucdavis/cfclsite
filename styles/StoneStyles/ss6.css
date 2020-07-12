@@ -146,7 +146,7 @@ h4 {
     display: none;
 }
 
-.left .ss2{
+.ss2{
     position: relative;
     width: 50vw;
     top: -10vw;
@@ -410,7 +410,7 @@ h4 {
     .ss2_mini{
         display: inline-block;
         position: relative;
-        left: 10vw;
+        left: 8vw;
         width: 70vw;
     }
 
