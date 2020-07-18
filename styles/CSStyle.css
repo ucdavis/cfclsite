@@ -76,6 +76,12 @@ body{
   left: 60vw;
 }
 
+#leaf2{
+  position: absolute;
+  left: -10vw;
+  top: 170vw;
+}
+
 .overview > h2{
   color: grey;
   margin-left: 4vw;
