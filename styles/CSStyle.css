@@ -89,12 +89,36 @@ body{
   margin:auto;
 }
 
+.overview > ul{
+  list-style-type: disc;
+  width: 80%;
+  padding: 2vw;
+  margin: auto;
+  padding-top: 0;
+  font-weight: 300;
+  font-size: 1.5vw;
+  line-height: 2.25vw;
+  margin-top: -1vw;
+}
+
+
+.overview > li{
+  list-style-type: disc;
+  width: 80%;
+  padding: 2vw;
+  margin: auto;
+  padding: .3vw 2vw;
+  font-weight: 300;
+  font-size: 1.5vw;
+  line-height: 2.25vw;
+}
+
 .bannerSection{
   height: auto;
   width: 100%;
 }
 
 .bannerSection img{
-  object-fit: scale-down;
+  object-fit: cover;
   width: 100vw;
 }
