@@ -177,6 +177,11 @@
 
 }
 
+.tile:hover{
+    background-color: rgb(211, 211, 211);
+    background-blend-mode: multiply;
+}
+
 .longTile{
     width: 44vw;
     min-width: 594px;
@@ -187,23 +192,20 @@
     
 }
 
-.darken{
-    filter: brightness(0.9);
-}
 
 .tile > div{
     position: absolute;
     bottom: 0;
     padding: 2vw;
     padding-bottom: 1vw;
+    filter: brightness(100%) !important;
 }
 
 .tile h3{
     color: white;
     padding-bottom: 1vw;
     font-size: 22px;
-    
-    
+ 
 } 
 
 .tile p{
