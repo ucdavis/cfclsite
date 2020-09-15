@@ -61,8 +61,8 @@ html {
 #acknowledgements {
     display: flex;
     flex-direction: row;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
 }
 
 .column {
@@ -131,8 +131,9 @@ a{
     #acknowledgements {
         flex-direction: column;
         align-items: center;
-        margin-top: 5vh;
-        margin-bottom: 5vh;
+        margin-top: 8vw;
+        margin-bottom: 8vw;
+        
     }
 
     .column {
