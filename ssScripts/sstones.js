@@ -345,3 +345,23 @@ function Footer() {
     );
 }
 
+let downloads = document.getElementsByClassName("download_button");
+let downloads2 = document.getElementsByClassName("download_button_inverse");
+
+var downloadFunc = function() {
+    console.log("download clicked");
+
+    gtag('event', 'view_item', {
+        
+    });
+
+    console.log("download sent to google");
+    
+};
+
+for (let i=0; i<downloads.length; i++){
+    downloads[i].addEventListener('click', downloadFunc, false);
+}
+for (let i=0; i<downloads2.length; i++){
+    downloads2[i].addEventListener('click', downloadFunc, false);
+}
