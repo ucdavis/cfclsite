@@ -70,6 +70,16 @@ In addition to a database, adding more interactivity to the stories page could b
 
 The stepping stone pages are extremely important, as they actually teach the information that CFCL wants to disseminate. I think that adding more interactivity, making each one more of a lesson, would be a really cool addition to the site, and would make the site more of a learning tool than just a place to download the stepping stone PDFs. These activities would have to be guided heavily by the PDFs, but it would make them much more engaging and content-rich.
 
+### Improving Google Analyics Implementation
+
+Currently, Google analyics is tracking site usage for each page. Using this
+free technology we can monitor how many users we have coming in per day and
+their activity on the site. We also implemented custom scripts to track PDF
+downloads on each of the Stepping Stone pages.
+Behavior (side bar) -> Events -> Pages will find data on individual pages.
+Google analytics ->  Realtime (side bar) -> Events will find live view of events.
+
+
 ## Contributors
 
 Daniel Ritchie
