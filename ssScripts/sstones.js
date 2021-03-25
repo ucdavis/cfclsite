@@ -350,7 +350,7 @@ let downloads2 = document.getElementsByClassName("download_button_inverse");
 
 var downloadFunc = function() {
     console.log("download clicked");
-    gtag('event', 'view_item', {
+    gtag('event', 'Stepping Stone PDF Download', {
         
     });  
 };
